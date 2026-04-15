@@ -1,0 +1,154 @@
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditorInternal;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour
+{
+    public static GameManager Instance { get; private set; }
+
+    [Header("UI")]
+    public CanvasGroup[] actionUI;
+    public CanvasGroup gunUI;
+    public CanvasGroup idUI;
+    private bool UiIsVisible = false;
+    public bool gunOut = false;
+    public bool idOut = false;
+    public bool wasShot = false;
+    public bool lookingAtCustomer = true;
+    public GameObject gunExplosion;
+
+    [Header("Donut")]
+    public int SelectedDonutID;
+
+    [Header("Bg")]
+    public SpriteRenderer bg;
+    public SpriteRenderer table;
+    public bool lightsOff;
+
+    //lights off event
+
+    public delegate void shootEvent();
+    public event shootEvent shootGun;
+
+    //switch view event
+
+
+    private void Update()
+    {
+        if (lookingAtCustomer == true)
+        {
+            ShowActionUI();
+        }
+        else
+        {
+            HideActionUI();
+        }
+
+        if (gunOut == true && Input.GetKeyDown(KeyCode.S) && lookingAtCustomer == true && Locator.Instance.customerManager.customerPresent == true)
+        {
+            BlastGun();
+            shootGun();
+        }
+    }
+
+
+    private void HideActionUI()
+    {
+        foreach (CanvasGroup canGroup in actionUI)
+        {
+            canGroup.alpha = 0f;
+            canGroup.blocksRaycasts = false;
+            canGroup.interactable = false;
+        }
+
+    }
+    private void ShowActionUI()
+    {
+        foreach (CanvasGroup canGroup in actionUI)
+        {
+            canGroup.alpha = 1f;
+            canGroup.blocksRaycasts = true;
+            canGroup.interactable = true;
+        }
+    }
+
+
+    public void useGun()
+    {
+        gunOut = !gunOut;
+
+        if (gunOut == true)
+        {
+            gunUI.alpha = 1f;
+        }
+        else
+        {
+            gunUI.alpha = 0f;
+        }
+    }
+    private void BlastGun()
+    {
+        GameObject explosion = Instantiate(gunExplosion, transform.position, Quaternion.identity);
+        Destroy(explosion, .2f);
+        useGun();
+        wasShot = true;
+        Locator.Instance.customerManager.customerShotReact();
+    }
+
+    public void useLights()
+    {
+        lightsOff = !lightsOff;
+
+        if (lightsOff == true)
+        {
+            turnOffLights();
+        }
+        else
+        {
+            resetBg();
+        }
+
+        //lightsTurnOff(); event
+    }
+
+
+    public void viewID()
+    {
+        idOut = !idOut;
+
+        if (idOut == true)
+        {
+            idUI.alpha = 1f;
+        }
+        else
+        {
+            idUI.alpha = 0f;
+        }
+    }
+
+
+
+    // Bg changer logic
+    public void changeBg()
+    {
+        table.color = new Color(1f, 0f, 0f, 1f);
+        bg.color = new Color(1f, 0f, 0f, 1f);
+    }
+
+    public void turnOffLights()
+    {
+        table.color = new Color(0.3f, 0.3f, 0.4f, 1f);
+        bg.color = new Color(0.2f, 0.2f, 0.3f, 1f);
+    }
+
+    public void resetBg()
+    {
+        table.color = new Color(1f, 1f, 1f, 1f);
+        bg.color = new Color(1f, 1f, 1f, 1f);
+    }
+}

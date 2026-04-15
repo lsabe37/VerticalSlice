@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Customers : MonoBehaviour
+public class Customer : MonoBehaviour
 {
     [Header("Components")]
+    [SerializeField] DialogueActivator dialogueActivator;
     public SpriteRenderer spriteRenderer;
 
     [Header("Sprites")]
     [SerializeField] Sprite Neutral;
-    [SerializeField] Sprite Happy;
-    [SerializeField] Sprite Upset;
+    [SerializeField] Sprite Correct;
+    [SerializeField] Sprite Wrong;
     [SerializeField] Sprite LightsOff;
     [SerializeField] Sprite Shot;
     [SerializeField] Sprite Spicy;
@@ -52,9 +53,45 @@ public class Customers : MonoBehaviour
 
     private void TalkToCustomer()
     {
-        //dialogue
+        servingCustomer = true;
+        dialogueActivator.Interact(dialogueActivator.dialogueObject);
     }
 
+    public void CorrectReaction()
+    {
+        dialogueActivator.Interact(dialogueActivator.dialogueCorrect);
+        spriteRenderer.sprite = Correct;
+    }
 
+    public void WrongReaction()
+    {
+        dialogueActivator.Interact(dialogueActivator.dialogueWrong);
+        spriteRenderer.sprite = Wrong;
+    }
+
+    public void shotReaction()
+    {
+        dialogueActivator.Interact(dialogueActivator.dialogueShot);
+        spriteRenderer.sprite = Shot;
+    }
+
+    public void spicyReaction()
+    {
+        dialogueActivator.Interact(dialogueActivator.dialogueSpicy);
+        spriteRenderer.sprite = Spicy;
+    }
+
+    public void NeutralSprite()
+    {
+        spriteRenderer.sprite = Neutral;
+    }
+    public void CorrectSprite()
+    {
+        spriteRenderer.sprite = Correct;
+    }
+    public void WrongSprite()
+    {
+        spriteRenderer.sprite = Wrong;
+    }
 
 }

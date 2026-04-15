@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: CupcakeIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Gooday to you, little one! As you can tell, I am starving. Serve me that BANANA
+    donut laced with gasoline.
+  - Fetch me the donut and I'll give you a belly dance as a tip!
+  responses:
+  - responseText: Are you sure gasoline is safe?
+    dialogueObject: {fileID: 11400000, guid: c755a2576f0f8cc4da89e155bcac7e58, type: 2}
+    customerExpression: {fileID: 255146641, guid: e333c4f0ba72c1b45a1823c60a570110, type: 3}
+  - responseText: How much do you weigh?
+    dialogueObject: {fileID: 11400000, guid: 4cbe0fcebba85ea47a7d320953693bd9, type: 2}
+    customerExpression: {fileID: 1300310429, guid: 240e31e987e8fe4408c0f5163cd7e104, type: 3}

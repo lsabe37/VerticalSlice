@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class customerManager : MonoBehaviour
+public class CustomerManager : MonoBehaviour
 {
     [Header("Customers")]
     public GameObject[] customers;
@@ -12,8 +12,8 @@ public class customerManager : MonoBehaviour
     [Header("Customer Context")]
     public int totalNumberOfCustomers = 5;
     public int customerServed = 0;
+    public int customersRemaining = 4;
     private int customerNumber = -1;
-
     private bool greetCustomer;
     public bool customerPresent;
     private int randomCustomer;
@@ -24,7 +24,17 @@ public class customerManager : MonoBehaviour
     public Sprite currentCharID;
     public Transform spawnLocation;
 
+    public delegate void customerServedEvent();
+    public event customerServedEvent served;
 
+    public delegate void customerLeaveEvent();
+    public event customerLeaveEvent left;
+
+    public delegate void wrongOrderEvent();
+    public event wrongOrderEvent wrong;
+
+    public delegate void spicyEvent();
+    public event spicyEvent spiceTest;
 
     private void Update()
     {
@@ -55,21 +65,64 @@ public class customerManager : MonoBehaviour
             }
         }
 
+        if (Locator.Instance.dialogueUI.isTalking == false && customerPresent == true && (donutServed == true || Locator.Instance.gameManager.wasShot == true))
+        {
+            customerLeave();
+            Locator.Instance.gameManager.resetBg();
+        }
     }
 
     public void SelectCustomer()
     {
-        
+        customers = Day1Customers;
+
+        currentCustomer = Instantiate(customers[customerNumber], spawnLocation.position, spawnLocation.rotation);
+
+        Customer Customers = customers[customerNumber].GetComponent<Customer>();
+        currentCharID = Customers.ID;
     }
 
     public void customerLeave()
     {
-       
+        currentCustomer.SetActive(false);
+        customerPresent = false;
+        donutServed = false;
+        Locator.Instance.gameManager.wasShot = false;
+        customerServed += 1;
+        left();
     }
 
     public void customerReact()
     {
+        donutServed = true;
+        Customer Customers = currentCustomer.GetComponent<Customer>();
 
+        if (Customers.desiredDonut == Locator.Instance.gameManager.SelectedDonutID)
+        {
+            Customers.CorrectReaction();
+            correctOrder = true;
+        }
+        else
+        {
+            Customers.WrongReaction();
+            correctOrder = false;
+            wrong();
+        }
+
+        served();
     }
 
+    public void customerShotReact()
+    {
+        Locator.Instance.gameManager.changeBg();
+        Customer Customers = currentCustomer.GetComponent<Customer>();
+        Customers.shotReaction();
+    }
+
+    public void customerSpiceReaction()
+    {
+        Customer Customers = currentCustomer.GetComponent<Customer>();
+        Customers.spicyReaction();
+        spiceTest();
+    }
 }
