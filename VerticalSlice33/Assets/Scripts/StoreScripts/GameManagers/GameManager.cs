@@ -30,12 +30,14 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer table;
     public bool lightsOff;
 
-    //lights off event
+    public delegate void lightsOffEvent();
+    public event lightsOffEvent lightsTurnOff;
+
+    public delegate void switchScreen();
+    public event switchScreen screenSwitch;
 
     public delegate void shootEvent();
     public event shootEvent shootGun;
-
-    //switch view event
 
 
     private void Update()
@@ -113,7 +115,7 @@ public class GameManager : MonoBehaviour
             resetBg();
         }
 
-        //lightsTurnOff(); event
+        lightsTurnOff();
     }
 
 

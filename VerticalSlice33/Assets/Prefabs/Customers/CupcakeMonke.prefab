@@ -127,8 +127,8 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: 85bece3bbb7174b439c668fd33adb305, type: 2}
   dialogueCorrect: {fileID: 11400000, guid: 9858d18871fdaf84dab5bc789a89691b, type: 2}
   dialogueWrong: {fileID: 11400000, guid: 2093064af85291e4482aedf6eb887f52, type: 2}
-  dialogueShot: {fileID: 0}
-  dialogueSpicy: {fileID: 0}
+  dialogueShot: {fileID: 11400000, guid: 97ebbfc29ea19e145a95291d7374035b, type: 2}
+  dialogueSpicy: {fileID: 11400000, guid: b29bc5906ac0a4940b8bf11eeb52cc51, type: 2}
 --- !u!114 &2064481383332731825
 MonoBehaviour:
   m_ObjectHideFlags: 0
