@@ -69,6 +69,7 @@ public class CustomerManager : MonoBehaviour
         {
             customerLeave();
             Locator.Instance.gameManager.resetBg();
+            Debug.Log("customer has departed");
         }
     }
 
