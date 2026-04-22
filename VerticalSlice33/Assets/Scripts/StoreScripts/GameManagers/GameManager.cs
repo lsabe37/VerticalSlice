@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public CanvasGroup[] actionUI;
+    public CanvasGroup navigationUI;
     public CanvasGroup gunUI;
     public CanvasGroup idUI;
     private bool UiIsVisible = false;
@@ -48,18 +49,13 @@ public class GameManager : MonoBehaviour
     public delegate void switchScreen();
     public event switchScreen screenSwitch;
 
+    private void Start()
+    {
+        DisableActionUI();
+    }
 
     private void Update()
     {
-        if (lookingAtCustomer == true)
-        {
-            ShowActionUI();
-        }
-        else
-        {
-            HideActionUI();
-        }
-
         if (gunOut == true && Input.GetKeyDown(KeyCode.S) && lookingAtCustomer == true && Locator.Instance.customerManager.customerPresent == true)
         {
             BlastGun();
@@ -86,6 +82,38 @@ public class GameManager : MonoBehaviour
             canGroup.blocksRaycasts = true;
             canGroup.interactable = true;
         }
+    }
+
+    public void DisableActionUI()
+    {
+        Debug.Log("action bar disabled");
+        foreach (CanvasGroup canGroup in actionUI)
+        {
+            canGroup.blocksRaycasts = false;
+            canGroup.interactable = false;
+        }
+    }
+    public void EnableActionUI()
+    {
+        Debug.Log("action bar enabled");
+        foreach (CanvasGroup canGroup in actionUI)
+        {
+            canGroup.blocksRaycasts = true;
+            canGroup.interactable = true;
+        }
+    }
+
+    public void DisableNavigationUI()
+    {
+        Debug.Log("navigation bar disabled");
+        navigationUI.blocksRaycasts = false;
+        navigationUI.interactable = false;
+    }
+    public void EnableNavigationUI()
+    {
+        Debug.Log("navigation bar enabled");
+        navigationUI.blocksRaycasts = true;
+        navigationUI.interactable = true;
     }
 
 
@@ -194,12 +222,15 @@ public class GameManager : MonoBehaviour
         {
             useGun();
         }
+
+        HideActionUI();
     }
 
     private void viewCustomer()
     {
         cam.transform.position = new Vector3(0f, 0f, -5f);
         lookingAtCustomer = true;
+        ShowActionUI();
     }
 
     private void viewTv()
@@ -211,6 +242,8 @@ public class GameManager : MonoBehaviour
         {
             useGun();
         }
+
+        HideActionUI();
     }
 
     private void FadeToBlack()

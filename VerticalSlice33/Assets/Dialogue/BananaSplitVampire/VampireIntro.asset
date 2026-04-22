@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: VampireIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - What a nasy shop! Oh, at least you're not the ugliest thing in this place.
+  - Anyways, will you fetch me that purple donut. It looks so stupid I want to smash
+    it under my heel.
+  responses:
+  - responseText: I think you have issues.
+    dialogueObject: {fileID: 11400000, guid: 41edb53b791621e479ca4fe35685facf, type: 2}
+    customerExpression: {fileID: -1241096452, guid: 869299fc20f309045b0055679c82e76a, type: 3}
+  - responseText: Are you even going to eat it?
+    dialogueObject: {fileID: 11400000, guid: 184c1d721a9adf34c82b6ab10e9e6dcc, type: 2}
+    customerExpression: {fileID: 1802431954, guid: f866febdbe7aee64f93e97fc83d5a768, type: 3}
