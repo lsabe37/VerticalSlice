@@ -72,6 +72,7 @@ public class CustomerManager : MonoBehaviour
             customerLeave();
             Locator.Instance.gameManager.resetBg();
             Debug.Log("customer has departed");
+            //check to see if isTalking is set to false after shot
         }
     }
 
