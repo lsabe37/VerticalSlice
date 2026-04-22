@@ -8,6 +8,7 @@ public class Locator : MonoBehaviour
     public CustomerManager customerManager { get; private set; }
     public ResponseManager responseManager { get; private set; }
     public GameManager gameManager { get; private set; }
+    public StoreManager storeManager { get; private set; }
 
     public DialogueUI dialogueUI { get; private set; }
 
@@ -24,6 +25,7 @@ public class Locator : MonoBehaviour
         customerManager = gameManagerObject.GetComponent<CustomerManager>();
         responseManager = gameManagerObject.GetComponent<ResponseManager>();
         gameManager = gameManagerObject.GetComponent<GameManager>();
+        storeManager = gameManagerObject.GetComponent<StoreManager>();
 
         GameObject uiGameObject = GameObject.FindWithTag("UI");
         dialogueUI = uiGameObject.GetComponent<DialogueUI>();

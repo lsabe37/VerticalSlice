@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
 
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -22,6 +23,14 @@ public class GameManager : MonoBehaviour
     public bool lookingAtCustomer = true;
     public GameObject gunExplosion;
 
+    [Header("View Changer")]
+    public Transform donutLocation;
+    public Transform tvLocation;
+    [SerializeField] GameObject cam;
+    public UnityEngine.UI.Image fadeImage;
+    public float fadeDuration = 1.0f;
+    private bool dimming;
+
     [Header("Donut")]
     public int SelectedDonutID;
 
@@ -33,11 +42,11 @@ public class GameManager : MonoBehaviour
     public delegate void lightsOffEvent();
     public event lightsOffEvent lightsTurnOff;
 
-    public delegate void switchScreen();
-    public event switchScreen screenSwitch;
-
     public delegate void shootEvent();
     public event shootEvent shootGun;
+
+    public delegate void switchScreen();
+    public event switchScreen screenSwitch;
 
 
     private void Update()
@@ -153,4 +162,89 @@ public class GameManager : MonoBehaviour
         table.color = new Color(1f, 1f, 1f, 1f);
         bg.color = new Color(1f, 1f, 1f, 1f);
     }
+
+    // view changer logic
+    public void SwitchToDonuts()
+    {
+        FadeToBlack();
+        Invoke("viewDonuts", fadeDuration);
+        Invoke("FadeFromBlack", fadeDuration);
+    }
+
+    public void SwitchToCustomers()
+    {
+        FadeToBlack();
+        Invoke("viewCustomer", fadeDuration);
+        Invoke("FadeFromBlack", fadeDuration);
+    }
+
+    public void SwitchToTV()
+    {
+        FadeToBlack();
+        Invoke("viewTv", fadeDuration);
+        Invoke("FadeFromBlack", fadeDuration);
+    }
+
+    private void viewDonuts()
+    {
+        cam.transform.position = new Vector3(donutLocation.position.x, donutLocation.position.y, -5f);
+        lookingAtCustomer = false;
+
+        if (gunOut == true)
+        {
+            useGun();
+        }
+    }
+
+    private void viewCustomer()
+    {
+        cam.transform.position = new Vector3(0f, 0f, -5f);
+        lookingAtCustomer = true;
+    }
+
+    private void viewTv()
+    {
+        cam.transform.position = new Vector3(tvLocation.position.x, tvLocation.position.y, -5f);
+        lookingAtCustomer = false;
+
+        if (gunOut == true)
+        {
+            useGun();
+        }
+    }
+
+    private void FadeToBlack()
+    {
+        StartCoroutine(FadeRoutine(0f, 1f));
+    }
+
+    private void FadeFromBlack()
+    {
+        StartCoroutine(FadeRoutine(1f, 0f));
+    }
+
+    private IEnumerator FadeRoutine(float startAlpha, float endAlpha)
+    {
+        float timer = 0f;
+        if (!fadeImage.gameObject.activeInHierarchy)
+        {
+            fadeImage.gameObject.SetActive(true);
+        }
+
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, endAlpha, timer / fadeDuration);
+            fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, newAlpha);
+            yield return null;
+        }
+
+        fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, endAlpha);
+
+        if (endAlpha == 0f)
+        {
+            fadeImage.gameObject.SetActive(false);
+        }
+    }
+
 }

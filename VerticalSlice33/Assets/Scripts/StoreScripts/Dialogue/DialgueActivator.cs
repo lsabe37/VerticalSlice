@@ -10,6 +10,12 @@ public class DialogueActivator : MonoBehaviour
     public DialogueObject dialogueShot;
     public DialogueObject dialogueSpicy;
 
+
+    public void UpdateDialogueObject(DialogueObject dialogueObject)
+    {
+        this.dialogueObject = dialogueObject;
+    }
+
     public void Interact(DialogueObject dialogueChoice)
     {
         Locator.Instance.responseManager.DestroyResponses();

@@ -7,6 +7,8 @@ public class CustomerManager : MonoBehaviour
     [Header("Customers")]
     public GameObject[] customers;
     public GameObject[] Day1Customers;
+    public GameObject[] Day2Customers;
+    public GameObject[] Day3Customers;
     private GameObject currentCustomer;
 
     [Header("Customer Context")]
@@ -69,12 +71,24 @@ public class CustomerManager : MonoBehaviour
         {
             customerLeave();
             Locator.Instance.gameManager.resetBg();
+            Debug.Log("customer has departed");
         }
     }
 
     public void SelectCustomer()
     {
-        customers = Day1Customers;
+        switch (Locator.Instance.storeManager.storeDay)
+        {
+            case StoreManager.StoreStateDays.Day1:
+                customers = Day1Customers;
+                break;
+            case StoreManager.StoreStateDays.Day2:
+                customers = Day2Customers;
+                break;
+            case StoreManager.StoreStateDays.Day3:
+                customers = Day3Customers;
+                break;
+        }
 
         currentCustomer = Instantiate(customers[customerNumber], spawnLocation.position, spawnLocation.rotation);
 

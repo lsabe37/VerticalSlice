@@ -13,7 +13,7 @@ public class Donuts : MonoBehaviour
     private void OnMouseDown()
     {
         gameManager.SelectedDonutID = donutID;
-        //gameManager.SwitchToCustomers();
+        gameManager.SwitchToCustomers();
         customerManager.customerReact();
     }
 }
