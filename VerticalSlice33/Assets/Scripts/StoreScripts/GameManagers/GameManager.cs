@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -52,6 +51,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         DisableActionUI();
+        DisableNavigationUI();
     }
 
     private void Update()
