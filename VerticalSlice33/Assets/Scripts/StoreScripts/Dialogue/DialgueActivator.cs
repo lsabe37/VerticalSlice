@@ -18,6 +18,8 @@ public class DialogueActivator : MonoBehaviour
 
     public void Interact(DialogueObject dialogueChoice)
     {
+        Debug.Log("customer is speaking " + dialogueChoice.ToString());
+
         Locator.Instance.responseManager.DestroyResponses();
 
         if (TryGetComponent(out DialogueResponseEvent responseEvents) && responseEvents.DialogueObject == dialogueObject)
