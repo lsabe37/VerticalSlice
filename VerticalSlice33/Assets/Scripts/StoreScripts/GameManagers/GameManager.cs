@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public CanvasGroup[] actionUI;
     public CanvasGroup navigationUI;
+    public CanvasGroup abilityUI;
     public CanvasGroup gunUI;
     public CanvasGroup idUI;
     private bool UiIsVisible = false;
@@ -60,6 +61,15 @@ public class GameManager : MonoBehaviour
         {
             BlastGun();
             shootGun();
+        }
+
+        if(Locator.Instance.dialogueUI.isTalking == true || Locator.Instance.customerManager.customerPresent == false)
+        {
+            DisableAbilityUI();
+        }
+        else if(Locator.Instance.dialogueUI.isTalking == false && Locator.Instance.customerManager.customerPresent == true)
+        {
+            EnableAbilityUI();
         }
     }
 
@@ -114,6 +124,17 @@ public class GameManager : MonoBehaviour
         Debug.Log("navigation bar enabled");
         navigationUI.blocksRaycasts = true;
         navigationUI.interactable = true;
+    }
+
+    public void DisableAbilityUI()
+    {
+        abilityUI.blocksRaycasts = false;
+        abilityUI.interactable = false;
+    }
+    public void EnableAbilityUI()
+    {
+        abilityUI.blocksRaycasts = true;
+        abilityUI.interactable = true;
     }
 
 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: MermaidIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Hmmm. How did I end up here? Oh well.
+  - Hmmm. That thing looks tasty! That pink swirly thing!
+  - Hmmm. Did I order already? I want that pink swirly thing!
+  responses:
+  - responseText: What happened to your lower half?
+    dialogueObject: {fileID: 11400000, guid: e7353e50795b79c46abd16e93ba793fc, type: 2}
+    customerExpression: {fileID: -1134615280, guid: 4ae38efa4088022459c2700a4a939961, type: 3}
+  - responseText: Are you by chance a shrimp?
+    dialogueObject: {fileID: 11400000, guid: dfd2d06364a1c134d8262673e8748b5f, type: 2}
+    customerExpression: {fileID: 55173311, guid: b4fff27bc230ebe45ad373989a99b989, type: 3}

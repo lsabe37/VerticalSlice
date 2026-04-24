@@ -14,8 +14,6 @@ public class DialogueUI : MonoBehaviour
     private DialogueTyper typer;
 
     public bool isTalking;
-    public bool interruptDialogue;
-    private Coroutine activeDialogueRoutine;
 
 
     private void Start()
@@ -26,7 +24,7 @@ public class DialogueUI : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && closeBoxButton.gameObject.activeSelf)
+        if (Input.GetKeyDown(KeyCode.V) && closeBoxButton.gameObject.activeSelf)
         {
             closeBoxButton.onClick.Invoke();
         }
@@ -42,12 +40,7 @@ public class DialogueUI : MonoBehaviour
         isTalking = true;
         dialogueBox.SetActive(true);
         textLabel.text = string.Empty;
-        if(interruptDialogue == true)
-        {
-            StopCoroutine(activeDialogueRoutine);
-            interruptDialogue = false;
-        }
-        activeDialogueRoutine = StartCoroutine(routine: StepThroughDialogue(dialogueObject));
+        StartCoroutine(routine: StepThroughDialogue(dialogueObject));
         closeBoxButton.gameObject.SetActive(false);
     }
 
@@ -62,6 +55,9 @@ public class DialogueUI : MonoBehaviour
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses)
             {
                 closeBoxButton.gameObject.SetActive(true);
+
+                Locator.Instance.gameManager.EnableActionUI();
+                Locator.Instance.gameManager.EnableNavigationUI();
                 break;
             }
 
@@ -73,11 +69,9 @@ public class DialogueUI : MonoBehaviour
             Locator.Instance.responseManager.ShowResponses(dialogueObject.Responses);
         }
 
-        
         else
         {
-            CloseDialogueBox();
-            isTalking = false;
+            closeBoxButton.gameObject.SetActive(true);
         }
         
     }
@@ -88,6 +82,8 @@ public class DialogueUI : MonoBehaviour
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
         closeBoxButton.gameObject.SetActive(false);
+
+        isTalking = false;
     }
 
 }

@@ -94,9 +94,6 @@ public class CustomerManager : MonoBehaviour
         currentCustomer = Instantiate(customers[customerNumber], spawnLocation.position, spawnLocation.rotation);
         Customer Customers = customers[customerNumber].GetComponent<Customer>();
         currentCharID = Customers.ID;
-
-        Locator.Instance.gameManager.EnableActionUI();
-        Locator.Instance.gameManager.EnableNavigationUI();
     }
 
     public void customerLeave()
@@ -131,7 +128,6 @@ public class CustomerManager : MonoBehaviour
 
     public void customerShotReact()
     {
-        Locator.Instance.dialogueUI.interruptDialogue = true;
         Locator.Instance.gameManager.DisableNavigationUI();
         Locator.Instance.gameManager.changeBg();
         Customer Customers = currentCustomer.GetComponent<Customer>();
@@ -140,7 +136,6 @@ public class CustomerManager : MonoBehaviour
 
     public void customerSpiceReaction()
     {
-        Locator.Instance.dialogueUI.interruptDialogue = true;
         Customer Customers = currentCustomer.GetComponent<Customer>();
         Customers.spicyReaction();
         spiceTest();
