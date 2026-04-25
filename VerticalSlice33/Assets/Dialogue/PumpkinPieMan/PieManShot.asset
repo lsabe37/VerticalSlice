@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PieManShot
   m_EditorClassIdentifier: 
   dialogue:
-  - OW!
-  - ....
-  - I can't remember the reason, but my instincts are telling me to kill you.
+  - Hmph.
+  - So those are your true colors. We shall meet again.
   responses: []

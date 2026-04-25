@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: PieManOptionA
+  m_Name: WolfShot
   m_EditorClassIdentifier: 
   dialogue:
-  - Of course I do! It's called "Pump King Punch!"
-  - This attack has slayed countless kaijus! Even I fear it's potential.
+  - So even a rabbit can bite. But now, I'll show you what true fangs look like.
   responses: []

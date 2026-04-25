@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: PieManWrong
   m_EditorClassIdentifier: 
   dialogue:
-  - Hmmm. Was this what I ordered? Wait, what did I order?
-  - Ooh! That pink swirly thing looks good. But I already have this thing.... it'd
-    be a shame to not eat it.
+  - 'This is... not what I ordered. Go attend kindergarten again and learn your colors
+    properly. '
   responses: []

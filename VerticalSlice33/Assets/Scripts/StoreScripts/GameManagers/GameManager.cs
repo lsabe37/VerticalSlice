@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
         {
             DisableAbilityUI();
         }
-        else if(Locator.Instance.dialogueUI.isTalking == false && Locator.Instance.customerManager.customerPresent == true)
+        else if(Locator.Instance.dialogueUI.isTalking == false && Locator.Instance.customerManager.customerPresent == true && lookingAtCustomer == true)
         {
             EnableAbilityUI();
         }

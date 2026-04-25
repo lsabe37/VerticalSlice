@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PieManCorrect
   m_EditorClassIdentifier: 
   dialogue:
-  - This is amazing!
-  - This is amazing!
+  - A delicious treat worthy of a hero's lunch!
+  - My thanks, little one.
   responses: []

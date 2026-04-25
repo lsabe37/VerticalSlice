@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: PieManOptionA
+  m_Name: WolfCorrect
   m_EditorClassIdentifier: 
   dialogue:
-  - Of course I do! It's called "Pump King Punch!"
-  - This attack has slayed countless kaijus! Even I fear it's potential.
+  - Delicious! *sobbing* Nobody has ever treated me this kindly. Everyone calls me
+    mean names and then runs away...
+  - You are a saint! Thank you.
   responses: []

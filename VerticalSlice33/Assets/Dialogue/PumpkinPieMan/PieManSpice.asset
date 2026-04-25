@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: PieManSpice
   m_EditorClassIdentifier: 
   dialogue:
-  - HOT!! This sample is sea-riously spicy! Too spicy!
-  - .....
-  - Wait why is my mouth so spicy! Did I eat something weird right now?!
+  - GAHH! Impossible!! To think The Great Pumpkin would fold under such meagre trick!
   responses: []

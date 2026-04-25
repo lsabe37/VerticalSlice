@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: PieManOptionB
   m_EditorClassIdentifier: 
   dialogue:
-  - NO! I'm not some ugly crustacean. I am a beautiful sardine!
+  - These fists have been through countless battles... but to answer your question...
+  - The toughest battle was the one within my heart.
   responses: []
