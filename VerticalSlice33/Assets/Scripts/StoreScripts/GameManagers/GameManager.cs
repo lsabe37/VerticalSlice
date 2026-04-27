@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public CanvasGroup abilityUI;
     public CanvasGroup gunUI;
     public CanvasGroup idUI;
+    public CanvasGroup responseBox;
     private bool UiIsVisible = false;
     public bool gunOut = false;
     public bool idOut = false;
@@ -63,14 +64,8 @@ public class GameManager : MonoBehaviour
             shootGun();
         }
 
-        if(Locator.Instance.dialogueUI.isTalking == true || Locator.Instance.customerManager.customerPresent == false)
-        {
-            DisableAbilityUI();
-        }
-        else if(Locator.Instance.dialogueUI.isTalking == false && Locator.Instance.customerManager.customerPresent == true && lookingAtCustomer == true)
-        {
-            EnableAbilityUI();
-        }
+        if(Locator.Instance.dialogueUI.isTalking == true || Locator.Instance.customerManager.customerPresent == false) DisableAbilityUI();
+        else if(Locator.Instance.dialogueUI.isTalking == false && Locator.Instance.customerManager.customerPresent == true && lookingAtCustomer == true) EnableAbilityUI();
     }
 
 
@@ -96,7 +91,6 @@ public class GameManager : MonoBehaviour
 
     public void DisableActionUI()
     {
-        Debug.Log("action bar disabled");
         foreach (CanvasGroup canGroup in actionUI)
         {
             canGroup.blocksRaycasts = false;
@@ -105,7 +99,6 @@ public class GameManager : MonoBehaviour
     }
     public void EnableActionUI()
     {
-        Debug.Log("action bar enabled");
         foreach (CanvasGroup canGroup in actionUI)
         {
             canGroup.blocksRaycasts = true;
@@ -115,13 +108,11 @@ public class GameManager : MonoBehaviour
 
     public void DisableNavigationUI()
     {
-        Debug.Log("navigation bar disabled");
         navigationUI.blocksRaycasts = false;
         navigationUI.interactable = false;
     }
     public void EnableNavigationUI()
     {
-        Debug.Log("navigation bar enabled");
         navigationUI.blocksRaycasts = true;
         navigationUI.interactable = true;
     }
@@ -135,6 +126,19 @@ public class GameManager : MonoBehaviour
     {
         abilityUI.blocksRaycasts = true;
         abilityUI.interactable = true;
+    }
+
+    public void DisableRepsonseUI()
+    {
+        responseBox.alpha = 0f;
+        responseBox.blocksRaycasts = false;
+        responseBox.interactable = false;
+    }
+    public void EnableResponseUI()
+    {
+        responseBox.alpha = 1f;
+        responseBox.blocksRaycasts = true;
+        responseBox.interactable = true;
     }
 
 

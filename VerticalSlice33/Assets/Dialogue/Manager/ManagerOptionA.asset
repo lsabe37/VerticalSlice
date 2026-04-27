@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: ManagerOptionA
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Now here comes the scary news.
+  - Recently, there have been reports of evil Dream Worms disguising themselves as
+    customers.
+  - They will look similar to the real thing, so use the tools on the right to help
+    you verify their integrity!
+  - From the top, the first icon will allow you to pull up the customer's ID card.
+    Make sure they look EXACTLY like the picture.
+  - The second icon will let you flip the light switch. Some Dream Worms will look
+    different in the dark.
+  - 'The third icon is my secret weapon: the Diabolo''s Wiener Donut!'
+  - It is super spicy, but some Dream Worms can't feel spice at all.
+  - The fourth icon is the most dangerous. It is a gun! If you suspect that a customer
+    is an imposter, shoot them!
+  - Of course, please don't shoot the real customers.
+  - Oh, and one more thing.
+  - Everytime you get an order wrong, shoot a real customer, or accidentally serve
+    a Dream Worm, your sanity will deteriorate.
+  - If your sanity hits zero, you will die.
+  - But I'm sure you are smart enough to handle this. Good luck!
+  responses: []

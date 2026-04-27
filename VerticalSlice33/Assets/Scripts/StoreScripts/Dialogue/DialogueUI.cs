@@ -58,6 +58,7 @@ public class DialogueUI : MonoBehaviour
 
                 Locator.Instance.gameManager.EnableActionUI();
                 Locator.Instance.gameManager.EnableNavigationUI();
+                Locator.Instance.gameManager.EnableResponseUI();
                 break;
             }
 

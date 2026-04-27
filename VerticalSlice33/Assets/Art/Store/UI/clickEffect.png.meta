@@ -1,0 +1,822 @@
+fileFormatVersion: 2
+guid: 89e269e0383c85843966af7805679954
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clickEffect_0
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3006
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd80da424feaac543bd9f33792cc444d
+      internalID: -261235711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_1
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 3000
+        width: 110
+        height: 137
+      alignment: 9
+      pivot: {x: 0.37280607, y: 0.41064095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1de789789677414dad38fd8049741ec
+      internalID: -2034456081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_2
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 2933
+        width: 233
+        height: 239
+      alignment: 9
+      pivot: {x: 0.43937245, y: 0.5337721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a92a36d896a1d47baa9869f269d36c
+      internalID: -558030295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_3
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 2928
+        width: 360
+        height: 300
+      alignment: 9
+      pivot: {x: 0.53654516, y: 0.4634554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92274107acb3d0c4eb2367e0fb534b1e
+      internalID: -445749450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2909
+        width: 373
+        height: 405
+      alignment: 9
+      pivot: {x: 0.45885086, y: 0.4133747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13df8961afec1134aabc733df29a820d
+      internalID: 2032730898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_5
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 2423
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34c58e634b47e54ca7ba0c39f9f95c3
+      internalID: 1561116511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2372
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b742a11c8f800b43928a811964ba92b
+      internalID: -2060327957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_7
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1977
+        width: 381
+        height: 407
+      alignment: 9
+      pivot: {x: 0.45230064, y: 0.4066357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c5f6e68609d54b807af4f4429d97b
+      internalID: -6461825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_8
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 2294
+        width: 35
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bd69b92f7bf1146a4851767a2ad3a2
+      internalID: -1596727877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_9
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 2367
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f739af0d58d25d04ab76f57b1a770227
+      internalID: -818743339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_10
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1932
+        width: 429
+        height: 432
+      alignment: 9
+      pivot: {x: 0.46508804, y: 0.46037802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed5b24073424a146be132844d365d5c
+      internalID: -574964755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_11
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 2297
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1451e48e9bd136c4d9b2fb8a9677cf9b
+      internalID: -1873363764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_12
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1886
+        width: 541
+        height: 498
+      alignment: 9
+      pivot: {x: 0.5118627, y: 0.5128875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8fb94261b7d74a96f1bc0c9d3eb90
+      internalID: -983158018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_13
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2230
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83124f234d5aa141b99d23d63a47d9e
+      internalID: 548723647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_14
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 2206
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aeebc3aa39d5949845d1fc5bed95ec
+      internalID: 1866545876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_15
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 2219
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ca7dfc7b7f954ab8e282a57c8be3a
+      internalID: -574182816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_16
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 2208
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84f4d911d3c43c4786c1d1ea852edef
+      internalID: 1620976199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_17
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 2184
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa73b0fb87c960f4b89a55a3e606ecd2
+      internalID: -137414101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_18
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 1854
+        width: 594
+        height: 563
+      alignment: 9
+      pivot: {x: 0.4943268, y: 0.5119694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab693b121c9814e9c873939be23045
+      internalID: -2075785275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_19
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 2183
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb57bdbaa13d3548b5f0d8221a70674
+      internalID: -1162162402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_20
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 1793
+        width: 581
+        height: 675
+      alignment: 9
+      pivot: {x: 0.5182345, y: 0.54080874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d00cb586a1f894a8e08f66562d6aff
+      internalID: 107235837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_21
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 2106
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecacdcaf0de0ede4d9db5f8269bc8094
+      internalID: -123742655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_22
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 2055
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e961432c6cdac14f9f6a3f0d2f94cd2
+      internalID: 1665527434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_23
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 2034
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d8571b8bf75c343814d91810386cf7
+      internalID: 19872537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_24
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 2069
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521c9b2d7af6f1d4fa735e7590b01641
+      internalID: 1353721764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_25
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 2050
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5db72ff940f2464ea44620a4a6850fc
+      internalID: -538846873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_26
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 2023
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1249b4c4cb917048b1507afdbf27308
+      internalID: -1692684656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_27
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 1889
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201054b7cc7e0a4cbbe4a34324bf288
+      internalID: -1743488027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_28
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 1862
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437efd3cf798fd4429b8052b3cb1138b
+      internalID: 1743772138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_29
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1881
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71577f9d43301e140b74e37158455b67
+      internalID: -2093403966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickEffect_30
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 1803
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775c33a437338484094c63e4941326ed
+      internalID: 1624845089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      clickEffect_0: -261235711
+      clickEffect_1: -2034456081
+      clickEffect_10: -574964755
+      clickEffect_11: -1873363764
+      clickEffect_12: -983158018
+      clickEffect_13: 548723647
+      clickEffect_14: 1866545876
+      clickEffect_15: -574182816
+      clickEffect_16: 1620976199
+      clickEffect_17: -137414101
+      clickEffect_18: -2075785275
+      clickEffect_19: -1162162402
+      clickEffect_2: -558030295
+      clickEffect_20: 107235837
+      clickEffect_21: -123742655
+      clickEffect_22: 1665527434
+      clickEffect_23: 19872537
+      clickEffect_24: 1353721764
+      clickEffect_25: -538846873
+      clickEffect_26: -1692684656
+      clickEffect_27: -1743488027
+      clickEffect_28: 1743772138
+      clickEffect_29: -2093403966
+      clickEffect_3: -445749450
+      clickEffect_30: 1624845089
+      clickEffect_4: 2032730898
+      clickEffect_5: 1561116511
+      clickEffect_6: -2060327957
+      clickEffect_7: -6461825
+      clickEffect_8: -1596727877
+      clickEffect_9: -818743339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

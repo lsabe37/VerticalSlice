@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CupcakeSpice
   m_EditorClassIdentifier: 
   dialogue:
+  - 'Gagggh!! What have you forced down my throat?! '
   - '***Extreme monke pain noises***'
-  - '***Diabolical monke pain noises***'
   responses: []

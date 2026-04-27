@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: CupcakeOptionA
+  m_Name: ManagerWrong
   m_EditorClassIdentifier: 
   dialogue:
-  - I am not just any monkey. I am a decorated monkey ELITE.
+  - What in the.... Oh well, I'm sure you'll get the hang of it soon.
   responses: []

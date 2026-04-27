@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: CupcakeIntro
   m_EditorClassIdentifier: 
   dialogue:
-  - Gooday to you, little one! As you can tell, I am starving. Serve me that BANANA
-    donut laced with gasoline.
+  - Gooday to you, little one! As you can tell, I am starving. Serve me that fine
+    donut drizzled with the gray fluid.
   - Fetch me the donut and I'll give you a belly dance as a tip!
   responses:
-  - responseText: Are you sure gasoline is safe?
+  - responseText: Are you a monkey?
     dialogueObject: {fileID: 11400000, guid: c755a2576f0f8cc4da89e155bcac7e58, type: 2}
     customerExpression: {fileID: 255146641, guid: e333c4f0ba72c1b45a1823c60a570110, type: 3}
   - responseText: How much do you weigh?

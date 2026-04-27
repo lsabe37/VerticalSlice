@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: CupcakeOptionA
+  m_Name: ManagerShot
   m_EditorClassIdentifier: 
   dialogue:
-  - I am not just any monkey. I am a decorated monkey ELITE.
+  - OW Ow! What are you doing? You know that gun hurts regular people too!
   responses: []

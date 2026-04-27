@@ -55,6 +55,7 @@ public class ResponseManager : MonoBehaviour
         if (response.DialogueObject)
         {
             dialogueUI.ShowDialogue(response.DialogueObject);
+            Locator.Instance.gameManager.DisableRepsonseUI();
         }
         else
         {

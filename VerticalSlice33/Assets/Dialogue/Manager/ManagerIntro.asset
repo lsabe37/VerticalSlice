@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: ManagerIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Boo! Did I scare you?
+  - Welcome to Delulu's Donuts! The best donut store in the Dream Realm!
+  - You, new employee, are in charge of serving the customers.
+  - When greeting a customer, you should be able to ask ONE question. Any more and
+    they give this place a 1 star review.
+  - 'After a customer is done yapping, press the Donut Button on the left to switch
+    views. '
+  - Then click on the donut that the customer wants! Make sure you do this after
+    you ask your ONE question.
+  - Pretty easy, right?
+  - For starters, I'll order that super cool purple donut!
+  responses:
+  - responseText: Anything else I should know?
+    dialogueObject: {fileID: 11400000, guid: 4635ee3952037d14ebd25cd51328cfc8, type: 2}
+    customerExpression: {fileID: -1503737831, guid: 447aef1e7e5032b4096cc437d597a3b2, type: 3}
+  - responseText: What else should I know?
+    dialogueObject: {fileID: 11400000, guid: 4635ee3952037d14ebd25cd51328cfc8, type: 2}
+    customerExpression: {fileID: -1503737831, guid: 447aef1e7e5032b4096cc437d597a3b2, type: 3}

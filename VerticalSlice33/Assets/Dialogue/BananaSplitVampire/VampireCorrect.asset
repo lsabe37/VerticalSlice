@@ -15,5 +15,6 @@ MonoBehaviour:
   dialogue:
   - Your intelligence is totally noteworthy!
   - Since you've put me in a good mood, I will honor you by NOT drinking your blood
-    as a refresher... as tempting as it may be.
+    as a refresher.
+  - ... as tempting as it may be.
   responses: []

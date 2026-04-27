@@ -123,6 +123,7 @@ public class CustomerManager : MonoBehaviour
             wrong();
         }
 
+        Locator.Instance.gameManager.DisableNavigationUI();
         served();
     }
 
