@@ -5,7 +5,7 @@ using UnityEngine;
 public class StorePlayer : MonoBehaviour
 {
     public float PlayerHP;
-    public float currentHP { get; private set; }
+    public float currentHP;
 
     private void Start()
     {

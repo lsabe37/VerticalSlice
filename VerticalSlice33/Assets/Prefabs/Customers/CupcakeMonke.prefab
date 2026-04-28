@@ -111,7 +111,7 @@ MonoBehaviour:
   duration: 0.2
   ID: {fileID: 255146641, guid: e333c4f0ba72c1b45a1823c60a570110, type: 3}
   servingCustomer: 0
-  desiredDonut: 1
+  desiredDonut: 4
 --- !u!114 &5294787919340648159
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,7 +14,6 @@ public class CustomerManager : MonoBehaviour
     [Header("Customer Context")]
     public int totalNumberOfCustomers = 5;
     public int customerServed = 0;
-    public int customersRemaining = 4;
     private int customerNumber = -1;
     private bool greetCustomer;
     public bool customerPresent;
@@ -40,7 +39,7 @@ public class CustomerManager : MonoBehaviour
 
     private void Update()
     {
-        if (greetCustomer == true)
+        if (greetCustomer == true && customerServed < totalNumberOfCustomers)
         {
             customerPresent = true;
             greetCustomer = false;
