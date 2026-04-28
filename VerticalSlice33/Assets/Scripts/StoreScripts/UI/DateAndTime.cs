@@ -9,24 +9,20 @@ public class DateAndTime : MonoBehaviour
     [SerializeField] private Sprite[] Times;
     [SerializeField] private Image[] Dates;
 
-    private void Start()
-    {
-        Locator.Instance.customerManager.left += changeTime;
-    }
 
     private void changeTime()
     {
-        if (Locator.Instance.customerManager.customerServed < 2)
+        if (Locator.Instance.storeManager.storeTime == StoreManager.StoreStateTime.Morning)
         {
             Time.sprite = Times[0];
         }
 
-        else if (Locator.Instance.customerManager.customerServed >= 2 && Locator.Instance.customerManager.customerServed < 4)
+        else if (Locator.Instance.storeManager.storeTime == StoreManager.StoreStateTime.Noon)
         {
             Time.sprite = Times[1];
         }
 
-        else if (Locator.Instance.customerManager.customerServed >= 4)
+        else if (Locator.Instance.storeManager.storeTime == StoreManager.StoreStateTime.Evening)
         {
             Time.sprite = Times[2];
         }
