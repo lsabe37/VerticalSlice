@@ -28,12 +28,6 @@ public class Player : MonoBehaviour
 
     }
 
-    private void Jump()
-    {
-        rb.velocity = new Vector3(rb.velocity.x, jumpForce);
-        isGrounded = false;
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))

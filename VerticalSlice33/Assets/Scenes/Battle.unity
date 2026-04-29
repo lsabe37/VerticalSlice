@@ -633,7 +633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   runSpeed: 10
-  jumpForce: 20
+  jumpForce: 15
 --- !u!50 &954778158
 Rigidbody2D:
   serializedVersion: 4
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   runSpeed: 10
-  jumpForce: 20
+  jumpForce: 15
   lowJumpMultiplier: 2
   fallMultiplier: 2.5
 --- !u!1 &1087198746
@@ -818,7 +818,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1087198750}
   player: {fileID: 954778157}
   distanceFromPlayer: 4
-  speed: 20
+  speed: 15
   currentlyInAction: 0
 --- !u!50 &1087198748
 Rigidbody2D:

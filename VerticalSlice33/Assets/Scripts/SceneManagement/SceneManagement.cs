@@ -7,4 +7,9 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene("Store");
     }
+
+    public void LoadBattleScene()
+    {
+        SceneManager.LoadScene("Battle");
+    }
 }
