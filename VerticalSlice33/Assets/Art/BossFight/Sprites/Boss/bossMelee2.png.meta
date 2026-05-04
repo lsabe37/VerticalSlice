@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: c759f5ab192f5ab4c88bfd96f59e94be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossMelee2_0
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 4088
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f155d721312d8240a5aa2fac42ff6b4
+      internalID: -782626307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_1
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 3285
+        width: 1489
+        height: 934
+      alignment: 9
+      pivot: {x: 0.68557227, y: 0.29481888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f58eaa9906da2488a9c08318d33512
+      internalID: 196178931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_2
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 3543
+        width: 823
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660ed3e043e9624b92c816cbe699cb7
+      internalID: 926721514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_3
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 3288
+        width: 1297
+        height: 903
+      alignment: 9
+      pivot: {x: 0.7868801, y: 0.2868693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b60350de6fdbd347af819a915d4b060
+      internalID: -1715382079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_4
+      rect:
+        serializedVersion: 2
+        x: 4844
+        y: 3510
+        width: 602
+        height: 672
+      alignment: 9
+      pivot: {x: 0.5091816, y: 0.05858612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1d6ef900e13843a9eaa7fa86b2788
+      internalID: -1809946496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_5
+      rect:
+        serializedVersion: 2
+        x: 5270
+        y: 4012
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7069f6bedb626374ebf53112f05014b7
+      internalID: -1991808161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3370
+        width: 1238
+        height: 708
+      alignment: 9
+      pivot: {x: 0.6320493, y: 0.3199763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0f4609bfaa62f4199a9755863a75ac
+      internalID: -2080453315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_7
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 3395
+        width: 553
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45f947365d06642b96befbab869612
+      internalID: 244499551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_8
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 3709
+        width: 207
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c6a8fa1cf5b7746b5d1f8ff4a63991
+      internalID: 1128386341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_9
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 3556
+        width: 149
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1fe3e7b6115a0409952ee99501cbf8
+      internalID: -1508747568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_10
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 3470
+        width: 298
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0af447032d6c42479e9684deaba4d5b
+      internalID: 1334318721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_11
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 3355
+        width: 553
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b72f7b4a72fb447986039d826fb7ca
+      internalID: -729140935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_12
+      rect:
+        serializedVersion: 2
+        x: 4207
+        y: 3312
+        width: 306
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b323a03e3978a4f952868326d5a80a
+      internalID: -1072215431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2590
+        width: 373
+        height: 483
+      alignment: 9
+      pivot: {x: 0.83554626, y: 0.11130841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86996c141c93a334c9e337ddc737d429
+      internalID: 771743017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2592
+        width: 540
+        height: 552
+      alignment: 9
+      pivot: {x: 0.79696226, y: 0.13155288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177edf64701f8af4384df3273ecbf4db
+      internalID: 2082412510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_15
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1771
+        width: 3429
+        height: 1338
+      alignment: 9
+      pivot: {x: 0.91076684, y: 0.10991118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8836188dc1768fb4f895da65792f7eb2
+      internalID: 665805816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1580
+        width: 1103
+        height: 741
+      alignment: 9
+      pivot: {x: 0.93412775, y: 0.101650305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd272de6f0ccd641b8f40b5482e3016
+      internalID: 519550114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_17
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1768
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b3102501edfa4396194f8dbf6f4ca
+      internalID: -987378985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_18
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 1765
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b4ae481b351c4db7bccb0af1654e4
+      internalID: -569509961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_19
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1764
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170148a98c2552548b4fbd05848fbe5a
+      internalID: -1858168451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_20
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 1763
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290197bb108b6324dbc8cdbc715177a8
+      internalID: 1873460029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_21
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 1760
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2358530d1123d040813d6728f19e0de
+      internalID: 918728443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_22
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 1763
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224a208d02ba184b93ac2eeec780c9b
+      internalID: 1395118951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_23
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1764
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d25e1339ea1ebc49a0ba62555a46c36
+      internalID: -1366267979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_24
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 1769
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93303beff8497894f8618914118845a9
+      internalID: -111238120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_25
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 1768
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f67a5c51fcf44981abe305e600a64
+      internalID: -1641298900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_26
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1757
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bcdd8ceed51a54b9b53207635a3da9
+      internalID: 789982783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_27
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 1757
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37356c0fa4bae44b87f8671eb6e2656
+      internalID: 868071311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_28
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 1757
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae196226ce6d8f0428f5d02a968135e5
+      internalID: -746683955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_29
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 1755
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e20a29e678939346840f89d45d1a58d
+      internalID: -662440021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_30
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 1755
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521195452f8e44946a8c9aa4a68ffe2d
+      internalID: 2137354999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_31
+      rect:
+        serializedVersion: 2
+        x: 3673
+        y: 1755
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c650e54ce441a44b97d4aff6eee763e
+      internalID: 512379872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_32
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 1752
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d7a32f0b115e14da6e766f37e1c170
+      internalID: -1617308034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_33
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 1752
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48258a6c1da1b9a429505a4415d9d6ec
+      internalID: -703900346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_34
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1752
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f7a7ef8a6a23944a5d9237cd1765a5
+      internalID: 106379846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_35
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 1752
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb7dbd6ab8ce2a4589230179ddcf504
+      internalID: -539172017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_36
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 1755
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fa2d19831897840aa7a3b747b9d5f9
+      internalID: -429483731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_37
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 1755
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c29fbdcf0a847a4290205624de21c71
+      internalID: 2143146164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_38
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 1758
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f760e91428f2aaf42b9403efd7c982ce
+      internalID: 1271396030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_39
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 1761
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe77613779dd234ab91fd3b3ab54427
+      internalID: -492240313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_40
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 1752
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddeb0e0e031d8c42a983521a4f6b52b
+      internalID: -971900285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_41
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 1752
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc390a42feb5cc46aae4c9ec657220d
+      internalID: 778031146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_42
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 1752
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33698afce0adeaa4e8dc0f832cf095a7
+      internalID: -750121075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_43
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 267
+        width: 3280
+        height: 1149
+      alignment: 9
+      pivot: {x: 0.9534048, y: 0.070635736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96113c905c626054887cc88553095f93
+      internalID: -1930261939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_44
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 834
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2caf2eff027a9b4e9c75f5cc91e1fb4
+      internalID: -2086596925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_45
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 235
+        width: 2008
+        height: 915
+      alignment: 9
+      pivot: {x: 0.9387506, y: 0.089101024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b10fd9faf5a7546b9829e6ac615cf9
+      internalID: -1499156761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossMelee2_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 820
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d055d75a030a3754a8b4b8216056703b
+      internalID: -533752955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossMelee2_0: -782626307
+      bossMelee2_1: 196178931
+      bossMelee2_10: 1334318721
+      bossMelee2_11: -729140935
+      bossMelee2_12: -1072215431
+      bossMelee2_13: 771743017
+      bossMelee2_14: 2082412510
+      bossMelee2_15: 665805816
+      bossMelee2_16: 519550114
+      bossMelee2_17: -987378985
+      bossMelee2_18: -569509961
+      bossMelee2_19: -1858168451
+      bossMelee2_2: 926721514
+      bossMelee2_20: 1873460029
+      bossMelee2_21: 918728443
+      bossMelee2_22: 1395118951
+      bossMelee2_23: -1366267979
+      bossMelee2_24: -111238120
+      bossMelee2_25: -1641298900
+      bossMelee2_26: 789982783
+      bossMelee2_27: 868071311
+      bossMelee2_28: -746683955
+      bossMelee2_29: -662440021
+      bossMelee2_3: -1715382079
+      bossMelee2_30: 2137354999
+      bossMelee2_31: 512379872
+      bossMelee2_32: -1617308034
+      bossMelee2_33: -703900346
+      bossMelee2_34: 106379846
+      bossMelee2_35: -539172017
+      bossMelee2_36: -429483731
+      bossMelee2_37: 2143146164
+      bossMelee2_38: 1271396030
+      bossMelee2_39: -492240313
+      bossMelee2_4: -1809946496
+      bossMelee2_40: -971900285
+      bossMelee2_41: 778031146
+      bossMelee2_42: -750121075
+      bossMelee2_43: -1930261939
+      bossMelee2_44: -2086596925
+      bossMelee2_45: -1499156761
+      bossMelee2_46: -533752955
+      bossMelee2_5: -1991808161
+      bossMelee2_6: -2080453315
+      bossMelee2_7: 244499551
+      bossMelee2_8: 1128386341
+      bossMelee2_9: -1508747568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

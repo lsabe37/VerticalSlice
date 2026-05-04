@@ -1,0 +1,2208 @@
+fileFormatVersion: 2
+guid: 6ecd1e7ce73c0864aac35a95bb17bd90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossBombAttack_0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3441
+        width: 775
+        height: 630
+      alignment: 9
+      pivot: {x: 0.3983192, y: 0.052120924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffb5abe9f7631b4589cd0f10dd63787
+      internalID: 155048436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_1
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 3475
+        width: 757
+        height: 631
+      alignment: 9
+      pivot: {x: 0.40924498, y: 0.048936848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b28b801d1c555447b22a99b386e384a
+      internalID: 1550341309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 3497
+        width: 690
+        height: 631
+      alignment: 9
+      pivot: {x: 0.45200372, y: 0.051500905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfae6e367767c54ba9277710756519a
+      internalID: 1761824437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_3
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 3553
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab463b309c0c78a47bbaaa310bdae738
+      internalID: 1090938904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 3495
+        width: 628
+        height: 633
+      alignment: 9
+      pivot: {x: 0.50479376, y: 0.043405734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52514d088b5e6e4ca2310812d8d92d7
+      internalID: 1148515791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_5
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 3502
+        width: 569
+        height: 631
+      alignment: 9
+      pivot: {x: 0.55291116, y: 0.046729907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ded00baceb9c47a70e74d980b4d12
+      internalID: 241133192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_6
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 3561
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246e73c206ead0e479fc844d6aaad6fb
+      internalID: -1037141497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_7
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 3518
+        width: 510
+        height: 631
+      alignment: 9
+      pivot: {x: 0.61216205, y: 0.04672952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f8904f33be73e4b9f6d33238804031
+      internalID: 1361872454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_8
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 3516
+        width: 482
+        height: 631
+      alignment: 9
+      pivot: {x: 0.6499084, y: 0.04672952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2206d209cf061804b8c25d834866d98f
+      internalID: -2022230715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_9
+      rect:
+        serializedVersion: 2
+        x: 4994
+        y: 3564
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e0de3d530daf4c9188bd8a2bb0397
+      internalID: -1467213314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3543
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb356859a1628b849bc37ab11ff70ca4
+      internalID: -1064278080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_11
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 3546
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec96d496427bc4a8bea7a895075ac0
+      internalID: 296901922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_12
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3543
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bcb025da495a94c90b912ce571bb10
+      internalID: 1667882472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_13
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 3540
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfde3b2f556a7f49a003bdb11ccbf97
+      internalID: 1267210960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 3524
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b88ebeae132b09428a6d532a81d7455
+      internalID: -535472572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_15
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 3535
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f76d28c41c805458b05c3bc4a8e88b
+      internalID: -1492697809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_16
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 3502
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8d2a30b94d41498a6a1ca0eb9f2bb
+      internalID: -991032776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2522
+        width: 475
+        height: 631
+      alignment: 9
+      pivot: {x: 0.65306985, y: 0.044102397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ce2e0a3d9b7cc428079181409d6419
+      internalID: -1444257559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2560
+        width: 473
+        height: 631
+      alignment: 9
+      pivot: {x: 0.6537172, y: 0.044102397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfd6c20b979f74fb3dbda18898fd8e
+      internalID: -2083231478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 2582
+        width: 403
+        height: 600
+      alignment: 9
+      pivot: {x: 0.65868473, y: 0.07366618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d065bf31340b634c8ef9132543ba1b5
+      internalID: -1691138660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2020
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3f4012c5f02bf4ba7509ac784a61f2
+      internalID: 2124270347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_21
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1331
+        width: 895
+        height: 840
+      alignment: 9
+      pivot: {x: 0.512976, y: 0.4857974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc89b15b7bc9604382c77e06b5352c1
+      internalID: 1184426724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_22
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 1175
+        width: 943
+        height: 1056
+      alignment: 9
+      pivot: {x: 0.4570292, y: 0.56715125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740e730d679edee4dbe64e985f1d8a2f
+      internalID: -535623471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_23
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 2051
+        width: 115
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385e036bb9573454ca3f1dfdf6e998db
+      internalID: -954593585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_24
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 1390
+        width: 602
+        height: 670
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47758314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc39c83c9e25904caac6974084583b6
+      internalID: 1197183265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_25
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1993
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475d11dbb809e074189701b80093da51
+      internalID: 105580858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_26
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1910
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506ba331b0b51f4aa6a6a35a3d61a7f
+      internalID: -165054034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_27
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1494
+        width: 553
+        height: 602
+      alignment: 9
+      pivot: {x: 0.5143098, y: 0.36854973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24126cf69e9c674f84ef0f26c1b87ec
+      internalID: 767197929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1490
+        width: 473
+        height: 507
+      alignment: 9
+      pivot: {x: 0.474905, y: 0.41415542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6db6eba3bf094f429bad78105469f4a
+      internalID: 1806821261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_29
+      rect:
+        serializedVersion: 2
+        x: 5264
+        y: 1849
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69150b987e1d756428600080181472ee
+      internalID: -644210438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_30
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1757
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf11d26807e7d2240a65088ccacb4990
+      internalID: 811219600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_31
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1795
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633a26b9f94dcfd43bb520b72d211c3f
+      internalID: 429206996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_32
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 1752
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5e4b378ef0fec41a834ac20ef46b47
+      internalID: 1880328943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_33
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1545
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d83f0770cb4204c91d86878b3a874f
+      internalID: 1528458362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_34
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 1422
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d9327c7a0d44247bd2b453d3d19645
+      internalID: -2130884980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_35
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1038
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555c4f2b0e275d46a77fe130c3cfbe6
+      internalID: 994803150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1041
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6511e47de46fa414895bb00f6a9154b2
+      internalID: 641572110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_37
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 286
+        width: 768
+        height: 803
+      alignment: 9
+      pivot: {x: 0.524203, y: 0.51736087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf38414e82ec0df468d809bac8992953
+      internalID: -36369339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_38
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 697
+        width: 674
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48513d344934dfe4f9de1fc8b18d5578
+      internalID: -2128335960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_39
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 1065
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c714004f7face145b5ea2de0fc14139
+      internalID: -1095137541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_40
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 1024
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbacef123deb8944595000b21ed91a0c
+      internalID: -2000531440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 137
+        width: 948
+        height: 971
+      alignment: 9
+      pivot: {x: 0.50490195, y: 0.54785705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8a5e00aa7db8e4d99f1eb741386ed8
+      internalID: 1977132946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_42
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 1011
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131f11e9b5107e842bbd873738200fa4
+      internalID: -579265361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_43
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1032
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab78b8b43c106e943bb3a2da0d9185a6
+      internalID: -1165677658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_44
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 314
+        width: 813
+        height: 780
+      alignment: 9
+      pivot: {x: 0.47713727, y: 0.5357454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a62d73820e73f48a2a4c865dd2784b
+      internalID: -320890624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_45
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 987
+        width: 142
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920050fa8f148be4a9ba7518be655bcf
+      internalID: 1116758300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_46
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 836
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15448399c3d2fab48aa3837be3f76794
+      internalID: -1392351745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_47
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 939
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c9356db6a588046b69a965f354692b
+      internalID: -1678397256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_48
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 869
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f212edbb8c0eb448df3c818e50d341
+      internalID: 499389002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_49
+      rect:
+        serializedVersion: 2
+        x: 5061
+        y: 920
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98a48143fc01664e9a150375d4beb80
+      internalID: 1695837564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_50
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 785
+        width: 83
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026693cc7d1fb784bb4f3503731d08d2
+      internalID: -1481724601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_51
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 759
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6ea0779e16d241923675a4eb54061
+      internalID: 364545883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_52
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 880
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53164dfa9630084d91de75aede23666
+      internalID: -1634367786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_53
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 833
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a301face97854f8f119a312066154
+      internalID: 709227193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_54
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 767
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78835a3ddf9a164a8ad6aa3789a07bb
+      internalID: -1942008814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_55
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 791
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e61bb8fa38513428557ccc79d81f27
+      internalID: 621649458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_56
+      rect:
+        serializedVersion: 2
+        x: 5175
+        y: 809
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb96e2e38d00c354c8a8702aeae381c6
+      internalID: 701262924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_57
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 788
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f12a4817a40be24db7f808489aeb41c
+      internalID: 2029810847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_58
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 646
+        width: 48
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e67b1aafd82b1241bba0aff05c8e6ff
+      internalID: 2041435079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_59
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 428
+        width: 180
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9441a882be1be63418c3ed6a12273b98
+      internalID: 1185126074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_60
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 759
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2ed4db7f2a243419bfc31ad3ad5d72
+      internalID: 1613277989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_61
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 744
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715ca9b1aa066d340a5814f0ad049ee2
+      internalID: 1561572627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_62
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 581
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b42206ae160c44fa1b4f7f9cf7d690
+      internalID: 1648658876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_63
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 300
+        width: 808
+        height: 813
+      alignment: 9
+      pivot: {x: 0.4712449, y: 0.47713712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7910586bb837e194e932654e576c1a19
+      internalID: 43495379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_64
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 611
+        width: 64
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df9ce6754535dc4ebb3cf146a19d463
+      internalID: 1255858507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_65
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 576
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45592ce05b30d242a851bd290de520c
+      internalID: 628481621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_66
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 638
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d46ca0977aff9f4ba43bcab06b63aa6
+      internalID: -143317720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_67
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 641
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349b27f3eb3b174e8de239f6827da25
+      internalID: 1544036037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_68
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 576
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6833ff4168d839340ab2150b2be31090
+      internalID: 2006860762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_69
+      rect:
+        serializedVersion: 2
+        x: 5206
+        y: 646
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30516acb25abea54fa8c4e61f4759234
+      internalID: -625575799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_70
+      rect:
+        serializedVersion: 2
+        x: 3946
+        y: 616
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5382057410bf26b4bb047cd32e30af53
+      internalID: 1637680685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_71
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 415
+        width: 85
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b907bc4546f4d40aae918931ab3a06
+      internalID: -965213651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_72
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 487
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb1f3f48ffb48c4eab7bbc40b5dd522
+      internalID: 690225458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_73
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 487
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d5787e30894b3408aea60d7fd8aa95
+      internalID: 1707627584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_74
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 533
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8226ce9ada91643aba816daff479d6
+      internalID: -80023343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_75
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 503
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc92687a55cab4aabf6d011efebe33
+      internalID: 274682363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_76
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 426
+        width: 102
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daad5260698a4a409be103750733366
+      internalID: -1288270442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_77
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 436
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272465aa5dace544b973c16235afd09
+      internalID: -1806813086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_78
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 470
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a94f5b6688fac49ba7204b38a984c6
+      internalID: 569133370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_79
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 485
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0291e40cdec4e8f44afe41d07d573458
+      internalID: 1951661630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_80
+      rect:
+        serializedVersion: 2
+        x: 4994
+        y: 455
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773ac59d9637dd84bade82212f1eabfe
+      internalID: 760024815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_81
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 455
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e7387ab932bd04181d9ccd35469cca
+      internalID: -1335769396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_82
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 300
+        width: 800
+        height: 785
+      alignment: 9
+      pivot: {x: 0.53485227, y: 0.51183933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba508f0d38f954c87a6ab8478b09a6
+      internalID: 849255059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_83
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 396
+        width: 105
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253487f4153ce17459da286530989f28
+      internalID: -1309130207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_84
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 412
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37a644fcf098c94990e56e53552fbc8
+      internalID: 86879989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_85
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 429
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b8f515645d3ce4e8fd7151c883ca29
+      internalID: -2005689817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_86
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 383
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f8a25971ec2648a73f3084ea1802d
+      internalID: -1770944939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_87
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 415
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e2b77c93583f44ba13839ecf4ac11b
+      internalID: -1238958711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_88
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 316
+        width: 247
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e228a8f6f3f2046a6477afce973a67
+      internalID: -721569989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_89
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 332
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebdb13bfcc11744889bd9c51af5769b
+      internalID: -861947256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_90
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 345
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf359997d71db4a99735c64f8bbdb1
+      internalID: -180482498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_91
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 248
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49b325f21611fc43bad82479aab268e
+      internalID: 923546027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_92
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 165
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc515285fa78b4e835989dab785948
+      internalID: 766999756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossBombAttack_93
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1062
+        width: 148
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734e5a4fb3c0c7143b448ec5f41723bc
+      internalID: -1485735960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossBombAttack_0: 155048436
+      bossBombAttack_1: 1550341309
+      bossBombAttack_10: -1064278080
+      bossBombAttack_11: 296901922
+      bossBombAttack_12: 1667882472
+      bossBombAttack_13: 1267210960
+      bossBombAttack_14: -535472572
+      bossBombAttack_15: -1492697809
+      bossBombAttack_16: -991032776
+      bossBombAttack_17: -1444257559
+      bossBombAttack_18: -2083231478
+      bossBombAttack_19: -1691138660
+      bossBombAttack_2: 1761824437
+      bossBombAttack_20: 2124270347
+      bossBombAttack_21: 1184426724
+      bossBombAttack_22: -535623471
+      bossBombAttack_23: -954593585
+      bossBombAttack_24: 1197183265
+      bossBombAttack_25: 105580858
+      bossBombAttack_26: -165054034
+      bossBombAttack_27: 767197929
+      bossBombAttack_28: 1806821261
+      bossBombAttack_29: -644210438
+      bossBombAttack_3: 1090938904
+      bossBombAttack_30: 811219600
+      bossBombAttack_31: 429206996
+      bossBombAttack_32: 1880328943
+      bossBombAttack_33: 1528458362
+      bossBombAttack_34: -2130884980
+      bossBombAttack_35: 994803150
+      bossBombAttack_36: 641572110
+      bossBombAttack_37: -36369339
+      bossBombAttack_38: -2128335960
+      bossBombAttack_39: -1095137541
+      bossBombAttack_4: 1148515791
+      bossBombAttack_40: -2000531440
+      bossBombAttack_41: 1977132946
+      bossBombAttack_42: -579265361
+      bossBombAttack_43: -1165677658
+      bossBombAttack_44: -320890624
+      bossBombAttack_45: 1116758300
+      bossBombAttack_46: -1392351745
+      bossBombAttack_47: -1678397256
+      bossBombAttack_48: 499389002
+      bossBombAttack_49: 1695837564
+      bossBombAttack_5: 241133192
+      bossBombAttack_50: -1481724601
+      bossBombAttack_51: 364545883
+      bossBombAttack_52: -1634367786
+      bossBombAttack_53: 709227193
+      bossBombAttack_54: -1942008814
+      bossBombAttack_55: 621649458
+      bossBombAttack_56: 701262924
+      bossBombAttack_57: 2029810847
+      bossBombAttack_58: 2041435079
+      bossBombAttack_59: 1185126074
+      bossBombAttack_6: -1037141497
+      bossBombAttack_60: 1613277989
+      bossBombAttack_61: 1561572627
+      bossBombAttack_62: 1648658876
+      bossBombAttack_63: 43495379
+      bossBombAttack_64: 1255858507
+      bossBombAttack_65: 628481621
+      bossBombAttack_66: -143317720
+      bossBombAttack_67: 1544036037
+      bossBombAttack_68: 2006860762
+      bossBombAttack_69: -625575799
+      bossBombAttack_7: 1361872454
+      bossBombAttack_70: 1637680685
+      bossBombAttack_71: -965213651
+      bossBombAttack_72: 690225458
+      bossBombAttack_73: 1707627584
+      bossBombAttack_74: -80023343
+      bossBombAttack_75: 274682363
+      bossBombAttack_76: -1288270442
+      bossBombAttack_77: -1806813086
+      bossBombAttack_78: 569133370
+      bossBombAttack_79: 1951661630
+      bossBombAttack_8: -2022230715
+      bossBombAttack_80: 760024815
+      bossBombAttack_81: -1335769396
+      bossBombAttack_82: 849255059
+      bossBombAttack_83: -1309130207
+      bossBombAttack_84: 86879989
+      bossBombAttack_85: -2005689817
+      bossBombAttack_86: -1770944939
+      bossBombAttack_87: -1238958711
+      bossBombAttack_88: -721569989
+      bossBombAttack_89: -861947256
+      bossBombAttack_9: -1467213314
+      bossBombAttack_90: -180482498
+      bossBombAttack_91: 923546027
+      bossBombAttack_92: 766999756
+      bossBombAttack_93: -1485735960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

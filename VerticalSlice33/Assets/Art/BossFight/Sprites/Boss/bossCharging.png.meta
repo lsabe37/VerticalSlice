@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: f2f04847a6f29b84491eff7332ecf2be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossCharging_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2984
+        width: 483
+        height: 650
+      alignment: 9
+      pivot: {x: 0.7441342, y: 0.07609676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1710bbe0e00fbb047afc1ca35cfcc7bf
+      internalID: 1220799285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_1
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2987
+        width: 485
+        height: 650
+      alignment: 9
+      pivot: {x: 0.7357173, y: 0.08186636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1ded32014137344b1748409b98ebea
+      internalID: 1328541800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_2
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 2976
+        width: 485
+        height: 650
+      alignment: 9
+      pivot: {x: 0.7357173, y: 0.075229116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da1d276889e73c42bdde04b0b82fbee
+      internalID: 111949234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_3
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2979
+        width: 484
+        height: 649
+      alignment: 9
+      pivot: {x: 0.73174745, y: 0.08122209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b06ecf332cee24e96715e987d8b582
+      internalID: -236690029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_4
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 2117
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b88979107fcb74eb75339a2400c758
+      internalID: 217605181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_5
+      rect:
+        serializedVersion: 2
+        x: 3955
+        y: 2109
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17007984e6dc48e44967cf2ab5c3ef5f
+      internalID: -1173098980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_6
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 2112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5a675302ba3d449bdf6ac51bba292f
+      internalID: -467383130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1269
+        width: 472
+        height: 673
+      alignment: 9
+      pivot: {x: 0.66023415, y: 0.06270115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f9bda823d8cd4791b21084d325d8b
+      internalID: 1714525980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1884
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a1f043d931f5488c0df11cc0e7b39
+      internalID: 1569158037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_9
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1242
+        width: 569
+        height: 773
+      alignment: 9
+      pivot: {x: 0.5263994, y: 0.06120997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686a4e1b2efc6d9418bedd9505fbb1ef
+      internalID: 1038383433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_10
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1863
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9684298ff13704b41bdbec18ddfd0938
+      internalID: -272080886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_11
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1266
+        width: 624
+        height: 811
+      alignment: 9
+      pivot: {x: 0.5158089, y: 0.056019887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec84e918ab2fdf44b3a310245dc60a8
+      internalID: -727330799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_12
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1277
+        width: 604
+        height: 832
+      alignment: 9
+      pivot: {x: 0.48795182, y: 0.053695384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2960edd07daaa9d46b02cc9c14e1d660
+      internalID: -624270302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_13
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 1900
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c82e692e95fe4fb5d69ef12578ae7
+      internalID: -1607757433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_14
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 1273
+        width: 591
+        height: 830
+      alignment: 9
+      pivot: {x: 0.47693264, y: 0.05652326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1df0d7f1872de4aba5704dce32be47
+      internalID: 1913002349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_15
+      rect:
+        serializedVersion: 2
+        x: 4194
+        y: 1900
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4191aa5c453b592468b011512dd560e4
+      internalID: -1849476788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_16
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 1272
+        width: 594
+        height: 831
+      alignment: 9
+      pivot: {x: 0.47418028, y: 0.057056926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b903fdffa6ae81a498cfce5dda8f40eb
+      internalID: -1725342219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossCharging_17
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1247
+        width: 492
+        height: 639
+      alignment: 9
+      pivot: {x: 0.6403538, y: 0.07030925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72613a7e191efa4181fb5600c1e4b39
+      internalID: 2119326354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossCharging_0: 1220799285
+      bossCharging_1: 1328541800
+      bossCharging_10: -272080886
+      bossCharging_11: -727330799
+      bossCharging_12: -624270302
+      bossCharging_13: -1607757433
+      bossCharging_14: 1913002349
+      bossCharging_15: -1849476788
+      bossCharging_16: -1725342219
+      bossCharging_17: 2119326354
+      bossCharging_2: 111949234
+      bossCharging_3: -236690029
+      bossCharging_4: 217605181
+      bossCharging_5: -1173098980
+      bossCharging_6: -467383130
+      bossCharging_7: 1714525980
+      bossCharging_8: 1569158037
+      bossCharging_9: 1038383433
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

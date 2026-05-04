@@ -1,0 +1,2582 @@
+fileFormatVersion: 2
+guid: 34ad55e72770c6b4aa7175665401724a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossEffectsA_0
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 3953
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cb017ad2468ef4cb7fa872ddbf683d
+      internalID: -101690548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_1
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 3041
+        width: 617
+        height: 912
+      alignment: 9
+      pivot: {x: 0.9209637, y: 0.03306526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b6e21134fa0549bcfd4d6bacc2a41
+      internalID: -1194660263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_2
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 3622
+        width: 201
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf36199812463346a57b81bf31b1b9a
+      internalID: -1128916256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_3
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 3626
+        width: 68
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0b04de75bf10d45a5ed1e551a824de
+      internalID: -1057659172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_4
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 3757
+        width: 91
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb7793fa304d2429e1027402175bb4
+      internalID: -1774665735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_5
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 3787
+        width: 27
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb668bba49c6926498d43e07b8241e61
+      internalID: 1894125100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3306
+        width: 198
+        height: 371
+      alignment: 9
+      pivot: {x: 0.8355742, y: 0.101109095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c35c716c8730242a06badbe79a4ba0
+      internalID: 468396971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_7
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 3175
+        width: 259
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74606076a99ade84d9a088c435366a84
+      internalID: -1832454909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_8
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 2943
+        width: 816
+        height: 1001
+      alignment: 9
+      pivot: {x: 0.8617961, y: 0.03584648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d3694dd5189614bb57d777664a7ad7
+      internalID: -179992329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_9
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2992
+        width: 820
+        height: 952
+      alignment: 9
+      pivot: {x: 0.8836399, y: 0.032291446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752cfcef4c979646ae0bfeeb95f6459
+      internalID: 420919067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_10
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 2957
+        width: 110
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39826bdb8eb3e9428341dacb9c7d1ff
+      internalID: -1370802167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2608
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7209657e1571c4ab03d42f163db8b9
+      internalID: -228126272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2595
+        width: 425
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5a0e48185faa4da222f4e7230114c
+      internalID: 796782216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_13
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 2600
+        width: 487
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f8acf483741b142947dd24bfe0e022
+      internalID: 1205668842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_14
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 2616
+        width: 188
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c40eb54fac279a46bf749a2c661aa4a
+      internalID: 191396856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_15
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 2606
+        width: 570
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a573879893b568547adf930737d65010
+      internalID: -455657317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_16
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2611
+        width: 263
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a685bd63dd01b74aa34b617a4e0bd64
+      internalID: -1061547664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_17
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1787
+        width: 856
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf581b7c44ba2e43964f0aa199f266a
+      internalID: 1701814658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_18
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 1940
+        width: 105
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86747af98639b46bdd9552202c4b34
+      internalID: 1821516884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_19
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1902
+        width: 214
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468940ed83a0e9041ae6996d6a411e03
+      internalID: -457999649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_20
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 1929
+        width: 195
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d32555225fed2747859d90bb0234daa
+      internalID: -1371073307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_21
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 1765
+        width: 1099
+        height: 204
+      alignment: 9
+      pivot: {x: 0.50819284, y: 0.5588487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de73484104af7546b83a1a487805c6e
+      internalID: 294186035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1795
+        width: 655
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d09c567eba16439d4ea15cbc8e4f1
+      internalID: -924491584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_23
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1803
+        width: 231
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3902d33d4a6a77948b02d5100d030ee9
+      internalID: 2080593043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_24
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1830
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503fe256096a3c84fb7d160b6ec6f3e7
+      internalID: 2034229852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_25
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1793
+        width: 441
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b008bf320e4e84dab87ca134281c6d
+      internalID: 1702474855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_26
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1822
+        width: 108
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a109c0a94b211842bf0103b934f6e67
+      internalID: 1822872972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_27
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 1840
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9314572e33372d449bc6a59b3e10c21
+      internalID: -1536893667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_28
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 1841
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6270a0970a78e2d47b45923fb320a312
+      internalID: -979328778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_29
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 1800
+        width: 385
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdba196a0f24614aa31c9b2d70d3fd0
+      internalID: -1977146744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_30
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 1809
+        width: 164
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f97c1df8a68e844b45ffba8bffc369
+      internalID: 1450788843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_31
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 1840
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63771f6f088d0434bae9e2701eb4d8b1
+      internalID: 1791099208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_32
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 1792
+        width: 116
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5901d91762e724ead9ee32e7233b90
+      internalID: 1730030994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_33
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1792
+        width: 67
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe8f0163236b54391469a89973fa24
+      internalID: -861236010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_34
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 1773
+        width: 126
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4de09342184c7449b22acd9865e04c
+      internalID: 107700250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_35
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1140
+        width: 169
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b27ccad8cb8b264ea10762db106b6e5
+      internalID: 1605209995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_36
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 1153
+        width: 94
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d41a44ce344a4ca14adbdcdf75976
+      internalID: -1507888967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_37
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 1140
+        width: 131
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ebb7ead5105d47969dd73a4575dfa
+      internalID: -975985121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_38
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 1167
+        width: 109
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58908eff08d9404aa2d0eafc553175f
+      internalID: -1877556974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_39
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1119
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b3e2f269f28a14fbb74521a0100cfe
+      internalID: -1126052067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_40
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1118
+        width: 204
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0c8df101715ab46abd07eb06d4917f
+      internalID: -904723266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_41
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1144
+        width: 108
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5ea3909ad341c40bfe9bf5be08bdf9
+      internalID: -624176205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_42
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1113
+        width: 199
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c140d7b59e53b4fb3eae31019f1995
+      internalID: 711845207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_43
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b4b6b2aa28214daeff0c08f473663
+      internalID: -1419098992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_44
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1140
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa75d2964de285240abb49d58d9c67f5
+      internalID: -1670815970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_45
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 955
+        width: 1173
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5135177, y: 0.5714243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6e0346502bdf4f8f0ffa5a9cc1cde
+      internalID: -1344850057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_46
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 977
+        width: 1195
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8889982182b0a8f468db2beb2c0343c9
+      internalID: -2115122356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_47
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1022
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9b43bbe4a67c34892ad5340a115601
+      internalID: 900337703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_48
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1022
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec188262d82f5c74f9ce9ba2ddf6b6fe
+      internalID: -1506935555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_49
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1094
+        width: 212
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5a06de21fcc0141a29285f4ad50141
+      internalID: -676238517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_50
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 946
+        width: 1134
+        height: 205
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.5405482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cc1fd9a5e26a84dae23e25f9996879
+      internalID: 1711762224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_51
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1016
+        width: 128
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a143dad23b561f445a6e7c91abb68fa1
+      internalID: 455799058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_52
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1024
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ba23304f7bc143b2f9c4c40da17c8
+      internalID: -1294898949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_53
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1038
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff4093ad83c0ee4aabd3bbf10c8767c
+      internalID: 1794729403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_54
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1038
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d329aa1bcd73484fae8f1e342374bb6
+      internalID: -2017089795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_55
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 1043
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308768465f4d48942bfc8e2acc279962
+      internalID: 1712144756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_56
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 1051
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf6ede954baa2241a981e89ac21acae
+      internalID: -1860932153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_57
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 1048
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d0d28e2feeeb4793eb081d466aa86
+      internalID: 444685020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_58
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1048
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e27760cb23c6ca48bc65eeb270e3f25
+      internalID: 1940263500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_59
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1006
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9782f95967f3d4c9d4c7e109e0e538
+      internalID: 457005577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_60
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 981
+        width: 400
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcfc1964e9304742a599ba0b0ea7bf1
+      internalID: 1526124848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_61
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 992
+        width: 153
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aba36f74af86f4fb3dcb0d2e92e275
+      internalID: -78407553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_62
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 995
+        width: 391
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d36a3141f484254f982a16ea7501ccf
+      internalID: 1787141287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_63
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 997
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35688961d9757834bbb38286d964f22b
+      internalID: -2003386152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_64
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 1016
+        width: 126
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf4fa473d2e30d4dacd0cf16fc3c9cf
+      internalID: 1223167179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_65
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1000
+        width: 137
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e5c88cfba20949822115dffe339f2
+      internalID: 139142859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_66
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 1014
+        width: 126
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa777f6e1da1fb8428d664f0c1c42225
+      internalID: 476101620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_67
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 989
+        width: 107
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a91f7340812a244aa68837c6880fb68
+      internalID: -1573016455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_68
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 987
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9def214ea9a1564186a75bd1178b40b
+      internalID: -828346327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_69
+      rect:
+        serializedVersion: 2
+        x: 3976
+        y: 998
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8f213217999ad43aeccdb4caa55f0a
+      internalID: 1165610253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_70
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 973
+        width: 113
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c689bba874d6be746ad94d8ada3c8584
+      internalID: -1722242264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_71
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 976
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6812da82e4869704c8ee0c89283bb83f
+      internalID: -1758276322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_72
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 968
+        width: 96
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9a255412d72d4bb208b7d6392f240
+      internalID: 1393821501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_73
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 979
+        width: 78
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c45d8e67b19147b4cfed57ff602c2
+      internalID: 1724763773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_74
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 954
+        width: 108
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18400b1b11dd3f4a88e4bc2f1529dce
+      internalID: 292512556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_75
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 376
+        width: 64
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92ded474ac5044bae0338aa7858151
+      internalID: -310185307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_76
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 385
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2089084f4b4ecf41866062602786a90
+      internalID: 2087112377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_77
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 391
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9faa7c390d49f4f840a35fa20e982a
+      internalID: 1069794401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_78
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 372
+        width: 72
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678c2aa247476e749977c7b9602ce3e5
+      internalID: -1659571879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_79
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 391
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce484b2887a22940b2079f1557c39fe
+      internalID: -799123149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_80
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 356
+        width: 102
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5919d856a4d4bd240a87ee364aa6f77f
+      internalID: 2060791959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_81
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 364
+        width: 91
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad01980df20f424e8cad747137fb52d
+      internalID: -1884288027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_82
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 356
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a8ba1a2f9bb77459e5ce02ea1d8006
+      internalID: 1375600107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_83
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 335
+        width: 99
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8f5a9d2913c846a2407ead141a510
+      internalID: -56247136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_84
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 165
+        width: 1218
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658eed6b083c6fb469062ac0b3ba6f2d
+      internalID: -1215564885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_85
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 180
+        width: 1243
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943af6ec6556f5743b3612a335784f65
+      internalID: 1438141175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_86
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 218
+        width: 1270
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.53480035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c32484737df3be47a00e06974b1b8d8
+      internalID: 1073101645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_87
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 256
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f48164dfd7d894184d0c4cfd788dc6
+      internalID: -1633515987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_88
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 243
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf5ecc4004c1fd4c971faae19f9c350
+      internalID: 1368986593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_89
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 256
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc06cecfdfbbaa241866c8e9f47bc947
+      internalID: 1380945908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_90
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 286
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a4724573aeec9408eae5116ab27da4
+      internalID: -1578556883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_91
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 278
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05fc1e7c962007479855106311e37dc
+      internalID: 1794404174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_92
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 283
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291298f91e526f44bad40a0ad4e4d236
+      internalID: -527034983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_93
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 290
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6e0859fd6b3e74685b4e18383bdc63
+      internalID: 485027455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_94
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 267
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d7d2e4213aa4f4d9761208a818406b
+      internalID: -1379008399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_95
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 294
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604e1695920bbe84b8e5e50f1c15d7f1
+      internalID: -1274783311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_96
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 227
+        width: 88
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242e641e12e142478e45ce354f0cd5e
+      internalID: 2144028577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_97
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 224
+        width: 80
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29547554da8fcff4fb1ae2fea64ee674
+      internalID: -1921669698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_98
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 238
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ffeeaee4cd8b4f9f7617c72115bc4
+      internalID: -1428793934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_99
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 227
+        width: 80
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada175057ea806b49afae343e76e9a6d
+      internalID: 906233862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_100
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 197
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f6fcd1b927a349bb758959733f86b
+      internalID: 1814235554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_101
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 208
+        width: 112
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d05e66bc1f85d4a8a131b84f4d4fdb
+      internalID: -1579169426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_102
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 208
+        width: 99
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555b3203a12914443a03fdadd612702d
+      internalID: -1340375535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_103
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 208
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d428d4f3a2bb24daeec7708cfa2706
+      internalID: -1578571388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_104
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 208
+        width: 108
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64429b272a72c24bb1e3d720cfd7d86
+      internalID: 1807289266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_105
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 213
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387a7d165281e24428aa20b1b1f73c56
+      internalID: 703696291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_106
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 216
+        width: 99
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef8f1bf591411146b56f42e34cbee31
+      internalID: -727140412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_107
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 171
+        width: 113
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b749924127d8fd24cb73d8dd9db5c1d6
+      internalID: 394548488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_108
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 195
+        width: 134
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ce363c413ea404ba46d725a72fa9c8
+      internalID: -513677421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_109
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 187
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e04b010f631f7b48b664f7a1c4d22a1
+      internalID: -845779197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossEffectsA_110
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 176
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f40258092eb4db4898e104c81e8e1c8
+      internalID: -1971600863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossEffectsA_0: -101690548
+      bossEffectsA_1: -1194660263
+      bossEffectsA_10: -1370802167
+      bossEffectsA_100: 1814235554
+      bossEffectsA_101: -1579169426
+      bossEffectsA_102: -1340375535
+      bossEffectsA_103: -1578571388
+      bossEffectsA_104: 1807289266
+      bossEffectsA_105: 703696291
+      bossEffectsA_106: -727140412
+      bossEffectsA_107: 394548488
+      bossEffectsA_108: -513677421
+      bossEffectsA_109: -845779197
+      bossEffectsA_11: -228126272
+      bossEffectsA_110: -1971600863
+      bossEffectsA_12: 796782216
+      bossEffectsA_13: 1205668842
+      bossEffectsA_14: 191396856
+      bossEffectsA_15: -455657317
+      bossEffectsA_16: -1061547664
+      bossEffectsA_17: 1701814658
+      bossEffectsA_18: 1821516884
+      bossEffectsA_19: -457999649
+      bossEffectsA_2: -1128916256
+      bossEffectsA_20: -1371073307
+      bossEffectsA_21: 294186035
+      bossEffectsA_22: -924491584
+      bossEffectsA_23: 2080593043
+      bossEffectsA_24: 2034229852
+      bossEffectsA_25: 1702474855
+      bossEffectsA_26: 1822872972
+      bossEffectsA_27: -1536893667
+      bossEffectsA_28: -979328778
+      bossEffectsA_29: -1977146744
+      bossEffectsA_3: -1057659172
+      bossEffectsA_30: 1450788843
+      bossEffectsA_31: 1791099208
+      bossEffectsA_32: 1730030994
+      bossEffectsA_33: -861236010
+      bossEffectsA_34: 107700250
+      bossEffectsA_35: 1605209995
+      bossEffectsA_36: -1507888967
+      bossEffectsA_37: -975985121
+      bossEffectsA_38: -1877556974
+      bossEffectsA_39: -1126052067
+      bossEffectsA_4: -1774665735
+      bossEffectsA_40: -904723266
+      bossEffectsA_41: -624176205
+      bossEffectsA_42: 711845207
+      bossEffectsA_43: -1419098992
+      bossEffectsA_44: -1670815970
+      bossEffectsA_45: -1344850057
+      bossEffectsA_46: -2115122356
+      bossEffectsA_47: 900337703
+      bossEffectsA_48: -1506935555
+      bossEffectsA_49: -676238517
+      bossEffectsA_5: 1894125100
+      bossEffectsA_50: 1711762224
+      bossEffectsA_51: 455799058
+      bossEffectsA_52: -1294898949
+      bossEffectsA_53: 1794729403
+      bossEffectsA_54: -2017089795
+      bossEffectsA_55: 1712144756
+      bossEffectsA_56: -1860932153
+      bossEffectsA_57: 444685020
+      bossEffectsA_58: 1940263500
+      bossEffectsA_59: 457005577
+      bossEffectsA_6: 468396971
+      bossEffectsA_60: 1526124848
+      bossEffectsA_61: -78407553
+      bossEffectsA_62: 1787141287
+      bossEffectsA_63: -2003386152
+      bossEffectsA_64: 1223167179
+      bossEffectsA_65: 139142859
+      bossEffectsA_66: 476101620
+      bossEffectsA_67: -1573016455
+      bossEffectsA_68: -828346327
+      bossEffectsA_69: 1165610253
+      bossEffectsA_7: -1832454909
+      bossEffectsA_70: -1722242264
+      bossEffectsA_71: -1758276322
+      bossEffectsA_72: 1393821501
+      bossEffectsA_73: 1724763773
+      bossEffectsA_74: 292512556
+      bossEffectsA_75: -310185307
+      bossEffectsA_76: 2087112377
+      bossEffectsA_77: 1069794401
+      bossEffectsA_78: -1659571879
+      bossEffectsA_79: -799123149
+      bossEffectsA_8: -179992329
+      bossEffectsA_80: 2060791959
+      bossEffectsA_81: -1884288027
+      bossEffectsA_82: 1375600107
+      bossEffectsA_83: -56247136
+      bossEffectsA_84: -1215564885
+      bossEffectsA_85: 1438141175
+      bossEffectsA_86: 1073101645
+      bossEffectsA_87: -1633515987
+      bossEffectsA_88: 1368986593
+      bossEffectsA_89: 1380945908
+      bossEffectsA_9: 420919067
+      bossEffectsA_90: -1578556883
+      bossEffectsA_91: 1794404174
+      bossEffectsA_92: -527034983
+      bossEffectsA_93: 485027455
+      bossEffectsA_94: -1379008399
+      bossEffectsA_95: -1274783311
+      bossEffectsA_96: 2144028577
+      bossEffectsA_97: -1921669698
+      bossEffectsA_98: -1428793934
+      bossEffectsA_99: 906233862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

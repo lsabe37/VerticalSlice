@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 63c1eca57f4729a4bad7a0014e1894e1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossShark_0
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3526
+        width: 518
+        height: 596
+      alignment: 9
+      pivot: {x: 0.76499814, y: 0.056426387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b099a88c3d7f74b843703a04427f01
+      internalID: 1850806566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_1
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 3483
+        width: 599
+        height: 551
+      alignment: 9
+      pivot: {x: 0.9034461, y: 0.12722652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5600f1b570eb06e47a88530f5fac6b92
+      internalID: 193168448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_2
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3553
+        width: 742
+        height: 345
+      alignment: 9
+      pivot: {x: 0.7792324, y: 0.11494777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9248b915238f304449926a6b491843a1
+      internalID: -69794377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_3
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 3749
+        width: 112
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85929499709fc4499bd3fc27fd24bd9
+      internalID: -1310311003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_4
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 3749
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066c5cbca493c29458497e4485d540e0
+      internalID: 74046243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_5
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 3766
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950d265292cad1d4798b20e8429a7cfc
+      internalID: -1149939189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_6
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 3655
+        width: 149
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d42e7657c26cc94bb96fa63e823f3e1
+      internalID: -1831336218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_7
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 3673
+        width: 150
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc4e86be2f5c84f9b5f83265d5e03d
+      internalID: -1658131452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_8
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 3551
+        width: 790
+        height: 287
+      alignment: 9
+      pivot: {x: 0.805919, y: 0.14099504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a8f5a9b934c6a49a9ec901dcd759d1
+      internalID: 286214265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_9
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 3658
+        width: 223
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6adbfe33caf0674d966ed5a2bc3fe32
+      internalID: -1728955282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_10
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 3655
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d7b96192adb954c9adf83204f6ac5b
+      internalID: -1840153892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_11
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 3600
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0278fa53b71207e4e8390763c6531aec
+      internalID: 443902001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_12
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 3618
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936f46d059d4d764e8b4d0aaaa47c4a9
+      internalID: -1795118580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2584
+        width: 118
+        height: 78
+      alignment: 9
+      pivot: {x: 0.88284767, y: 0.16903922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5662752c5578a64c846e8f596fb4ecc
+      internalID: 1266494314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_14
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2571
+        width: 236
+        height: 153
+      alignment: 9
+      pivot: {x: 0.9021808, y: 0.14084521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269aa74f14d03d4ca2c958c5ec38a0c
+      internalID: 1563142667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_15
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2576
+        width: 421
+        height: 354
+      alignment: 9
+      pivot: {x: 0.9390353, y: 0.05548337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa64fee2c85f7347a706242911a60ed
+      internalID: 945464616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_16
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 2555
+        width: 572
+        height: 474
+      alignment: 9
+      pivot: {x: 0.9410375, y: 0.05735914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad9e86457e5c1f4da852d4efc8cb6bb
+      internalID: 521165061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1212
+        width: 701
+        height: 495
+      alignment: 9
+      pivot: {x: 0.55313706, y: 0.104932874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc954860423b77c46a767b0210b3c57d
+      internalID: -415816776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_18
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1201
+        width: 897
+        height: 669
+      alignment: 9
+      pivot: {x: 0.5363353, y: 0.07544858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8e3c8695e3a664ab7dfdfdba2a8eb6
+      internalID: 452089495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_19
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 1172
+        width: 1382
+        height: 691
+      alignment: 9
+      pivot: {x: 0.51684535, y: 0.0623071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d5225608fa0f49be3fd199e0630cf
+      internalID: 950614434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_20
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 1701
+        width: 201
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ede77a300f1a342b4076fd82663443
+      internalID: 2031314334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 227
+        width: 535
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc95a10866dcf049a51e3a7eeeb4722
+      internalID: -2120024399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_22
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 734
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f6411851bba134ca3c8896db30fc45
+      internalID: 727652134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_23
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 643
+        width: 244
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b1a126a2cf4c409020a68d46c5bc6
+      internalID: 1057845768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 120
+        width: 1657
+        height: 728
+      alignment: 9
+      pivot: {x: 0.5378418, y: 0.069342375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f792302cf006f0408e60b2601f76ea5
+      internalID: -54362893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_25
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 560
+        width: 153
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6d41cac2a80994aa11d27aa06cc8b5
+      internalID: -292757688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_26
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 289
+        width: 285
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bae7197ea275f48b88d25d8317d0c6
+      internalID: -226440918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_27
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 321
+        width: 107
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fb0526adb1cdf4cb02c1449cf35582
+      internalID: 1353395439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_28
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 133
+        width: 1880
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5, y: 0.124569416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400c597d9f125414ab2eb3e3ae1a0bc0
+      internalID: -1041435811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_29
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 275
+        width: 94
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485900aa5a37d34da2726359afc292c
+      internalID: -168950309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_30
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 364
+        width: 140
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb33b44af21ba549ba7b837e6393a54
+      internalID: -41933523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_31
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 141
+        width: 288
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4837d48d394c02842842f6588b8aa69d
+      internalID: 487690653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_32
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 146
+        width: 330
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547d36ec4d0555f4f8bb7c7d635cbcb8
+      internalID: 134797936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossShark_33
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 146
+        width: 292
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb8b314a1424fa4c8dc1cbc278ffbd5
+      internalID: 2108394243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossShark_0: 1850806566
+      bossShark_1: 193168448
+      bossShark_10: -1840153892
+      bossShark_11: 443902001
+      bossShark_12: -1795118580
+      bossShark_13: 1266494314
+      bossShark_14: 1563142667
+      bossShark_15: 945464616
+      bossShark_16: 521165061
+      bossShark_17: -415816776
+      bossShark_18: 452089495
+      bossShark_19: 950614434
+      bossShark_2: -69794377
+      bossShark_20: 2031314334
+      bossShark_21: -2120024399
+      bossShark_22: 727652134
+      bossShark_23: 1057845768
+      bossShark_24: -54362893
+      bossShark_25: -292757688
+      bossShark_26: -226440918
+      bossShark_27: 1353395439
+      bossShark_28: -1041435811
+      bossShark_29: -168950309
+      bossShark_3: -1310311003
+      bossShark_30: -41933523
+      bossShark_31: 487690653
+      bossShark_32: 134797936
+      bossShark_33: 2108394243
+      bossShark_4: 74046243
+      bossShark_5: -1149939189
+      bossShark_6: -1831336218
+      bossShark_7: -1658131452
+      bossShark_8: 286214265
+      bossShark_9: -1728955282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

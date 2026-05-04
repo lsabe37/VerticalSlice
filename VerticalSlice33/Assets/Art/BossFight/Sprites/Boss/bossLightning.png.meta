@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: 74e4271ff38c2f546ac1531488f01771
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossLightning_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 435
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.9135995, y: 0.0043954663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d58a961420b24db948ccd900d2b02
+      internalID: 716187152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_1
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 405
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.9155445, y: 0.0037263634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f54155b3e0d444bddfc46719ba64e
+      internalID: -1605095539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_2
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 0
+        width: 374
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.93543166, y: 0.004717574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80887117bfb41241975bf066f9f06ec
+      internalID: -1951572029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_3
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 0
+        width: 404
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.8076486, y: 0.0041574067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba509ed7886904280a6e1ea1f45ae0
+      internalID: 831255625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_4
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 0
+        width: 422
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.5658254, y: 0.007625219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de92b96c38d3ba4fb3e4328c841c6d9
+      internalID: 355484190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_5
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 0
+        width: 832
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.5614056, y: 0.0072520543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b372fba30ccf343921bbdf1aee7768
+      internalID: 597764542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_6
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 0
+        width: 984
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.45323765, y: 0.0053919647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f1872684bc9a14a9d7f8e5395a1689
+      internalID: -1834769495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_7
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 0
+        width: 405
+        height: 1840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d1aec037665c74e96ce629926a8025
+      internalID: 1867779411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_8
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 1124
+        width: 88
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d088122acb5ddb144bec8380aaf6591c
+      internalID: 1608148555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_9
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 1242
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ff58f7ac3a2cb418812894b2f38d4d
+      internalID: 805946442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_10
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1167
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f54087391909e44a558094c0d0940a
+      internalID: 487076256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_11
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 1035
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391c872447c8a0d4b9204cd1cb4c9c4c
+      internalID: 1057173552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_12
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 305
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e10be9e6da59c48874fe811fb3da8e
+      internalID: 2118435144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_13
+      rect:
+        serializedVersion: 2
+        x: 4156
+        y: 281
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a0a21f9c0a294faa065e77b765556
+      internalID: 2100359623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_14
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 270
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e222843dd4d68b4489ba832146a1a39b
+      internalID: -671334785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_15
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 160
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03744cc67c580da42a4ada0ec981638a
+      internalID: 723479881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_16
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 119
+        width: 134
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e522ee81134ca744a6a4c22e5340421
+      internalID: -313221098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_17
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 165
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4bb83c4635daa4eb1587150fda46ae
+      internalID: -2022362743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_18
+      rect:
+        serializedVersion: 2
+        x: 4701
+        y: 203
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03d06556bb5aa4d95202520bca4c7a
+      internalID: -582560444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_19
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 0
+        width: 803
+        height: 4250
+      alignment: 9
+      pivot: {x: 0.4260257, y: 0.0048386254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dbe74eda1306548b0b0094877ff8d2
+      internalID: -368293470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_20
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 179
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a2da17eb338e44be7f919e5d916da
+      internalID: 647834356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_21
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 139
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015b90f4b486ec4fab9ef74720df8a1
+      internalID: 611247717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_22
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 93
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f20418603ae8c4aaadac3a751c91f3
+      internalID: -535927730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_23
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 93
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a082704ea464b49bafc31d31b44203
+      internalID: -2116069631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_24
+      rect:
+        serializedVersion: 2
+        x: 5233
+        y: 125
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce94753b7541b54b9c83f7e48e8b147
+      internalID: -1263738185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_25
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 71
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31280ef5049693d46b71eba1315b112d
+      internalID: -848752310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_26
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 74
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4a8b26d431a8d4cafbd54898c1093d
+      internalID: 368743672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_27
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 93
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4e8a5ade7e8ce4f837bf20dd5e1ee2
+      internalID: -1235715710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossLightning_28
+      rect:
+        serializedVersion: 2
+        x: 5096
+        y: 55
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85af65aee66886546a66078a6005a0c1
+      internalID: -251521698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossLightning_0: 716187152
+      bossLightning_1: -1605095539
+      bossLightning_10: 487076256
+      bossLightning_11: 1057173552
+      bossLightning_12: 2118435144
+      bossLightning_13: 2100359623
+      bossLightning_14: -671334785
+      bossLightning_15: 723479881
+      bossLightning_16: -313221098
+      bossLightning_17: -2022362743
+      bossLightning_18: -582560444
+      bossLightning_19: -368293470
+      bossLightning_2: -1951572029
+      bossLightning_20: 647834356
+      bossLightning_21: 611247717
+      bossLightning_22: -535927730
+      bossLightning_23: -2116069631
+      bossLightning_24: -1263738185
+      bossLightning_25: -848752310
+      bossLightning_26: 368743672
+      bossLightning_27: -1235715710
+      bossLightning_28: -251521698
+      bossLightning_3: 831255625
+      bossLightning_4: 355484190
+      bossLightning_5: 597764542
+      bossLightning_6: -1834769495
+      bossLightning_7: 1867779411
+      bossLightning_8: 1608148555
+      bossLightning_9: 805946442
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
