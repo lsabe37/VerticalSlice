@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 78ae2862dda576b4a9bccea481b3c4db
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossSunSummon_0
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 2189
+        width: 1573
+        height: 1557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae6e30a140fd5f4799bb49362722f01
+      internalID: -64437589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_1
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 3742
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7794f9aeb43ee4d99cd8e01e75c24c
+      internalID: -1494337498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2144
+        width: 1605
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0eb5a4c2f79f246b2b29aa76066a09
+      internalID: 691200935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_3
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 3061
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3c22bd5f042474c87571e750c6ad9b
+      internalID: -1505694828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_4
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 2147
+        width: 1590
+        height: 1554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d693e5a7445b541b0b11b7b884d90e
+      internalID: 1981548199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_5
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3025
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311a5b704c32a443bc1094499879389
+      internalID: -1836546118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_6
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3014
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f47897ec5eac05428d04810aaefe8c8
+      internalID: 2086850661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_7
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2979
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44adc8eccae53547b9fb4c7cbdd1bff
+      internalID: 167048940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_8
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2945
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e62d3e3b151664ba6296065c497cc9
+      internalID: -1821416279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_9
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2922
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43392d0e71900e49af03beba039b94f
+      internalID: 566132558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_10
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2906
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c72c4c1a388874f9a2c789e5724d77
+      internalID: 937879933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_11
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 2877
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cea13675442234fba6628cb7219957
+      internalID: 264933175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_12
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2861
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592d953d3ee3f274dad2a284d79f44c4
+      internalID: 1685227590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_13
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2842
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d74e9293a99384c83039d794cc2c5c
+      internalID: 1398247488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_14
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 2829
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa18ebe93d285418d4f67816955a11
+      internalID: 1635437378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_15
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 2794
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3542acd557636d64085a994966e19238
+      internalID: 1057926388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1043
+        width: 518
+        height: 784
+      alignment: 9
+      pivot: {x: 0.53911287, y: 0.07359874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37aba3378e7632646977e57ebe9465f8
+      internalID: -2009047542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1730
+        width: 110
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40294d45dcc52b8468ea5393e8a964aa
+      internalID: -1356638647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_18
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1065
+        width: 587
+        height: 689
+      alignment: 9
+      pivot: {x: 0.53925717, y: 0.07235226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eff603d671f15744a1fd10adf85250f
+      internalID: 1992553086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_19
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 1040
+        width: 597
+        height: 693
+      alignment: 9
+      pivot: {x: 0.5637424, y: 0.051546436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e915e4dff4ca0488f62ca5a2904365
+      internalID: -1484717806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_20
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1067
+        width: 573
+        height: 701
+      alignment: 9
+      pivot: {x: 0.5221367, y: 0.052140567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ee884b15fb27e448e29b3e9a654944
+      internalID: 76204492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_21
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 1714
+        width: 96
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dba0ebf26946e42a2f8f77c4160acb
+      internalID: -518663228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_22
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1371
+        width: 136
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bcb536bb9ac02439eb079990574fc1
+      internalID: 1222895772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_23
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 1422
+        width: 110
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9a59e8bc02ff44808481bfcbb1feb
+      internalID: -543640290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_24
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1467
+        width: 68
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4676e6cbbed42343b4c368eb35df8ef
+      internalID: 1539731668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_25
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 1513
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780bb31a2a7036c4597103300b43855a
+      internalID: -787914944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_26
+      rect:
+        serializedVersion: 2
+        x: 4752
+        y: 1055
+        width: 671
+        height: 823
+      alignment: 9
+      pivot: {x: 0.5614383, y: 0.08385148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e2c10269753d468aab7d2f1eb510a
+      internalID: 2083569370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 748
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdffdadc2b86d094887e28a90b153162
+      internalID: -840245871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 775
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6bf62dd0dacc3449c907b3c29a113a
+      internalID: 680495750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_29
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 815
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ea0b3b0f466e45ae6e1f8b8efc448
+      internalID: -1710416692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_30
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 122
+        width: 550
+        height: 762
+      alignment: 9
+      pivot: {x: 0.4504168, y: 0.05462983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f9c29743280449bf908cd1c99bf78
+      internalID: -610285536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_31
+      rect:
+        serializedVersion: 2
+        x: 4916
+        y: 90
+        width: 451
+        height: 765
+      alignment: 9
+      pivot: {x: 0.50979596, y: 0.07257225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434cada4fc5cc734d8f36ddd7895e678
+      internalID: 1507662205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 119
+        width: 539
+        height: 801
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.079532616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cf685da5503a94c995211b73ee339e
+      internalID: -674577890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_33
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 136
+        width: 539
+        height: 780
+      alignment: 9
+      pivot: {x: 0.43672433, y: 0.068212286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ac91a229df3a94facff87e5326fbec
+      internalID: 569029595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_34
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 592
+        width: 126
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b53e9fc11b5ed14b8137305c7c0f2f6
+      internalID: 1160492046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_35
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 68
+        width: 502
+        height: 856
+      alignment: 9
+      pivot: {x: 0.428246, y: 0.0759641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97dd36efdce502478979adcb226c4df
+      internalID: -1151946512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_36
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 643
+        width: 118
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c81b7658e14f248a7b4772418e36f0
+      internalID: 2093466378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSunSummon_37
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 673
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dab4029ad0a1e4f8456ed80ada0e9d
+      internalID: 648357196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossSunSummon_0: -64437589
+      bossSunSummon_1: -1494337498
+      bossSunSummon_10: 937879933
+      bossSunSummon_11: 264933175
+      bossSunSummon_12: 1685227590
+      bossSunSummon_13: 1398247488
+      bossSunSummon_14: 1635437378
+      bossSunSummon_15: 1057926388
+      bossSunSummon_16: -2009047542
+      bossSunSummon_17: -1356638647
+      bossSunSummon_18: 1992553086
+      bossSunSummon_19: -1484717806
+      bossSunSummon_2: 691200935
+      bossSunSummon_20: 76204492
+      bossSunSummon_21: -518663228
+      bossSunSummon_22: 1222895772
+      bossSunSummon_23: -543640290
+      bossSunSummon_24: 1539731668
+      bossSunSummon_25: -787914944
+      bossSunSummon_26: 2083569370
+      bossSunSummon_27: -840245871
+      bossSunSummon_28: 680495750
+      bossSunSummon_29: -1710416692
+      bossSunSummon_3: -1505694828
+      bossSunSummon_30: -610285536
+      bossSunSummon_31: 1507662205
+      bossSunSummon_32: -674577890
+      bossSunSummon_33: 569029595
+      bossSunSummon_34: 1160492046
+      bossSunSummon_35: -1151946512
+      bossSunSummon_36: 2093466378
+      bossSunSummon_37: 648357196
+      bossSunSummon_4: 1981548199
+      bossSunSummon_5: -1836546118
+      bossSunSummon_6: 2086850661
+      bossSunSummon_7: 167048940
+      bossSunSummon_8: -1821416279
+      bossSunSummon_9: 566132558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

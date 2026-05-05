@@ -22,7 +22,7 @@ public class Boss : MonoBehaviour
 
     [Header("Attacks")]
     [SerializeField] private GameObject[] signsOptions;
-    [SerializeField] private GameObject flamePillars;
+    [SerializeField] private GameObject sunSpirit;
     [SerializeField] private GameObject lightningBolt;
     [SerializeField] private GameObject anvil;
     [SerializeField] private GameObject splashEffect;
@@ -39,6 +39,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform meleeAForward;
     [SerializeField] private Transform meleeAReverse;
     [SerializeField] private Transform[] scarecrowTP;
+    [SerializeField] private Transform sunPoint;
 
     public bool currentlyInAction;
 
@@ -75,10 +76,11 @@ public class Boss : MonoBehaviour
     {
         if (chase == true)
         {
-            float distance = Vector3.Distance(transform.position, player.transform.position);
+            float distance = Mathf.Abs(transform.position.x - player.transform.position.x);
             if (distance > 4f)
             {
-                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+                Vector2 targetPos = new Vector2(player.transform.position.x, transform.position.y);
+                transform.position = Vector2.MoveTowards(transform.position,targetPos, speed * Time.deltaTime);
                 FaceTarget();
             }
             if (distance <= 4f)
@@ -232,7 +234,7 @@ public class Boss : MonoBehaviour
         switch (chosenSign)
         {
             case 1:
-                StartCoroutine(flameAttack());
+                flameAttack();
                 break;
             case 2:
                 StartCoroutine(lightningAttack()); ;
@@ -245,15 +247,9 @@ public class Boss : MonoBehaviour
     }
 
     // flame attack
-    private IEnumerator flameAttack()
+    private void flameAttack()
     {
-        for (int i = 7; i < 35; i += 7)
-        {
-            Instantiate(flamePillars, new Vector2(transform.position.x + i, -5), Quaternion.identity);
-            Instantiate(flamePillars, new Vector2(transform.position.x - i, -5), Quaternion.identity);
-            yield return new WaitForSeconds(.3f);
-        }
-
+        Instantiate(sunSpirit, sunPoint.position, Quaternion.identity);
     }
 
     // lightning attack
