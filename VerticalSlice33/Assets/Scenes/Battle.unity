@@ -1032,12 +1032,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18bcd3f15ba448e4dbab49eb0db2a28e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 12
+  moveSpeed: 10
   runSpeed: 15
   jumpForce: 15
   lowJumpMultiplier: 2
   fallMultiplier: 2.5
-  dashSpeed: 30
+  dashSpeed: 20
   isGrounded: 0
   anim: {fileID: 954778165}
 --- !u!50 &954778158
