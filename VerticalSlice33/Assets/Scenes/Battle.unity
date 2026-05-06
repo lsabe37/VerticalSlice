@@ -1010,10 +1010,10 @@ GameObject:
   - component: {fileID: 954778159}
   - component: {fileID: 954778158}
   - component: {fileID: 954778157}
-  - component: {fileID: 954778162}
   - component: {fileID: 954778163}
   - component: {fileID: 954778164}
-  m_Layer: 0
+  - component: {fileID: 954778165}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1032,9 +1032,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18bcd3f15ba448e4dbab49eb0db2a28e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
-  runSpeed: 10
+  moveSpeed: 12
+  runSpeed: 15
   jumpForce: 15
+  lowJumpMultiplier: 2
+  fallMultiplier: 2.5
+  dashSpeed: 30
+  isGrounded: 0
+  anim: {fileID: 954778165}
 --- !u!50 &954778158
 Rigidbody2D:
   serializedVersion: 4
@@ -1138,8 +1143,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.6744152, g: 1, b: 0.48584908, a: 1}
+  m_Sprite: {fileID: 57928832, guid: 596f62df703284f4d9dc37a560e00ab8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1164,23 +1169,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &954778162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954778156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d76a538034717724f983fff0e9b27426, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  runSpeed: 10
-  jumpForce: 15
-  lowJumpMultiplier: 2
-  fallMultiplier: 2.5
 --- !u!114 &954778163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,6 +1194,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe3629d376dc6942bdc5504364edee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &954778165
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954778156}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 784f63d69ae84e248b77e2daf66d7b10, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1040822611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1260,7 @@ GameObject:
   - component: {fileID: 1087198748}
   - component: {fileID: 1087198747}
   - component: {fileID: 1087198753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Boss
   m_TagString: Boss
   m_Icon: {fileID: 0}

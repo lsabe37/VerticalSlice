@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1233839826579220500}
   - component: {fileID: 5064358071291213257}
   - component: {fileID: 329338838089132067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bossSplash
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6011433389046707529}
   - component: {fileID: 7148983966752340092}
   - component: {fileID: 5175272197960073322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lightningBolt
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}

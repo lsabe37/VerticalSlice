@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3961761747118595150}
   - component: {fileID: 2788554521771592257}
   - component: {fileID: 5016508578340867432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sunBulltets
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1318429710994485355}
   - component: {fileID: 6594831659759447508}
   - component: {fileID: 6038996820665599846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fakeScarecrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

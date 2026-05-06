@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5642792860384033780}
   - component: {fileID: 4669102663827771402}
   - component: {fileID: -8465748224402405737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Anvil
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}

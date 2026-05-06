@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7200677015991402179}
   - component: {fileID: 6681052204905307666}
   - component: {fileID: 3158653210942174019}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: meleeBlastEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
