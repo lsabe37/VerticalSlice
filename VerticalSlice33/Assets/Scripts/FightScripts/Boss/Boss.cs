@@ -182,11 +182,11 @@ public class Boss : MonoBehaviour
         }
         else if (actionChoice == 1)
         {
-            anim.SetTrigger("meleeB");
+            anim.SetTrigger("meleeC");
         }
         else
         {
-            anim.SetTrigger("meleeB");
+            anim.SetTrigger("meleeC");
         }
     }
 
@@ -334,6 +334,17 @@ public class Boss : MonoBehaviour
         chase = false;
     }
 
+    // dash forward
+    public void dashForward()
+    {
+        rb.AddForce(transform.right * 30f * transform.localScale.x, ForceMode2D.Impulse);
+    }
+
+    // stop moving
+    public void stopMovement()
+    {
+        rb.velocity = Vector2.zero;
+    }
 
     public void GravityOn()
     {

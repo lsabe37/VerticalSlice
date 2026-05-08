@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - EnemyProjectile
   - Boss
+  - EnemyAtk
   layers:
   - Default
   - TransparentFX
