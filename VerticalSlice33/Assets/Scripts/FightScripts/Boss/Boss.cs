@@ -32,6 +32,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private projectileSpawner[] supportShooter;
     [SerializeField] private GameObject fakeScarecrow;
     [SerializeField] private GameObject tentacleSign;
+    [SerializeField] private GameObject tentacleSpear;
 
     [Header("Effects")]
     [SerializeField] private GameObject ripples;
@@ -42,6 +43,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform meleeAReverse;
     [SerializeField] private Transform[] scarecrowTP;
     [SerializeField] private Transform sunPoint;
+    [SerializeField] private Transform spiderPoint;
 
     public delegate void nightmareTime();
     public event nightmareTime nightmareMode;
@@ -310,13 +312,14 @@ public class Boss : MonoBehaviour
         }
     }
 
-    private void teleportAttack()
+    // teleport to the ceiling and transform
+    private void SpiderTeleportAttack()
     {
-        Vector2 tpLocation = new Vector2(Random.Range(-10, 10), Random.Range(3, 7));
-        transform.position = tpLocation;
+        anim.SetTrigger("spider");
+        transform.position = spiderPoint.position;
         rb.gravityScale = 0f;
         rb.velocity = Vector3.zero;
-        shooter.SetActive(true);
+        //shooter.SetActive(true);
     }
 
     // enables selection of new passive action
@@ -352,6 +355,18 @@ public class Boss : MonoBehaviour
     public void secondNightmareAttack()
     {
         anim.SetTrigger("witchFollowUp");
+        transform.position = new Vector2(5f, -2.5f);
+        rb.gravityScale = 1f;
+    }
+
+    // second nightmare attack
+    public void summonTentacleSpears()
+    {
+        for (int i = 3; i < 30; i += 3)
+        {
+            Instantiate(tentacleSpear, new Vector2(transform.position.x + i, transform.position.y), Quaternion.identity);
+            Instantiate(tentacleSpear, new Vector2(transform.position.x - i, transform.position.y), Quaternion.identity);
+        }
     }
 
     // move towards player

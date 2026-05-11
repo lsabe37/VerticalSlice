@@ -121,7 +121,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bossAngelMove_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 3567
+        width: 93
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a7a5fe8b31cf34aabc00201a4c3f8e
+      internalID: 876371272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_1
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 3478
+        width: 194
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e1f9b8b55d13544bfd6cbb7c95b352
+      internalID: 811185872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_2
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3484
+        width: 217
+        height: 279
+      alignment: 9
+      pivot: {x: 0.48839882, y: 0.4819537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16782438137f2c46bbc0623f0334b2f
+      internalID: -1934418928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_3
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 3465
+        width: 309
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4918533, y: 0.4672203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b216f1337da443a76fb579f40c9e9
+      internalID: 1190094761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_4
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 3050
+        width: 1024
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bba6be5f84564b968f476b4656bb1
+      internalID: -2044884326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1118
+        width: 424
+        height: 757
+      alignment: 9
+      pivot: {x: 0.4796779, y: 0.4165276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ce2695e2ff78d41b27d3efa2e0c40c
+      internalID: -1705413641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1073
+        width: 537
+        height: 757
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.39755672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61a2f88eb6df6e4592297ad7e8167c3
+      internalID: 1581050139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_7
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1065
+        width: 649
+        height: 757
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.3952285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b960f5862490724abdad51d4783048a
+      internalID: 1294835043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_8
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1046
+        width: 825
+        height: 757
+      alignment: 9
+      pivot: {x: 0.5192273, y: 0.3952285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617205133606fd84aab425413328b0d5
+      internalID: -1725706908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_9
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 971
+        width: 513
+        height: 837
+      alignment: 9
+      pivot: {x: 0.48453966, y: 0.4589383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f42b78fd7b1b43b4a2d9c125373c8
+      internalID: 1886183741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossAngelMove_10
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 517
+        width: 145
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61d002639d675d4e9e8ef133a341945
+      internalID: -1706676353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +363,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bossAngelMove_0: 876371272
+      bossAngelMove_1: 811185872
+      bossAngelMove_10: -1706676353
+      bossAngelMove_2: -1934418928
+      bossAngelMove_3: 1190094761
+      bossAngelMove_4: -2044884326
+      bossAngelMove_5: -1705413641
+      bossAngelMove_6: 1581050139
+      bossAngelMove_7: 1294835043
+      bossAngelMove_8: -1725706908
+      bossAngelMove_9: 1886183741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

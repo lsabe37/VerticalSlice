@@ -22,27 +22,27 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 404284466, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.083333336
+    - time: 0.05
       value: {fileID: -1708947032, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.16666667
-      value: {fileID: -1563649743, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
     - time: 0.25
+      value: {fileID: -1563649743, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 0.3
       value: {fileID: -397457156, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.33333334
+    - time: 0.35
       value: {fileID: -1733948167, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.41666666
+    - time: 0.4
       value: {fileID: -775097347, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.75
-      value: {fileID: 1795762081, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.8333333
-      value: {fileID: 1168732296, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 0.9166667
-      value: {fileID: -521622338, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 1
-      value: {fileID: -1142093822, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
-    - time: 1.0833334
-      value: {fileID: 1659987468, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
     - time: 1.1666666
+      value: {fileID: 1795762081, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 1.25
+      value: {fileID: 1168732296, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 1.3333334
+      value: {fileID: -521622338, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 1.4166666
+      value: {fileID: -1142093822, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 1.5
+      value: {fileID: 1659987468, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
+    - time: 1.5833334
       value: {fileID: 1659987468, guid: 13757a48f2fd6324d939199eb442aab4, type: 3}
     attribute: m_Sprite
     path: 
@@ -83,7 +83,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1833333
+    m_StopTime: 1.6
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -103,14 +103,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.33333334
+  - time: 0.35
     functionName: activateHitbox
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.1666666
+  - time: 1.5666667
     functionName: endAttack
     data: 
     objectReferenceParameter: {fileID: 0}
