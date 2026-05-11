@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 13757a48f2fd6324d939199eb442aab4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossWitchB_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3229
+        width: 545
+        height: 901
+      alignment: 9
+      pivot: {x: 0.41395342, y: 0.08834666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1145589ac2022904fb47832e8c8a77d6
+      internalID: -387211694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3239
+        width: 596
+        height: 891
+      alignment: 9
+      pivot: {x: 0.45708185, y: 0.09808069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b785382adf4974b83269283c87c16a
+      internalID: -638929119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_2
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 3258
+        width: 556
+        height: 902
+      alignment: 9
+      pivot: {x: 0.4233238, y: 0.08880304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648d9504959d3174ea95959d614804c2
+      internalID: 1675255959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_3
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 3274
+        width: 618
+        height: 948
+      alignment: 9
+      pivot: {x: 0.3896259, y: 0.0817732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53296547564529843bc125869a4dae22
+      internalID: 439093666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_4
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 3301
+        width: 671
+        height: 878
+      alignment: 9
+      pivot: {x: 0.46187913, y: 0.053284943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb57594cf135b624ca3d44c76da42841
+      internalID: 1408872842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_5
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 3304
+        width: 672
+        height: 746
+      alignment: 9
+      pivot: {x: 0.4492478, y: 0.07710753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1811f8e4ee193c459729d69c2531525
+      internalID: -1373163261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_6
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 3325
+        width: 682
+        height: 868
+      alignment: 9
+      pivot: {x: 0.47395858, y: 0.08565398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da4762a49af4fd4cb00ccd774edbd35
+      internalID: -254792712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_7
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 2090
+        width: 811
+        height: 945
+      alignment: 9
+      pivot: {x: 0.38511392, y: 0.10243856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ff25a8d87fdd478b2ed7240b4a0b1
+      internalID: -1335524750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_8
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 3017
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77da71915a9052a4b97a0d57bbbaf8df
+      internalID: 2068909650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_9
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 2090
+        width: 851
+        height: 921
+      alignment: 9
+      pivot: {x: 0.37638682, y: 0.088815495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d31c1bec52c6948b9cc84c389fa6b3
+      internalID: 736403918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_10
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 3007
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cae108b3061e747985e2fa0203c05b
+      internalID: -1837178171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_11
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 2996
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e648a983f877946ad8635dae2bcbce
+      internalID: 2034277831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2044
+        width: 714
+        height: 929
+      alignment: 9
+      pivot: {x: 0.403182, y: 0.1052974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1516be2910f3c45bd2fbc4bffe86b8
+      internalID: 1614903449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2093
+        width: 735
+        height: 888
+      alignment: 9
+      pivot: {x: 0.40594822, y: 0.08030412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd815f8ab6d10d44aeb09f32f3bc623
+      internalID: -624517890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_14
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 2074
+        width: 819
+        height: 918
+      alignment: 9
+      pivot: {x: 0.389906, y: 0.097293764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a02a86666bf7b46987ef800952d40d
+      internalID: 1341289098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_15
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 2149
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c15f29a166f7a4c98747f9bfdd91d5
+      internalID: 1200038038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_16
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 2128
+        width: 686
+        height: 832
+      alignment: 9
+      pivot: {x: 0.46933153, y: 0.084567435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19542ec72da04eb4196f55e64381313c
+      internalID: -612766306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_17
+      rect:
+        serializedVersion: 2
+        x: 5457
+        y: 2149
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95681f2a7cee94c925d6dedba54548
+      internalID: 247525854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_18
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2122
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b46278f46daf2144ab1d8bb57453012
+      internalID: 387463192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_19
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c2253715115040a560c9dd1e4c25b
+      internalID: -616108576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_20
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 2114
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e462d1e0a6772c49a6c29f8b9b0595c
+      internalID: 1808145074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_21
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2088
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43417a2513f4d7740bb00987caa2a2de
+      internalID: -1232746495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 273
+        width: 256
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c70bd3c6d8a944be57db848dca856
+      internalID: -1708947032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_23
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 281
+        width: 454
+        height: 204
+      alignment: 9
+      pivot: {x: 0.49248433, y: 0.23238972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca581c5f1f5b8642b4b2178ebe6b7e4
+      internalID: -1563649743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_24
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 289
+        width: 473
+        height: 233
+      alignment: 9
+      pivot: {x: 0.50721353, y: 0.22176547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb157c84e0c05cb40ac7df2f9933eb3d
+      internalID: -397457156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_25
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 307
+        width: 502
+        height: 1579
+      alignment: 9
+      pivot: {x: 0.5, y: 0.026767183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9945460981a946b45950bcaa5407672c
+      internalID: -1733948167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_26
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 324
+        width: 484
+        height: 1621
+      alignment: 9
+      pivot: {x: 0.5070493, y: 0.02850419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f53b385b59d62243baff704e9590703
+      internalID: -775097347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_27
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 313
+        width: 394
+        height: 1515
+      alignment: 9
+      pivot: {x: 0.50865954, y: 0.02929756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abc445125085454faef0e9d3de78148
+      internalID: 1795762081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_28
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 324
+        width: 198
+        height: 1256
+      alignment: 9
+      pivot: {x: 0.51723164, y: 0.040897176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24520be34610eb04792dff4c5fee8714
+      internalID: 1168732296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_29
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 340
+        width: 126
+        height: 665
+      alignment: 9
+      pivot: {x: 0.5, y: 0.058745053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755c4047e488a2343ae692644ee8aedd
+      internalID: -521622338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_30
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 337
+        width: 86
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5396757, y: 0.115184925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53d8e63a8c39be4380401b3c4735716
+      internalID: -1142093822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_31
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 378
+        width: 67
+        height: 104
+      alignment: 9
+      pivot: {x: 0.449073, y: 0.23753563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f4f6cf3cca1304d8a107dc0b0b357a
+      internalID: 1659987468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossWitchB_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 267
+        width: 164
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e306ea022b202439635fb6567f930a
+      internalID: 404284466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossWitchB_0: -387211694
+      bossWitchB_1: -638929119
+      bossWitchB_10: -1837178171
+      bossWitchB_11: 2034277831
+      bossWitchB_12: 1614903449
+      bossWitchB_13: -624517890
+      bossWitchB_14: 1341289098
+      bossWitchB_15: 1200038038
+      bossWitchB_16: -612766306
+      bossWitchB_17: 247525854
+      bossWitchB_18: 387463192
+      bossWitchB_19: -616108576
+      bossWitchB_2: 1675255959
+      bossWitchB_20: 1808145074
+      bossWitchB_21: -1232746495
+      bossWitchB_22: -1708947032
+      bossWitchB_23: -1563649743
+      bossWitchB_24: -397457156
+      bossWitchB_25: -1733948167
+      bossWitchB_26: -775097347
+      bossWitchB_27: 1795762081
+      bossWitchB_28: 1168732296
+      bossWitchB_29: -521622338
+      bossWitchB_3: 439093666
+      bossWitchB_30: -1142093822
+      bossWitchB_31: 1659987468
+      bossWitchB_32: 404284466
+      bossWitchB_4: 1408872842
+      bossWitchB_5: -1373163261
+      bossWitchB_6: -254792712
+      bossWitchB_7: -1335524750
+      bossWitchB_8: 2068909650
+      bossWitchB_9: 736403918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

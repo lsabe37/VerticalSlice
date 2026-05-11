@@ -19,6 +19,7 @@ public class Boss : MonoBehaviour
     public float speed = 10f;
     private bool chase = false;
     private bool flipped = false;
+    public bool currentlyInAction;
 
     [Header("Attacks")]
     [SerializeField] private GameObject[] signsOptions;
@@ -30,6 +31,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private GameObject shooter;
     [SerializeField] private projectileSpawner[] supportShooter;
     [SerializeField] private GameObject fakeScarecrow;
+    [SerializeField] private GameObject tentacleSign;
 
     [Header("Effects")]
     [SerializeField] private GameObject ripples;
@@ -41,8 +43,11 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform[] scarecrowTP;
     [SerializeField] private Transform sunPoint;
 
-    public bool currentlyInAction;
+    public delegate void nightmareTime();
+    public event nightmareTime nightmareMode;
 
+    public delegate void endNightmareTime();
+    public event endNightmareTime endNightmare;
 
     private void Start()
     {
@@ -91,6 +96,7 @@ public class Boss : MonoBehaviour
         }
     }
 
+    // resets boss back to idle state
     private void ResetToIdle()
     {
         anim.SetTrigger("idle");
@@ -217,7 +223,6 @@ public class Boss : MonoBehaviour
         UseAttack(selectedSign);
         currentlyInAction = false;
     }
-
     private void selectSign()
     {
         int randomSign = Random.Range(0, signsOptions.Length);
@@ -228,7 +233,6 @@ public class Boss : MonoBehaviour
 
         Destroy(signInstance, .75f);
     }
-
     private void UseAttack(int chosenSign)
     {
         switch (chosenSign)
@@ -269,6 +273,7 @@ public class Boss : MonoBehaviour
         Instantiate(anvil, new Vector2(player.transform.position.x, 15), Quaternion.identity);
     }
 
+    // scarecrow attack
     private void scarecrowsAttack()
     {
         anim.SetTrigger("scarecrow");
@@ -283,7 +288,7 @@ public class Boss : MonoBehaviour
 
         }
     }
-
+    // creates scarecrow attack explosion
     private void scarecrowExplosion()
     {
         Instantiate(explosion, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
@@ -321,6 +326,33 @@ public class Boss : MonoBehaviour
         currentlyInAction = false;
     }
 
+    // enters nightmare time
+    public void enterNightmare()
+    {
+        anim.SetTrigger("nightmareTime");
+        nightmareMode();
+    }
+
+    // exit nightmare time
+    public void exitNightmare()
+    {
+        endNightmare();
+    }
+
+    // first nightmare mode attack
+    public void summonTentacleSigns()
+    {
+        for (int i = 5; i < 30; i += 5)
+        {
+            Instantiate(tentacleSign, new Vector2(transform.position.x + i, transform.position.y), Quaternion.identity);
+            Instantiate(tentacleSign, new Vector2(transform.position.x - i, transform.position.y), Quaternion.identity);
+        }
+    }
+
+    public void secondNightmareAttack()
+    {
+        anim.SetTrigger("witchFollowUp");
+    }
 
     // move towards player
     public void chasePlayer()
@@ -370,11 +402,13 @@ public class Boss : MonoBehaviour
         shooter.SetActive(true);
     }
 
+    // creates ripple effect on summoning sign pole
     private void createRipples()
     {
         Instantiate(ripples, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
     }
 
+    // creates blast effect on melee attack
     private void meleeAForwardBlast()
     {
         GameObject instance = Instantiate(meleeBlast, new Vector2(meleeAForward.position.x, meleeAForward.position.y), Quaternion.identity);
@@ -416,6 +450,7 @@ public class Boss : MonoBehaviour
         }
     }
 
+    // jumps backward
     private void jumpBack()
     {
         float backwardDirection = transform.localScale.x > 0 ? -1f : 1f;
