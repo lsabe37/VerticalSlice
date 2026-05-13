@@ -45,7 +45,7 @@ public class bullets : MonoBehaviour
     {
         if (other.CompareTag("Player") || other.CompareTag("Ground"))
         {
-            anim.SetBool("explode", true);
+            //anim.SetBool("explode", true);
         }
     }
 

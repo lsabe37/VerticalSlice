@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public float health = 50f;
+    public float maxHealth = 50f;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
