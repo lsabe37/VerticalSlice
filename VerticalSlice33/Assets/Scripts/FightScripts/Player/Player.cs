@@ -36,15 +36,9 @@ public class Player : MonoBehaviour
 
         Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * currentSpeed;
 
-        
-
-        if(horizontalInput != 0 && isGrounded == true && isDashing == false)
+        if(isDashing == false)
         {
-            anim.SetBool("run", true);
-            anim.SetBool("idle", false);
-            rb.velocity = new Vector2(movement.x, rb.velocity.y);
-
-            if(horizontalInput > 0 && !facingRight)
+            if (horizontalInput > 0 && !facingRight)
             {
                 Flip();
             }
@@ -53,13 +47,20 @@ public class Player : MonoBehaviour
                 Flip();
             }
         }
+
+        if (horizontalInput != 0 && isGrounded == true && isDashing == false)
+        {
+            anim.SetBool("run", true);
+            anim.SetBool("idle", false);
+            rb.velocity = new Vector2(movement.x, rb.velocity.y);
+        }
         else
         {
             anim.SetBool("run", false);
         }
 
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             anim.SetBool("dash", true);
             anim.SetBool("idle", false);
@@ -70,7 +71,7 @@ public class Player : MonoBehaviour
         }
         else Physics2D.IgnoreLayerCollision(7, 8, false);
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             anim.SetTrigger("attack");
             anim.SetBool("idle", false);
