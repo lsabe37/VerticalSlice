@@ -1532,6 +1532,9 @@ MonoBehaviour:
   fallMultiplier: 2.5
   dashSpeed: 20
   isGrounded: 0
+  facingRight: 1
+  parrySparks: {fileID: 8964446204216468551, guid: bb25bc49956ac6f45931988d3d25c2bb, type: 3}
+  slash: {fileID: 2271381062662595528, guid: fd9fdb3aa5294ff489da022c691a8818, type: 3}
   anim: {fileID: 954778165}
 --- !u!50 &954778158
 Rigidbody2D:

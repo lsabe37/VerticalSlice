@@ -18,7 +18,10 @@ public class Player : MonoBehaviour
     private bool canDash = true;
     private bool isDashing;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
+
+    public GameObject parrySparks;
+    public GameObject slash;
 
     public Animator anim;
 
@@ -71,13 +74,18 @@ public class Player : MonoBehaviour
         }
         else Physics2D.IgnoreLayerCollision(7, 8, false);
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             anim.SetTrigger("attack");
             anim.SetBool("idle", false);
         }
 
         Jump();
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            parry();
+        }
     }
 
     private void Dash()
@@ -90,7 +98,7 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isGrounded = false;
@@ -127,5 +135,40 @@ public class Player : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+    }
+
+    private void parry()
+    {
+        Instantiate(parrySparks, transform.position, Quaternion.identity);
+    }
+
+    private void SlashAtk()
+    {
+        GameObject slashEffect = Instantiate(slash, transform.position, Quaternion.identity);
+
+        if(facingRight == false)
+        {
+            Vector3 flippedScale = slashEffect.transform.localScale;
+            flippedScale.x *= -1;
+            slashEffect.transform.localScale = flippedScale;
+        }
+
+        Rigidbody2D rb = slashEffect.GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+        {
+            Vector2 direction;
+
+            if (facingRight == false)
+            {
+                direction = -1f * Vector2.right;
+            }
+            else
+            {
+                direction = Vector2.right;
+            }
+            
+            rb.velocity = direction * 20f;
+        }
     }
 }
