@@ -118,6 +118,7 @@ public class Player : MonoBehaviour
     {
         anim.SetBool("idle", true);
         anim.SetBool("dash", false);
+        anim.ResetTrigger("attack");
         isDashing = false;
     }
 
