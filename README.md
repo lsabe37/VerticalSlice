@@ -13,13 +13,6 @@ The breakdown has beeen updated with a new slide which describes how the Boss st
 
 ## Milestone 2 Devlog
 
-ANSWER THIS BEFORE CODING: Follow the same steps from the W5 Activity to write a quick summary of your complicating gameplay feature (that you are building for this Milestone) and a task break-down of the steps you need to take to build this feature.
-
-Number 2-3 big steps.
-Under each big step, write 2-6 more detailed steps towards completing that task. 
-(This is NOT the architecture break-down with bubbles- it's the task steps from the W5 activity/slides.)
-Do NOT write about the same feature that you wrote about in class. If you feel like you wrote about your complicating feature in class, pick another feature- I'm sure you have more to build even after the W5 class :P.
-
 #### 1. Creating the Boss enemy for the 2D platformer mode.
 
 ##### Step A: Creating and setting up the Boss.
@@ -44,17 +37,16 @@ Part 1: The attack/action methods created in the previous step will now be imple
 
 Part 2: Implement debug logs which will show which action the boss will take. There will be debug logs for when the boss performs an action. This will help me check if the boss is performing the correct actions or if certain actions aren't running properly.
 
-
 #### 2.
 The break-down was helpful in planning how to begin building the Boss because it allowed me to better understand which steps to work on first. This helped me plan my schedule better. I think I can improve my break-down by defining the number of actions the boss will have. While working on the boss, I ended up creating signficantly more movesets for it than I orginally anticipated. I realize that this can result in scope creeps if left unchecked. Thus, I will be defining specifically what the boss should be able to do in the break-down for future projects.
 
 Explain how you bridged visual scripting and code in your game. Are you calling a custom event from a Graph from a C# method, or vice versa, and what purpose does this serve in your architecture? Make sure to name the C# script(s) involved, and attach a screenshot of the relevant Graph.
 
 #### 3. 
-I bridged visual scripting and code by calling C# events from a Graph.
+I bridged visual scripting and code by calling C# methods from an event inside the Graph. The gameStateGraph is a state graph that is responsible for handling the game state. It determines whether the game is running or paused during the 2D platformer mode. Inside the script state within this graph, there is an On Enter State event node which causes the Show Pause Menu method belonging to the Menu Manager C# script to run. When this method runs, the pause menu will appear on screen and the game will freeze. This script state also has an On Exit State event node which causes the Hide Pause Menu method of the Menu Manager script to run. When this method runs, the pause menu will be disabled and the game will resume. The pause script state is entered when the player presses the escape key. This is done using an On Keyboard Input event node, which is used as the transition condition to transition from the default game state to the paused game state. Another transition happens from the paused state to the default state when the player presses the escape key while in the pause state. This is achieved using an On Keyboard Input event node inside the other transition. By calling the methods from the C# script inside the Graph, I am able to pause and unpause them game and show/hide the pause menu whenever the game state changes between the paused and unpaused state.
 
 #### 4. 
-The Unity system that I used for this milestone is the Animator. The Animator is used on most prefabs that belong to the boss' attacks, the player GameObject, and boss GameObject. Please check out the Animator attached to the boss GameObject in the Battle scene. 
+The Unity system that I used for this milestone is the Animator and Animation. The Animator and Animation are used on most prefabs that belong to the boss' attacks, the player GameObject, and boss GameObject. Please check out the Animator and Animation attached to the boss GameObject in the Battle scene. 
 
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
