@@ -17,7 +17,6 @@ public class PlayerSlash : MonoBehaviour
     private void Start()
     {
         spawnPoint = new Vector2(transform.position.x, transform.position.y);
-        Physics2D.IgnoreLayerCollision(7, 9, true);
     }
 
     private void Update()
@@ -26,13 +25,5 @@ public class PlayerSlash : MonoBehaviour
 
         if (timer > bulletDuration)
             Destroy(this.gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Boss"))
-        {
-            Destroy(gameObject);
-        }
     }
 }

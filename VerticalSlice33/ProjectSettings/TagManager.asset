@@ -10,6 +10,7 @@ TagManager:
   - EnemyProjectile
   - Boss
   - EnemyAtk
+  - PlayerAtk
   layers:
   - Default
   - TransparentFX

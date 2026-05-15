@@ -6,6 +6,7 @@ public class BossLocator : MonoBehaviour
 {
     public static BossLocator Instance { get; private set; }
     public Boss boss { get; private set; }
+    public BossHealth bossHealth { get; private set; }
 
     private void Awake()
     {
@@ -18,5 +19,6 @@ public class BossLocator : MonoBehaviour
 
         GameObject bossObject = GameObject.FindWithTag("Boss");
         boss = bossObject.GetComponent<Boss>();
+        bossHealth = bossObject.GetComponent<BossHealth>();
     }
 }
