@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Context")]
     public float moveSpeed = 5f;
     public float runSpeed = 10f;
 
@@ -13,21 +14,34 @@ public class Player : MonoBehaviour
 
     public float dashSpeed = 30f;
 
-    protected Rigidbody2D rb;
+    
     public bool isGrounded;
     private bool canDash = true;
     private bool isDashing;
 
     public bool facingRight = true;
 
-    public GameObject parrySparks;
-    public GameObject slash;
+    public bool parrystance;
 
     public Animator anim;
+    private SpriteRenderer sr;
+    protected Rigidbody2D rb;
+
+    [Header("Actions")]
+    public GameObject slash;
+
+    [Header("Materials")]
+    public Material whiteMaterial;
+    private Material originalMaterial;
+
+    public delegate void parryAction();
+    public event parryAction tryParry;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+        originalMaterial = sr.material;
     }
 
     private void Update()
@@ -74,7 +88,7 @@ public class Player : MonoBehaviour
         }
         else Physics2D.IgnoreLayerCollision(7, 8, false);
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             anim.SetTrigger("attack");
             anim.SetBool("idle", false);
@@ -82,7 +96,7 @@ public class Player : MonoBehaviour
 
         Jump();
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Z) && PlayerLocator.Instance.playerEnergy.energy > 5f)
         {
             parry();
         }
@@ -140,7 +154,21 @@ public class Player : MonoBehaviour
 
     private void parry()
     {
-        Instantiate(parrySparks, transform.position, Quaternion.identity);
+        StartCoroutine(performParryAttempt());
+        tryParry();
+    }
+
+    private IEnumerator performParryAttempt()
+    {
+        Debug.Log("attempted parry");
+
+        parrystance = true;
+        sr.color = Color.red;
+
+        yield return new WaitForSeconds(.5f);
+
+        parrystance = false;
+        sr.color = Color.white;
     }
 
     private void SlashAtk()
@@ -171,5 +199,18 @@ public class Player : MonoBehaviour
             
             rb.velocity = direction * 20f;
         }
+    }
+
+    // change sprite to all white when hit
+    public void FlashWhite()
+    {
+        sr.material = whiteMaterial;
+        Invoke("ResetMaterial", 0.1f);
+    }
+
+    // reset sprite to normal material
+    private void ResetMaterial()
+    {
+        sr.material = originalMaterial;
     }
 }

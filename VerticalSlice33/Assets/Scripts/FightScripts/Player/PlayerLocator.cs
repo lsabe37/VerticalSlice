@@ -7,6 +7,7 @@ public class PlayerLocator : MonoBehaviour
     public static PlayerLocator Instance { get; private set; }
     public PlayerHealth playerHealth { get; private set; }
     public Player player { get; private set; }
+    public PlayerEnergy playerEnergy { get; private set; }
 
     private void Awake()
     {
@@ -20,5 +21,6 @@ public class PlayerLocator : MonoBehaviour
         GameObject playerObject = GameObject.FindWithTag("Player");
         playerHealth = playerObject.GetComponent<PlayerHealth>();
         player = playerObject.GetComponent<Player>();
+        playerEnergy = playerObject.GetComponent<PlayerEnergy>();
     }
 }

@@ -1,0 +1,2582 @@
+fileFormatVersion: 2
+guid: 387f968679f6ad84f9c778ec34ad6912
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossSwitchForm_0
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 4204
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05bbe21abaa73848877812b3b862c50
+      internalID: 2022124727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_1
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 4178
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da82d2cd8728b64c9566e77d45e57c7
+      internalID: -861456956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_2
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 4183
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1b33284e6dd64e879691ad7020ad6
+      internalID: -1365004363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_3
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 4162
+        width: 116
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0f8b7388db29d47bfc53a549a875a7
+      internalID: -630153279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4143
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5aee7e79125184aa20406ae0dbc46a
+      internalID: -1594538514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 3322
+        width: 609
+        height: 820
+      alignment: 9
+      pivot: {x: 0.4424253, y: 0.0670565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8712a261ab62b45b75e81108ffa46b
+      internalID: -1643933204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_6
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 4101
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b01b8c450ecd44484f5ab778ed3964
+      internalID: 1354235803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_7
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 4099
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bb4cdf7d135054fa2e1538815d4a0b
+      internalID: -179683159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3263
+        width: 686
+        height: 833
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.1001211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cf27a087cff1649a8957ee9c1298ae
+      internalID: 946100250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_9
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 4082
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a54f36e26937694792c72b4c075d063
+      internalID: -1199746663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_10
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 4066
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e458a5bdd0b81479e20e7db5d08fbf
+      internalID: -308510561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_11
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 3344
+        width: 666
+        height: 792
+      alignment: 9
+      pivot: {x: 0.49101776, y: 0.02793129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7485bb059ff3489db3ab1ca97b554
+      internalID: -1790915657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_12
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 4023
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0110caeafbdf8d4aaa0ce922cf168bb
+      internalID: 1763173819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_13
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 4037
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40554df3abcc8404398be8bd45205d78
+      internalID: -2513739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_14
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 4037
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec31e9959828314ea6c49897da9d317
+      internalID: 520883454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_15
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 4015
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca52124582489994bbb5f1520f06005e
+      internalID: 349567043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_16
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 4021
+        width: 49
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b712d3cff0ba09e40bd52a7a2a72fbb4
+      internalID: 60926946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_17
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 4021
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e0a8195ece0f040ad533cf2f2fa84b
+      internalID: 1623979460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_18
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 4026
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acd9249480e7947889dee57f6e4138
+      internalID: -593385504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_19
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 3964
+        width: 87
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaad13a0061c784691020d84ae25684
+      internalID: -1862630885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_20
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 4000
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8c6c5d3a819fe4894290a085f73535
+      internalID: -1203936301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_21
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 4002
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e640ab45db5ed4f43b1211ba16f4d75d
+      internalID: 1135199245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_22
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 4008
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a004b6d576e24a9a0fdfeb4feb084
+      internalID: -1332249527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_23
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 3941
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3661170aacb0fb640b0cc003ddec8284
+      internalID: -1992328872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_24
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 3992
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380e81acf918038429688c80507e71e0
+      internalID: 516585799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_25
+      rect:
+        serializedVersion: 2
+        x: 4306
+        y: 3975
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8703fedf9fdcb469376e9c80355dd9
+      internalID: -1119626279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_26
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 3953
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b71ed9707274844880eb6b66ae4923
+      internalID: -1636522945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_27
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 3983
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325ae20764deb0d4fb2dbd8e51d47fb9
+      internalID: -643369057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_28
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 3866
+        width: 62
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bbba2d889db854e91dd58e392c9ccf
+      internalID: -1054436809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_29
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 3385
+        width: 585
+        height: 721
+      alignment: 9
+      pivot: {x: 0.42062092, y: 0.015666988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082b94558273aa4c9bd161e71b69bdc
+      internalID: 1092066231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_30
+      rect:
+        serializedVersion: 2
+        x: 4430
+        y: 3970
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450f2b8b4d2e1094190f0085217e0b57
+      internalID: -1931159201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_31
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 3967
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052530afe37f7244fb8e8c15e9043a4d
+      internalID: -1068677685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_32
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 3968
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c988b01339d55439b7250ec295b655
+      internalID: -1218270187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_33
+      rect:
+        serializedVersion: 2
+        x: 4656
+        y: 3951
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c82f014e6a92fd44946acac9c53dd54
+      internalID: -421139565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_34
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 3935
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10936bc62973247a08475bb9e65cf2
+      internalID: 1825265478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_35
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 3889
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f24dd7f7481b64c8d08759432419b6
+      internalID: 518219903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_36
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 3876
+        width: 155
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe26984ec366bf4394e82535bf96fdf
+      internalID: 1250288200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_37
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 3790
+        width: 52
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54be2fe8164f743a3b903dc61dd4b7
+      internalID: -378552862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_38
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 3900
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264aeab71a084c3459651abda29a3c86
+      internalID: -1183887064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_39
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 3895
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0017e840c7006459557a05278d4d16
+      internalID: -153393447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_40
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 3877
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef3d9b63102aec40be09999b7cb58c9
+      internalID: 484153108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_41
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 3871
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2ae5f5198ad34788eb361da7bea4c
+      internalID: 1576365203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_42
+      rect:
+        serializedVersion: 2
+        x: 4624
+        y: 3849
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf036bda650a4e4891a2e9ec52d0fa7
+      internalID: 1946003056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_43
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 3865
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda18be7af4bbd4895e04e66ddba6c9
+      internalID: -1050324696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_44
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 3860
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d6ca4fb3003e046be38bde41fa97c7
+      internalID: -1176032594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_45
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 3855
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f9088f17ca3b4192f1784bee77a4a
+      internalID: -381060281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_46
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 3852
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90676421627df934aab8c915e723b0be
+      internalID: 586070279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_47
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 3850
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104d2a5fbff8f6c4e85c5b462673dd54
+      internalID: -813174318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_48
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3841
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4eaecf945032e448c5deca70c9e2d5
+      internalID: 854841922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_49
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 3784
+        width: 164
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d6c84a1350c340aa9e3dd9cbb1356
+      internalID: -1954415597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_50
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 3837
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ee7d259853cfe4b88a02aee2d67581
+      internalID: -1992433998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_51
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 3817
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e1c7a45c84b8843ae5aa3e462afe4c
+      internalID: 912982654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_52
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 3806
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71e2b0870f21114bb82c6274e2b60e7
+      internalID: -2136915011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_53
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 3814
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dea8f898197984abe56cd128cee46a
+      internalID: 1290548814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_54
+      rect:
+        serializedVersion: 2
+        x: 4143
+        y: 3800
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d877980fb40354cbbb2e118112cdf0
+      internalID: -565473083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_55
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 3787
+        width: 106
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d81aad11681b3c4ba2d0c005161d9a6
+      internalID: -1886805458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_56
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 3777
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d96486758c8f44f873ab64303f3386
+      internalID: -1798317271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_57
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 3765
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df648a9e2bc09e1439d2aae45a92aa4c
+      internalID: 321475689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_58
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3645
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691a86b1a02de8e4386a572ec4bf5447
+      internalID: -1797094505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_59
+      rect:
+        serializedVersion: 2
+        x: 4406
+        y: 3642
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605377fff2450ab478fd8e3f25de621a
+      internalID: -456086352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_60
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 3588
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb2dd6181da4bb4eaab69c16f40f387
+      internalID: 655445669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_61
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 3604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f45ad31db97dc4bbd6f289e91e41ea
+      internalID: -1562411386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_62
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 3408
+        width: 298
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663754897c4ee5b4e8d492eba5e2f62d
+      internalID: 49204421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_63
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 3358
+        width: 558
+        height: 685
+      alignment: 9
+      pivot: {x: 0.38261735, y: 0.014353687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544c0376c5dcf7a468fb5f5700484d5e
+      internalID: -1351045837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_64
+      rect:
+        serializedVersion: 2
+        x: 4331
+        y: 3548
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ea5542d50edad4ea61a4f1e943428b
+      internalID: 192505530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_65
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 3454
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b5ac2243c1264b8f704a8af4e24c9
+      internalID: 1691804852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_66
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 3447
+        width: 64
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b2f1c88dfaf0547acc96fa585dabd8
+      internalID: -102226230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_67
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 3411
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b144efddd67bd48b666bf406a8b486
+      internalID: 1936874737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_68
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 3425
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d88e5316b8e3bc4bbce1f6c57ee762c
+      internalID: 1925735198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_69
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 3370
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5764c7d8e69342b9e174fadca1af2
+      internalID: -1308180405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_70
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 3376
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf272c055eabd44b2e3a3d0c320463
+      internalID: 1035957419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_71
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 3386
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6926f567d0219024495ae05f2a12d282
+      internalID: -852822491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_72
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 3374
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957e9c683ff5e3a41bbb71cde08d96a4
+      internalID: 727743757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_73
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 3371
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978b7e7d0970e541af5a7e307379995
+      internalID: -1134859407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_74
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 3347
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d108dd93e1db4cae4527d64868f98
+      internalID: 1531381291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_75
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3333
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9348afec26c0a643894ad90476e2ba9
+      internalID: -862441296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_76
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3331
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0cdb8bdba3fe14a8248c9a8924b096
+      internalID: -489785417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_77
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 3334
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6942f5b29184f43821569ac71c83c8
+      internalID: -1084377207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_78
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 3320
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd71ccdd843aef4997e125f995bcf5d
+      internalID: 1055218423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_79
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 3324
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa12c0aa2ef4e1143a20a79b956fefab
+      internalID: -769920881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_80
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 3306
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b0eb5ec1853b41bc3a512b6fdbc26
+      internalID: 1447986620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_81
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 3285
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62324378efa533447be5bbb8ec6fa745
+      internalID: -1197866379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_82
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2727
+        width: 94
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b765b7634e2aa784985530ca467525bc
+      internalID: -814333446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_83
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2829
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195031cd35eec3c4bb701a9369f504ae
+      internalID: 347082047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_84
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 2571
+        width: 209
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b1947d90b378f418c4f5e0cc465735
+      internalID: 1303946989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_85
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 2310
+        width: 424
+        height: 594
+      alignment: 9
+      pivot: {x: 0.68771595, y: 0.05832125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcac56e9d6334994eaf67cdfeaf9accb
+      internalID: -1299161860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_86
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2673
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beceef6506bb2a7458e3ee7977478b77
+      internalID: 109221753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_87
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2617
+        width: 206
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bdce46a02b3444694b87eb24dadc86
+      internalID: -1454816357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_88
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2584
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008c708a2b65bec4db9d3fe629fbbf58
+      internalID: 1019567449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_89
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 2520
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61537d746e5a2c45ae77985229fec61
+      internalID: 1760847006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_90
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2547
+        width: 83
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf1566dad00ed489fdd29f8061c6de
+      internalID: 243988669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_91
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2570
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b95f8e71af1154ba3091d867593ca8
+      internalID: -1369795093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_92
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 2544
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1724e5c47146f498c05af1e16e83ec
+      internalID: 475634354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_93
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2447
+        width: 76
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b7f81de3904d7498fa67431cd69562
+      internalID: -2110193106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_94
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 2442
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4590a9e914efa44e8bce4344fce05bf
+      internalID: 1513003959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_95
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2402
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f02ba053c1734408c8ddd4b5838532
+      internalID: 36059035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_96
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2302
+        width: 478
+        height: 636
+      alignment: 9
+      pivot: {x: 0.6726764, y: 0.059678946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab852c4d72d97b24ba64644aa516adc7
+      internalID: -371214744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_97
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 2354
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4593766e0964f74e9b8c8e50dd6f527
+      internalID: -371361359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_98
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2302
+        width: 83
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b53aca93724cb469ad3509be19516f
+      internalID: 19609573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_99
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 2313
+        width: 442
+        height: 545
+      alignment: 9
+      pivot: {x: 0.6867405, y: 0.06729053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec564b8385eb3246859102621e7c32e
+      internalID: 979744158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_100
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1481
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4725ba94eaba7f84c9ee48ed98f33e77
+      internalID: -1037129649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_101
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1485
+        width: 88
+        height: 131
+      alignment: 9
+      pivot: {x: 0.46424934, y: 0.16378574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9a621f11465304283ffea12309e89f
+      internalID: 2008394312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_102
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1462
+        width: 103
+        height: 239
+      alignment: 9
+      pivot: {x: 0.4389115, y: 0.1314304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1200caaeacfd044980186c5a18173d9
+      internalID: 1132021728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_103
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1478
+        width: 99
+        height: 389
+      alignment: 9
+      pivot: {x: 0.46822104, y: 0.07945397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86571eaee22551340859aa7abef83370
+      internalID: 1505219389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_104
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1459
+        width: 129
+        height: 532
+      alignment: 9
+      pivot: {x: 0.52438754, y: 0.06239743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a46b211bfc3fd946a357451020a40c6
+      internalID: -1424594609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_105
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 1462
+        width: 260
+        height: 574
+      alignment: 9
+      pivot: {x: 0.45159912, y: 0.06701299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3788d7ce4de394a85b1b4160358b55
+      internalID: -832426605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_106
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 1465
+        width: 480
+        height: 711
+      alignment: 9
+      pivot: {x: 0.49344584, y: 0.057523616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c682e3236b5b30249bf8d221eb9492ef
+      internalID: -1768558463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_107
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 1457
+        width: 607
+        height: 813
+      alignment: 9
+      pivot: {x: 0.40847582, y: 0.07860713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83812eaef914c46ae28188d26c3f08
+      internalID: 1375412894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_108
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 583
+        height: 841
+      alignment: 9
+      pivot: {x: 0.46881056, y: 0.11081757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf264c86998212e48ab7a04f887da562
+      internalID: -232276947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_109
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 326
+        width: 686
+        height: 893
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07578684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0caeb728d6ba45ac0b18df46d3244
+      internalID: -1002503490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossSwitchForm_110
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 348
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97003eb465139cc4f9c181028514bcbe
+      internalID: -727393040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bossSwitchForm_0: 2022124727
+      bossSwitchForm_1: -861456956
+      bossSwitchForm_10: -308510561
+      bossSwitchForm_100: -1037129649
+      bossSwitchForm_101: 2008394312
+      bossSwitchForm_102: 1132021728
+      bossSwitchForm_103: 1505219389
+      bossSwitchForm_104: -1424594609
+      bossSwitchForm_105: -832426605
+      bossSwitchForm_106: -1768558463
+      bossSwitchForm_107: 1375412894
+      bossSwitchForm_108: -232276947
+      bossSwitchForm_109: -1002503490
+      bossSwitchForm_11: -1790915657
+      bossSwitchForm_110: -727393040
+      bossSwitchForm_12: 1763173819
+      bossSwitchForm_13: -2513739
+      bossSwitchForm_14: 520883454
+      bossSwitchForm_15: 349567043
+      bossSwitchForm_16: 60926946
+      bossSwitchForm_17: 1623979460
+      bossSwitchForm_18: -593385504
+      bossSwitchForm_19: -1862630885
+      bossSwitchForm_2: -1365004363
+      bossSwitchForm_20: -1203936301
+      bossSwitchForm_21: 1135199245
+      bossSwitchForm_22: -1332249527
+      bossSwitchForm_23: -1992328872
+      bossSwitchForm_24: 516585799
+      bossSwitchForm_25: -1119626279
+      bossSwitchForm_26: -1636522945
+      bossSwitchForm_27: -643369057
+      bossSwitchForm_28: -1054436809
+      bossSwitchForm_29: 1092066231
+      bossSwitchForm_3: -630153279
+      bossSwitchForm_30: -1931159201
+      bossSwitchForm_31: -1068677685
+      bossSwitchForm_32: -1218270187
+      bossSwitchForm_33: -421139565
+      bossSwitchForm_34: 1825265478
+      bossSwitchForm_35: 518219903
+      bossSwitchForm_36: 1250288200
+      bossSwitchForm_37: -378552862
+      bossSwitchForm_38: -1183887064
+      bossSwitchForm_39: -153393447
+      bossSwitchForm_4: -1594538514
+      bossSwitchForm_40: 484153108
+      bossSwitchForm_41: 1576365203
+      bossSwitchForm_42: 1946003056
+      bossSwitchForm_43: -1050324696
+      bossSwitchForm_44: -1176032594
+      bossSwitchForm_45: -381060281
+      bossSwitchForm_46: 586070279
+      bossSwitchForm_47: -813174318
+      bossSwitchForm_48: 854841922
+      bossSwitchForm_49: -1954415597
+      bossSwitchForm_5: -1643933204
+      bossSwitchForm_50: -1992433998
+      bossSwitchForm_51: 912982654
+      bossSwitchForm_52: -2136915011
+      bossSwitchForm_53: 1290548814
+      bossSwitchForm_54: -565473083
+      bossSwitchForm_55: -1886805458
+      bossSwitchForm_56: -1798317271
+      bossSwitchForm_57: 321475689
+      bossSwitchForm_58: -1797094505
+      bossSwitchForm_59: -456086352
+      bossSwitchForm_6: 1354235803
+      bossSwitchForm_60: 655445669
+      bossSwitchForm_61: -1562411386
+      bossSwitchForm_62: 49204421
+      bossSwitchForm_63: -1351045837
+      bossSwitchForm_64: 192505530
+      bossSwitchForm_65: 1691804852
+      bossSwitchForm_66: -102226230
+      bossSwitchForm_67: 1936874737
+      bossSwitchForm_68: 1925735198
+      bossSwitchForm_69: -1308180405
+      bossSwitchForm_7: -179683159
+      bossSwitchForm_70: 1035957419
+      bossSwitchForm_71: -852822491
+      bossSwitchForm_72: 727743757
+      bossSwitchForm_73: -1134859407
+      bossSwitchForm_74: 1531381291
+      bossSwitchForm_75: -862441296
+      bossSwitchForm_76: -489785417
+      bossSwitchForm_77: -1084377207
+      bossSwitchForm_78: 1055218423
+      bossSwitchForm_79: -769920881
+      bossSwitchForm_8: 946100250
+      bossSwitchForm_80: 1447986620
+      bossSwitchForm_81: -1197866379
+      bossSwitchForm_82: -814333446
+      bossSwitchForm_83: 347082047
+      bossSwitchForm_84: 1303946989
+      bossSwitchForm_85: -1299161860
+      bossSwitchForm_86: 109221753
+      bossSwitchForm_87: -1454816357
+      bossSwitchForm_88: 1019567449
+      bossSwitchForm_89: 1760847006
+      bossSwitchForm_9: -1199746663
+      bossSwitchForm_90: 243988669
+      bossSwitchForm_91: -1369795093
+      bossSwitchForm_92: 475634354
+      bossSwitchForm_93: -2110193106
+      bossSwitchForm_94: 1513003959
+      bossSwitchForm_95: 36059035
+      bossSwitchForm_96: -371214744
+      bossSwitchForm_97: -371361359
+      bossSwitchForm_98: 19609573
+      bossSwitchForm_99: 979744158
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

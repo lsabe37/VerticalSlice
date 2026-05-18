@@ -14,6 +14,8 @@ public class BossHealth : MonoBehaviour
             health -= 5f;
             Destroy(collider.gameObject);
             Debug.Log("Damaged boss!");
+
+            BossLocator.Instance.boss.FlashWhite();
         }
     }
 }

@@ -10,6 +10,7 @@ public class Boss : MonoBehaviour
     [Header("Context")]
     public Rigidbody2D rb;
     public Animator anim;
+    private SpriteRenderer sr;
     [SerializeField] private Player player;
     [SerializeField] private float distanceFromPlayer;
     [SerializeField] private Transform angelPoint;
@@ -45,6 +46,10 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform sunPoint;
     [SerializeField] private Transform spiderPoint;
 
+    [Header("Materials")]
+    public Material whiteMaterial;
+    private Material originalMaterial;
+
     public delegate void nightmareTime();
     public event nightmareTime nightmareMode;
 
@@ -53,16 +58,17 @@ public class Boss : MonoBehaviour
 
     private void Start()
     {
-
+        sr = GetComponent<SpriteRenderer>();
+        originalMaterial = sr.material;
     }
 
     private void Update()
     {
-        if (Vector2.Distance(transform.position, player.transform.position) < 5f)
+        if (Vector2.Distance(transform.position, player.transform.position) <= 10f)
         {
             bossDistance = BossDistanceState.Close;
         }
-        else if (Vector2.Distance(transform.position, player.transform.position) > 5f && Vector2.Distance(transform.position, player.transform.position) < 10f)
+        else if (Vector2.Distance(transform.position, player.transform.position) > 10f && Vector2.Distance(transform.position, player.transform.position) < 15f)
         {
             bossDistance = BossDistanceState.Mid;
         }
@@ -109,23 +115,18 @@ public class Boss : MonoBehaviour
         switch (bossDistance)
         {
             case BossDistanceState.Close:
-                PassiveState();
+                CloseBehavior();
                 break;
             case BossDistanceState.Mid:
-                PassiveState();
+                MidRangeBehavior();
                 break;
             case BossDistanceState.Far:
-                PassiveState();
+                RangedBehavior();
                 break;
         }
     }
 
-    private void RangedBehavior()
-    {
-        //move towards player or shoot projectile
-    }
-
-    private void PassiveState()
+    private void MidRangeBehavior()
     {
         //play one of three idle anims (fast, medium, slow)
         //Select attack action upon complete
@@ -142,6 +143,36 @@ public class Boss : MonoBehaviour
         else if (actionChoice == 2)
         {
             SlowCharge();
+        }
+    }
+
+    private void RangedBehavior()
+    {
+        int actionChoice = Random.Range(0, 2);
+
+        if (actionChoice == 0)
+        {
+            FastCharge();
+        }
+        else if (actionChoice == 1)
+        {
+            SlowCharge();
+        }
+    }
+
+    private void CloseBehavior()
+    {
+        //play one of three idle anims (fast, medium, slow)
+        //Select attack action upon complete
+        int actionChoice = Random.Range(0, 2);
+
+        if (actionChoice == 0)
+        {
+            FastCharge();
+        }
+        else if (actionChoice == 1)
+        {
+            MediumCharge();
         }
     }
 
@@ -170,11 +201,11 @@ public class Boss : MonoBehaviour
         }
         else if (actionChoice == 1)
         {
-            anim.SetTrigger("jump");
+            anim.SetTrigger("select");
         }
         else
         {
-            anim.SetTrigger("splash");
+            anim.SetTrigger("jump");
         }
 
     }
@@ -183,16 +214,12 @@ public class Boss : MonoBehaviour
     {
         Debug.Log("medium attack!");
 
-        int actionChoice = Random.Range(0, 3);
+        int actionChoice = Random.Range(0, 2);
         if (actionChoice == 0)
         {
             anim.SetTrigger("meleeA");
         }
         else if (actionChoice == 1)
-        {
-            anim.SetTrigger("meleeC");
-        }
-        else
         {
             anim.SetTrigger("meleeC");
         }
@@ -202,18 +229,14 @@ public class Boss : MonoBehaviour
     {
         Debug.Log("slow attack!");
 
-        int actionChoice = Random.Range(0, 3);
+        int actionChoice = Random.Range(0, 2);
         if (actionChoice == 0)
         {
             anim.SetBool("chase", true);
         }
         else if (actionChoice == 1)
         {
-            anim.SetBool("chase", true);
-        }
-        else
-        {
-            anim.SetBool("chase", true);
+            anim.SetTrigger("splash");
         }
     }
 
@@ -261,11 +284,10 @@ public class Boss : MonoBehaviour
     // lightning attack
     private IEnumerator lightningAttack()
     {
-        for (int i = 4; i < 20; i += 4)
+        for (int i = 0; i < 9; i += 3)
         {
-            Instantiate(lightningBolt, new Vector2(transform.position.x + i, -5), Quaternion.identity);
-            Instantiate(lightningBolt, new Vector2(transform.position.x - i, -5), Quaternion.identity);
-            yield return new WaitForSeconds(.2f);
+            Instantiate(lightningBolt, new Vector2(player.transform.position.x, -5), Quaternion.identity);
+            yield return new WaitForSeconds(2f);
         }
     }
 
@@ -362,7 +384,7 @@ public class Boss : MonoBehaviour
     // second nightmare attack
     public void summonTentacleSpears()
     {
-        for (int i = 3; i < 30; i += 3)
+        for (int i = 4; i < 24; i += 4)
         {
             Instantiate(tentacleSpear, new Vector2(transform.position.x + i, transform.position.y), Quaternion.identity);
             Instantiate(tentacleSpear, new Vector2(transform.position.x - i, transform.position.y), Quaternion.identity);
@@ -474,4 +496,16 @@ public class Boss : MonoBehaviour
         rb.AddForce(jumpVector, ForceMode2D.Impulse);
     }
 
+    // change sprite to all white when hit
+    public void FlashWhite()
+    {
+        sr.material = whiteMaterial;
+        Invoke("ResetMaterial", 0.1f);
+    }
+
+    // reset sprite to normal material
+    private void ResetMaterial()
+    {
+        sr.material = originalMaterial;
+    }
 }
