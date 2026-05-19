@@ -29,7 +29,7 @@ public class projectileSpawner : MonoBehaviour
 
     public Transform target;
 
-    public bool SupportShooter;
+    public bool onBoss;
 
 
     void Start()
@@ -41,12 +41,9 @@ public class projectileSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (timesFired >= maxFireCount && SupportShooter == false)
+        if (timesFired >= maxFireCount && onBoss == false)
         {
-            timesFired = 0;
-            BossLocator.Instance.boss.EndCurrentAttack();
-            BossLocator.Instance.boss.GravityOn();
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 

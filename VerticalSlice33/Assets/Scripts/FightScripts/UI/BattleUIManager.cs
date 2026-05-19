@@ -5,11 +5,14 @@ using UnityEngine;
 public class BattleUIManager : MonoBehaviour
 {
     public GameObject bloodyBorder;
+    public GameObject gameOverScreen;
 
     private void Start()
     {
         BossLocator.Instance.boss.nightmareMode += activateBorder;
         BossLocator.Instance.boss.endNightmare += hideBorder;
+
+        PlayerLocator.Instance.playerHealth.lose += gameOver;
     }
 
     private void activateBorder()
@@ -20,5 +23,11 @@ public class BattleUIManager : MonoBehaviour
     private void hideBorder()
     {
         bloodyBorder.SetActive(false);
+    }
+
+    private void gameOver()
+    {
+        gameOverScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 }

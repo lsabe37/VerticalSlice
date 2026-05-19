@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletDuration: 5
   rotation: 20
-  speed: 1
+  speed: 5
   destructable: 0
   bulletHP: 0
   pause: 0

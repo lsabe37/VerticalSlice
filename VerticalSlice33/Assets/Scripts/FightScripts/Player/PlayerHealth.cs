@@ -9,11 +9,18 @@ public class PlayerHealth : MonoBehaviour
     private bool hit = false;
     public GameObject parrySparks;
 
+    public delegate void playerDead();
+    public event playerDead lose;
     private void Update()
     {
         if (hit == true)
         {
             TakeDamage(5);
+        }
+
+        if(health >= 0f)
+        {
+            lose();
         }
     }
 

@@ -25,6 +25,11 @@ public class CustomerManager : MonoBehaviour
     public Sprite currentCharID;
     public Transform spawnLocation;
 
+    private bool customerIsFake;
+
+    [Header("References")]
+    public SceneManagement sceneManager;
+
     public delegate void customerServedEvent();
     public event customerServedEvent served;
 
@@ -93,10 +98,17 @@ public class CustomerManager : MonoBehaviour
         currentCustomer = Instantiate(customers[customerNumber], spawnLocation.position, spawnLocation.rotation);
         Customer Customers = customers[customerNumber].GetComponent<Customer>();
         currentCharID = Customers.ID;
+
+        customerIsFake = Customers.imposter;
     }
 
     public void customerLeave()
     {
+        if(Locator.Instance.gameManager.wasShot == true && customerIsFake == true)
+        {
+            sceneManager.LoadAdditiveLevel("Battle");
+        }
+
         Destroy(currentCustomer.gameObject);
         customerPresent = false;
         donutServed = false;

@@ -23,6 +23,7 @@ public class Customer : MonoBehaviour
     public Sprite ID;
     public bool servingCustomer;
     public int desiredDonut;
+    public bool imposter;
 
 
     private void OnEnable()

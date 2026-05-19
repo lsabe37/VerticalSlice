@@ -112,6 +112,7 @@ MonoBehaviour:
   ID: {fileID: -904863438, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
   servingCustomer: 0
   desiredDonut: 1
+  imposter: 1
 --- !u!114 &3588102441118549529
 MonoBehaviour:
   m_ObjectHideFlags: 0
