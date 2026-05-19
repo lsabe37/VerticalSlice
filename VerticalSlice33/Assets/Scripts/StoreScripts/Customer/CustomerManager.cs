@@ -106,7 +106,7 @@ public class CustomerManager : MonoBehaviour
     {
         if(Locator.Instance.gameManager.wasShot == true && customerIsFake == true)
         {
-            sceneManager.LoadAdditiveLevel("Battle");
+            sceneManager.LoadBattleScene();
         }
 
         Destroy(currentCustomer.gameObject);

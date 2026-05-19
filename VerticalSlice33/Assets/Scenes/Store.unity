@@ -3286,6 +3286,7 @@ GameObject:
   - component: {fileID: 1229044611}
   - component: {fileID: 1229044612}
   - component: {fileID: 1229044613}
+  - component: {fileID: 1229044614}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: gameManager
@@ -3341,6 +3342,7 @@ MonoBehaviour:
   correctOrder: 0
   currentCharID: {fileID: 0}
   spawnLocation: {fileID: 1145085093}
+  sceneManager: {fileID: 1229044614}
 --- !u!4 &1229044610
 Transform:
   m_ObjectHideFlags: 0
@@ -3426,6 +3428,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 203450690}
   fadeDuration: 2
+--- !u!114 &1229044614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229044607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5df388ff770ad348a9dc39dbe333d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1271401227
 GameObject:
   m_ObjectHideFlags: 0

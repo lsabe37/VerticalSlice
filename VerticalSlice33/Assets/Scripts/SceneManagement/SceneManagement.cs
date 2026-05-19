@@ -12,8 +12,5 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene("Battle");
     }
-    public void LoadAdditiveLevel(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-    }
+
 }

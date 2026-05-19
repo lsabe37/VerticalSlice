@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(5);
         }
 
-        if(health >= 0f)
+        if(health <= 0f)
         {
             lose();
         }

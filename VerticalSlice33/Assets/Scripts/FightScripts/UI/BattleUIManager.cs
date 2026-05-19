@@ -13,6 +13,8 @@ public class BattleUIManager : MonoBehaviour
         BossLocator.Instance.boss.endNightmare += hideBorder;
 
         PlayerLocator.Instance.playerHealth.lose += gameOver;
+
+        gameOverScreen.SetActive(false);
     }
 
     private void activateBorder()
