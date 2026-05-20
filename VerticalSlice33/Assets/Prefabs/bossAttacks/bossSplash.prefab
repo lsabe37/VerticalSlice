@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5894500073270108879}
   - component: {fileID: 1233839826579220500}
+  - component: {fileID: 4560357097025508659}
   - component: {fileID: 5064358071291213257}
   - component: {fileID: 329338838089132067}
-  - component: {fileID: 4560357097025508659}
   m_Layer: 8
   m_Name: bossSplash
   m_TagString: EnemyAtk
@@ -87,44 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5064358071291213257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8871872188098193766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d225e391b9f721443adb5681f34828ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  timeToDestroy: 0
-  startDelay: 0
-  collider: {fileID: 0}
-  effect: {fileID: 0}
---- !u!95 &329338838089132067
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8871872188098193766}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c7ec88c6b3348654dacbb85da674bdda, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!70 &4560357097025508659
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,3 +122,41 @@ CapsuleCollider2D:
   m_Offset: {x: -0.17182097, y: 0.9780723}
   m_Size: {x: 4.1397595, y: 2.475711}
   m_Direction: 1
+--- !u!114 &5064358071291213257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871872188098193766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d225e391b9f721443adb5681f34828ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  timeToDestroy: 0
+  startDelay: 0
+  collider: {fileID: 4560357097025508659}
+  effect: {fileID: 0}
+--- !u!95 &329338838089132067
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871872188098193766}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7ec88c6b3348654dacbb85da674bdda, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

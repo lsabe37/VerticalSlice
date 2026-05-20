@@ -165,7 +165,7 @@ public class Player : MonoBehaviour
         parrystance = true;
         sr.color = Color.red;
 
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.3f);
 
         parrystance = false;
         sr.color = Color.white;

@@ -22,6 +22,6 @@ public class PlayerEnergy : MonoBehaviour
 
     private void useEnergy()
     {
-        energy -= 5f;
+        energy -= 7f;
     }
 }

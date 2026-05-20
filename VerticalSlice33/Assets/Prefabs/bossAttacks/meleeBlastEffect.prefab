@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 117903991733057895}
   - component: {fileID: 3490730348907713709}
   - component: {fileID: 7200677015991402179}
-  - component: {fileID: 6681052204905307666}
   - component: {fileID: 3158653210942174019}
+  - component: {fileID: 6681052204905307666}
   m_Layer: 8
   m_Name: meleeBlastEffect
   m_TagString: EnemyAtk
@@ -108,23 +108,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6681052204905307666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9120026798885674837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d225e391b9f721443adb5681f34828ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  timeToDestroy: 0
-  startDelay: 0
-  collider: {fileID: 0}
-  effect: {fileID: 0}
 --- !u!70 &3158653210942174019
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,3 +143,20 @@ CapsuleCollider2D:
   m_Offset: {x: -0.3322184, y: 0.7401547}
   m_Size: {x: 0.99, y: 1.8555328}
   m_Direction: 0
+--- !u!114 &6681052204905307666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120026798885674837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d225e391b9f721443adb5681f34828ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 7200677015991402179}
+  timeToDestroy: 0
+  startDelay: 0
+  collider: {fileID: 3158653210942174019}
+  effect: {fileID: 0}

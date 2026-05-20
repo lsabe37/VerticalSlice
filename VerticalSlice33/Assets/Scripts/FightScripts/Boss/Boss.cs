@@ -12,15 +12,17 @@ public class Boss : MonoBehaviour
     public Animator anim;
     private SpriteRenderer sr;
     [SerializeField] private Player player;
+
+    [Header("Status")]
     [SerializeField] private float distanceFromPlayer;
-    [SerializeField] private Transform angelPoint;
     private Vector2 currentDirection = Vector2.right;
     private int activeAttack;
     private int selectedSign;
     public float speed = 10f;
     private bool chase = false;
     private bool flipped = false;
-    public bool currentlyInAction;
+    [HideInInspector] public bool currentlyInAction;
+    [HideInInspector] public bool activeSun;
 
     [Header("Attacks")]
     [SerializeField] private GameObject[] signsOptions;
@@ -30,10 +32,10 @@ public class Boss : MonoBehaviour
     [SerializeField] private GameObject splashEffect;
     [SerializeField] private GameObject explosion;
     [SerializeField] private GameObject shooter;
-    [SerializeField] private projectileSpawner[] supportShooter;
     [SerializeField] private GameObject fakeScarecrow;
     [SerializeField] private GameObject tentacleSign;
     [SerializeField] private GameObject tentacleSpear;
+    [SerializeField] private GameObject miniAngel;
 
     [Header("Effects")]
     [SerializeField] private GameObject ripples;
@@ -64,6 +66,7 @@ public class Boss : MonoBehaviour
 
     private void Update()
     {
+        // select state based on distance from player
         if (Vector2.Distance(transform.position, player.transform.position) <= 10f)
         {
             bossDistance = BossDistanceState.Close;
@@ -77,10 +80,21 @@ public class Boss : MonoBehaviour
             bossDistance = BossDistanceState.Far;
         }
 
+        // return to idle state
         if (currentlyInAction == false)
         {
             ResetToIdle();
             currentlyInAction = true;
+        }
+
+        // turn off/on mini angel
+        if(activeSun == true)
+        {
+            miniAngel.SetActive(false);
+        }
+        else
+        {
+            miniAngel.SetActive(true);
         }
 
     }
@@ -110,6 +124,7 @@ public class Boss : MonoBehaviour
         anim.SetTrigger("idle");
     }
 
+    // selects behavior based on state
     private void RestartAttackPattern()
     {
         switch (bossDistance)
@@ -126,10 +141,22 @@ public class Boss : MonoBehaviour
         }
     }
 
+    private void CloseBehavior()
+    {
+        int actionChoice = Random.Range(0, 2);
+
+        if (actionChoice == 0)
+        {
+            FastCharge();
+        }
+        else if (actionChoice == 1)
+        {
+            MediumCharge();
+        }
+    }
+
     private void MidRangeBehavior()
     {
-        //play one of three idle anims (fast, medium, slow)
-        //Select attack action upon complete
         int actionChoice = Random.Range(0, 3);
 
         if (actionChoice == 0)
@@ -160,21 +187,6 @@ public class Boss : MonoBehaviour
         }
     }
 
-    private void CloseBehavior()
-    {
-        //play one of three idle anims (fast, medium, slow)
-        //Select attack action upon complete
-        int actionChoice = Random.Range(0, 2);
-
-        if (actionChoice == 0)
-        {
-            FastCharge();
-        }
-        else if (actionChoice == 1)
-        {
-            MediumCharge();
-        }
-    }
 
     private void FastCharge()
     {
@@ -186,8 +198,8 @@ public class Boss : MonoBehaviour
     }
     private void SlowCharge()
     {
-        anim.SetBool("chase", true);
-        chase = true;
+        postSlowChargeAttack();
+        
     }
 
     private void postFastChargeAttack()
@@ -233,6 +245,7 @@ public class Boss : MonoBehaviour
         if (actionChoice == 0)
         {
             anim.SetBool("chase", true);
+            chase = true;
         }
         else if (actionChoice == 1)
         {
@@ -278,7 +291,11 @@ public class Boss : MonoBehaviour
     // flame attack
     private void flameAttack()
     {
-        Instantiate(sunSpirit, sunPoint.position, Quaternion.identity);
+        if(activeSun == false)
+        {
+            Instantiate(sunSpirit, sunPoint.position, Quaternion.identity);
+            activeSun = true;
+        }
     }
 
     // lightning attack
@@ -341,7 +358,6 @@ public class Boss : MonoBehaviour
         transform.position = spiderPoint.position;
         rb.gravityScale = 0f;
         rb.velocity = Vector3.zero;
-        //shooter.SetActive(true);
     }
 
     // enables selection of new passive action
@@ -460,14 +476,6 @@ public class Boss : MonoBehaviour
         if (flipped == true)
         {
             instance.transform.localScale = new Vector3(-1, 1, 1);
-        }
-    }
-
-    private void shootBullet()
-    {
-        for (int i = 0; i < supportShooter.Length; i++)
-        {
-            supportShooter[i].ShootSpread();
         }
     }
 

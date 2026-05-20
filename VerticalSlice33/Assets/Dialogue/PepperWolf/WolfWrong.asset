@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WolfWrong
   m_EditorClassIdentifier: 
   dialogue:
-  - Can't get a simple order correcy can you? Perhaps I will settle for rabbit stew
+  - Can't get a simple order correcy can you? Perhaps I will turn you into stew for
     tonight.
   responses: []

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3961761747118595150}
   - component: {fileID: 2788554521771592257}
-  - component: {fileID: 5016508578340867432}
   - component: {fileID: 8863570252750480088}
+  - component: {fileID: 5016508578340867432}
   - component: {fileID: 717805071258236603}
   m_Layer: 8
   m_Name: sunBulltets
@@ -87,26 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5016508578340867432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8113363052050698120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af938fdae872354795dc650224b0eb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletDuration: 3
-  rotation: 0
-  speed: 7
-  destructable: 0
-  bulletHP: 0
-  pause: 0
-  target: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!70 &8863570252750480088
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -142,6 +122,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.48401165}
   m_Size: {x: 0.6963062, y: 1.0319767}
   m_Direction: 0
+--- !u!114 &5016508578340867432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8113363052050698120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af938fdae872354795dc650224b0eb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDuration: 3
+  rotation: 0
+  speed: 7
+  destructable: 0
+  bulletHP: 0
+  pause: 0
+  target: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!95 &717805071258236603
 Animator:
   serializedVersion: 5

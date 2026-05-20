@@ -7,8 +7,9 @@ public class AttackLogic : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private float timeToDestroy;
     [SerializeField] private float startDelay;
-    [SerializeField] private CapsuleCollider2D collider;
+    public CapsuleCollider2D collider;
     [SerializeField] private GameObject effect;
+
 
     private void startAttack()
     {
@@ -28,6 +29,11 @@ public class AttackLogic : MonoBehaviour
     private void activateHitbox()
     {
         collider.enabled = true;
+    }
+
+    private void deactivateHitbox()
+    {
+        collider.enabled = false;
     }
 
     private void createEffect()

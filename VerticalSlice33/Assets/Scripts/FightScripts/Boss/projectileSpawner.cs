@@ -30,6 +30,7 @@ public class projectileSpawner : MonoBehaviour
     public Transform target;
 
     public bool onBoss;
+    public bool onAngel;
 
 
     void Start()
@@ -44,6 +45,7 @@ public class projectileSpawner : MonoBehaviour
         if (timesFired >= maxFireCount && onBoss == false)
         {
             Destroy(gameObject);
+            BossLocator.Instance.boss.activeSun = false;
         }
     }
 
@@ -65,6 +67,11 @@ public class projectileSpawner : MonoBehaviour
         }
 
         if (timesFired < maxFireCount)
+        {
+            shoot();
+        }
+
+        if (onAngel && Vector2.Distance(transform.position, target.position) <= 10f)
         {
             shoot();
         }
