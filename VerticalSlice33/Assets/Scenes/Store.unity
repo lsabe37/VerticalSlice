@@ -3335,7 +3335,7 @@ MonoBehaviour:
   - {fileID: 5133801702628485850, guid: 11bdad2ec267c62478322f3ee2e2cc7a, type: 3}
   Day2Customers: []
   Day3Customers: []
-  totalNumberOfCustomers: 6
+  totalNumberOfCustomers: 7
   customerServed: 0
   customerPresent: 0
   requiredDonutID: 0
