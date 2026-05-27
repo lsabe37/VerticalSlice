@@ -33,6 +33,9 @@ public class CustomerManager : MonoBehaviour
     public delegate void customerServedEvent();
     public event customerServedEvent served;
 
+    public delegate void customerAppearEvent();
+    public event customerAppearEvent appeared;
+
     public delegate void customerLeaveEvent();
     public event customerLeaveEvent left;
 
@@ -41,6 +44,10 @@ public class CustomerManager : MonoBehaviour
 
     public delegate void spicyEvent();
     public event spicyEvent spiceTest;
+
+    [Header("Other")]
+    public GameObject correctText;
+    public GameObject wrongText;
 
     private void Update()
     {
@@ -100,6 +107,12 @@ public class CustomerManager : MonoBehaviour
         currentCharID = Customers.ID;
 
         customerIsFake = Customers.imposter;
+
+        if(correctText.activeInHierarchy == true || wrongText.activeInHierarchy == true)
+        {
+            correctText.SetActive(false);
+            wrongText.SetActive(false);
+        }
     }
 
     public void customerLeave()
@@ -126,12 +139,14 @@ public class CustomerManager : MonoBehaviour
         {
             Customers.CorrectReaction();
             correctOrder = true;
+            correctText.SetActive(true);
         }
         else
         {
             Customers.WrongReaction();
             correctOrder = false;
             wrong();
+            wrongText.SetActive(true);
         }
 
         Locator.Instance.gameManager.DisableNavigationUI();

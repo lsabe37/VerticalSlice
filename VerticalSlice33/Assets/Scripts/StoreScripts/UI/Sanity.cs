@@ -13,7 +13,6 @@ public class Sanity : MonoBehaviour
     private void Start()
     {
         sanityTotal.fillAmount = 1f;
-
     }
 
     private void Update()
