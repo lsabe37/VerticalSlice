@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: EggplantIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - A beauiful good morning to you!
+  - I, devote follower of the way of the Eggplant, have found myself here. This must
+    be fate.
+  - Please, will you hand over that ring? The one that radiates with the color of
+    the sunset.
+  responses:
+  - responseText: Can I learn the ways of the Eggplant?
+    dialogueObject: {fileID: 11400000, guid: ce72585b1935c994d82cd49e8b147f3e, type: 2}
+  - responseText: How big is your eggplant?
+    dialogueObject: {fileID: 11400000, guid: 85be76b6dfdb9824e8dbc1ff9dc14f31, type: 2}

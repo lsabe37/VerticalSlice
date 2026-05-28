@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - Fear not! I, The Great Pumpkin, have arrived.
-  - May I purchase that fine orange donut?
+  - Oh, that donut right there seems like a worthy opponent. He reminds me of the
+    Kaiju Lord.
   responses:
   - responseText: Do you have a special move?
     dialogueObject: {fileID: 11400000, guid: 6160c4a8a4de4ea4c9560089ecaefa4a, type: 2}
-    customerExpression: {fileID: 1302037415, guid: 328ce99e46ada0f4794d376afca1cdea, type: 3}
   - responseText: Who was your strongest opp?
     dialogueObject: {fileID: 11400000, guid: 474f775077579b749bc7321aca349048, type: 2}
-    customerExpression: {fileID: -103074829, guid: e7b8b5cba858c3246baf8c79c7566fe6, type: 3}

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - My, what do we have here. Some fine pastries.
-  - I'll take one of your purple donuts. Yes, just one will do.
+  - I'll take that bright red thing. Yes, just one will do. It has no idea what I
+    have in store for it...
+  - Heh eheheh ehehe ahehehee.
   responses:
   - responseText: I didn't know wolves ate donuts too.
     dialogueObject: {fileID: 11400000, guid: 77a01ee0fb7f33b4aa158a0d8f9f62ff, type: 2}
-    customerExpression: {fileID: 1466652921, guid: 94c521f98e039a249820711f4a040476, type: 3}
   - responseText: Are you suffering from male pattern balding?
     dialogueObject: {fileID: 11400000, guid: dd73a0f7cdc609242a81a89f89c01e60, type: 2}
-    customerExpression: {fileID: 371166963, guid: 1cbc48cda62c8b5438dd6a040ff21d3d, type: 3}

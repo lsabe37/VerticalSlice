@@ -16,7 +16,7 @@ MonoBehaviour:
   - Well met. Care to listen to the words of MY holiness?
   - 'Oh what''s this? I am getting a call from MY holiness? '
   - ....
-  - One orange donut please.
+  - One beautiful donut please. Yes, the one that will warm both of our hearts.
   responses:
   - responseText: Who is your holiness?
     dialogueObject: {fileID: 11400000, guid: 539054d70c167b149bcd8c969826b183, type: 2}
