@@ -51,6 +51,8 @@ The Unity system that I used for this milestone is the Animator and Animation. T
 ## Milestone 3 Devlog
 
 #### 1.
+<img width="608" height="388" alt="Screenshot 2026-05-28 205832" src="https://github.com/user-attachments/assets/4fdc2a11-675f-4988-86c2-3468e11235ea" />
+
 My shader graph is used to create a green outline effect on the donuts when the player hovers their mouse over them. The shader graph creates the outline effect by creating an offset texture of the original texture in four directions: up, down, left, right. This is done by using four tiling and offset nodes to offset the positions of the four additional sample texture 2D nodes. The alpha values of the four resulting sample texture 2D nodes are then added using add nodes. This results in the silhouette of the donuts' outline. The alpha value of this silhouette node is then subtracted by the alpha value of the original samplet texture 2D node, which creates the outline effect for each donut. The resulting outline is then multiplief by the outline color using a multiply node to make the outlines green. Finally, the node with the outline is added to the node with the original donut texture to create the donuts with the green outline. The thickness of the outline is controlled by a float called OutlineThickness. To make the outline appear when the player hovers over a donut, I then created a C# script which uses OnMouseEnter() and OnMouseExit() to change the float value of OutlineThickness. 
 
 The DonutOutlineShader can be found in the Shader folder inside the project.
