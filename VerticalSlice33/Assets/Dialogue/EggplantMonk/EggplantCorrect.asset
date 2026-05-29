@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: EggplantCorrect
   m_EditorClassIdentifier: 
   dialogue:
-  - This is amazing!
-  - This is amazing!
+  - Oh woweee! Thank you, fellow of the Eggplant. May we meet once again.
   responses: []

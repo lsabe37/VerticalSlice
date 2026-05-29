@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: EggplantWrong
   m_EditorClassIdentifier: 
   dialogue:
-  - Hmmm. Was this what I ordered? Wait, what did I order?
-  - Ooh! That pink swirly thing looks good. But I already have this thing.... it'd
-    be a shame to not eat it.
+  - Hmmmm. Not quite what I had in mind... but this will do.
   responses: []

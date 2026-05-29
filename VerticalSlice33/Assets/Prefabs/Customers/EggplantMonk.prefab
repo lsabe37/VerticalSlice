@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8520803452641213825
+--- !u!1 &306585766364976988
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5216814524736204801}
-  - component: {fileID: 1442604468912569323}
-  - component: {fileID: 7937197814885064033}
-  - component: {fileID: 3588102441118549529}
-  - component: {fileID: 455908786987033374}
+  - component: {fileID: 7986706923100781930}
+  - component: {fileID: 1832650484010573665}
+  - component: {fileID: 1563803157019408670}
+  - component: {fileID: 8523363803930416455}
+  - component: {fileID: 1801236682710455152}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: EggplantMonk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5216814524736204801
+--- !u!4 &7986706923100781930
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8520803452641213825}
+  m_GameObject: {fileID: 306585766364976988}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.33615935, y: -0.23942158, z: 0}
+  m_LocalPosition: {x: -0.21, y: -1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1442604468912569323
+--- !u!212 &1832650484010573665
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8520803452641213825}
+  m_GameObject: {fileID: 306585766364976988}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,81 +76,81 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -904863438, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
+  m_Sprite: {fileID: -545416857, guid: 6d5c66db7f28170469fe3263572d1d98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.4398494, y: 9.956}
+  m_Size: {x: 7.374118, y: 10.566}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7937197814885064033
+--- !u!114 &1563803157019408670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8520803452641213825}
+  m_GameObject: {fileID: 306585766364976988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af9ef3ee6ced56f42b217039d224df7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueActivator: {fileID: 3588102441118549529}
-  spriteRenderer: {fileID: 1442604468912569323}
-  Neutral: {fileID: -904863438, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
-  Correct: {fileID: -1503737831, guid: 447aef1e7e5032b4096cc437d597a3b2, type: 3}
-  Wrong: {fileID: -877297580, guid: 2b8224e6e94f03c44a40ca76fe307e90, type: 3}
-  LightsOff: {fileID: -778385890, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
-  Shot: {fileID: -1271082649, guid: 892267cbb61b7be45b03c875bd29e8ca, type: 3}
-  Spicy: {fileID: 1666879941, guid: 38fc521f56dd9dc4cacfce80c0d40f1b, type: 3}
-  targetPosition: {x: -0.3, y: -0.2}
-  duration: 0.1
-  ID: {fileID: -904863438, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
+  dialogueActivator: {fileID: 8523363803930416455}
+  spriteRenderer: {fileID: 1832650484010573665}
+  Neutral: {fileID: -545416857, guid: 6d5c66db7f28170469fe3263572d1d98, type: 3}
+  Correct: {fileID: -2132306179, guid: 6accae3f1296fe5478ef9dc623aace0a, type: 3}
+  Wrong: {fileID: -545416857, guid: 6d5c66db7f28170469fe3263572d1d98, type: 3}
+  LightsOff: {fileID: -545416857, guid: 6d5c66db7f28170469fe3263572d1d98, type: 3}
+  Shot: {fileID: 731294037, guid: 7df174e972327d44598d6ab45d7a3c89, type: 3}
+  Spicy: {fileID: 76036008, guid: ddcbdb6e55c6e5e4ca3b622b6b440303, type: 3}
+  targetPosition: {x: 0, y: -1}
+  duration: 0.2
+  ID: {fileID: -545416857, guid: 6d5c66db7f28170469fe3263572d1d98, type: 3}
   servingCustomer: 0
-  desiredDonut: 1
+  desiredDonut: 0
   imposter: 0
---- !u!114 &3588102441118549529
+--- !u!114 &8523363803930416455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8520803452641213825}
+  m_GameObject: {fileID: 306585766364976988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aba8b62714a1e9d4e92d11d9db0ff5fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 004a7498282fd0640ab4904588f30e21, type: 2}
-  dialogueCorrect: {fileID: 11400000, guid: f7f5770c111fa7a44beaee9eec71f93b, type: 2}
-  dialogueWrong: {fileID: 11400000, guid: 2d995af089c3862438b2100af15acf9a, type: 2}
-  dialogueShot: {fileID: 11400000, guid: 6489b93eba7d2304fa0be1c85771ba87, type: 2}
-  dialogueSpicy: {fileID: 11400000, guid: 098218092ab0afc4cb0fd26284da2d78, type: 2}
---- !u!114 &455908786987033374
+  dialogueObject: {fileID: 11400000, guid: 773439b1cc72d964f888de738ee7ec7c, type: 2}
+  dialogueCorrect: {fileID: 11400000, guid: 46ca6e8f8c38af842937ae7733e5b8f9, type: 2}
+  dialogueWrong: {fileID: 11400000, guid: fac43bc6042bdfe4caf69dd72886bb71, type: 2}
+  dialogueShot: {fileID: 11400000, guid: 7a0b36d504f0cac429abaa9b8c576591, type: 2}
+  dialogueSpicy: {fileID: 11400000, guid: b9f933a59b360954b8b11c17a86417b1, type: 2}
+--- !u!114 &1801236682710455152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8520803452641213825}
+  m_GameObject: {fileID: 306585766364976988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4478587ec71f6844ca85ce8264782059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 004a7498282fd0640ab4904588f30e21, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 773439b1cc72d964f888de738ee7ec7c, type: 2}
   events:
-  - name: Anything else I should know?
+  - name: Can I learn the ways of the Eggplant?
     onPickedResponse:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7937197814885064033}
+        - m_Target: {fileID: 1563803157019408670}
           m_TargetAssemblyTypeName: Customer, Assembly-CSharp
-          m_MethodName: CorrectSprite
+          m_MethodName: NeutralSprite
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -160,13 +160,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - name: What else should I know?
+  - name: How big is your eggplant?
     onPickedResponse:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7937197814885064033}
+        - m_Target: {fileID: 1563803157019408670}
           m_TargetAssemblyTypeName: Customer, Assembly-CSharp
-          m_MethodName: CorrectSprite
+          m_MethodName: NeutralSprite
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

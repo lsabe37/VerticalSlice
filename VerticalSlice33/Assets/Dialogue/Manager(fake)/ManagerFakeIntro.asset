@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: ManagerFakeIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Hello~ Looks like you've been hard at work! I knew I could count on a smart one
+    like you.
+  - It is getting pretty late though. Did you ever think about clocking out?
+  - Well, before you do that...
+  - I want a donut! Yep, that one. The one you want. I know you want it.
+  responses:
+  - responseText: Can I get a donut too?
+    dialogueObject: {fileID: 11400000, guid: f726dd41d5dd4da4b93a8d8b597c0e86, type: 2}
+  - responseText: When do I get paid?
+    dialogueObject: {fileID: 11400000, guid: 3964f4c701cabcf4db44309147f6c151, type: 2}

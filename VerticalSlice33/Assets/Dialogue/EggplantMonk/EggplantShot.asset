@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: EggplantShot
   m_EditorClassIdentifier: 
   dialogue:
-  - OW!
-  - ....
-  - I'm not sure why, but my instincts are telling me to kill you.
+  - Gahh! Why I oughtta~
+  - You've done it now! Meet me outside. We will settle this the Eggplant way!
   responses: []
