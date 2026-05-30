@@ -47,6 +47,9 @@ public class DialogueUI : MonoBehaviour
 
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
+        Locator.Instance.customerManager.CustomerHop();
+        Locator.Instance.gameManager.DisableNavigationUI();
+
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
@@ -85,6 +88,9 @@ public class DialogueUI : MonoBehaviour
         closeBoxButton.gameObject.SetActive(false);
 
         isTalking = false;
+
+        if (Locator.Instance.customerManager.donutServed == false && Locator.Instance.gameManager.wasShot == false)
+            Locator.Instance.gameManager.EnableNavigationUI();
     }
 
 }

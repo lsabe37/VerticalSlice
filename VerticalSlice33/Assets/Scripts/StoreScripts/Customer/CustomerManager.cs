@@ -19,7 +19,7 @@ public class CustomerManager : MonoBehaviour
     public bool customerPresent;
     private int randomCustomer;
     public int requiredDonutID;
-    private bool donutServed;
+    public bool donutServed;
     public bool correctOrder;
     private float timer;
     public Sprite currentCharID;
@@ -166,5 +166,11 @@ public class CustomerManager : MonoBehaviour
         Customer Customers = currentCustomer.GetComponent<Customer>();
         Customers.spicyReaction();
         spiceTest();
+    }
+
+    public void CustomerHop()
+    {
+        Customer Customers = currentCustomer.GetComponent<Customer>();
+        Customers.Hop();
     }
 }

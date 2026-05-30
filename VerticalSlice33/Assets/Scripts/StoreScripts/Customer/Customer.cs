@@ -94,5 +94,38 @@ public class Customer : MonoBehaviour
     {
         spriteRenderer.sprite = Wrong;
     }
+    public void SpiceSprite()
+    {
+        spriteRenderer.sprite = Spicy;
+    }
 
+    public void Hop()
+    {
+        StartCoroutine(PerformHop());
+    }
+    private IEnumerator PerformHop()
+    {
+        float jumpDuration = .2f;
+        Vector3 startPos = transform.position;
+        Vector3 peakPos = startPos + Vector3.up * .5f;
+
+        float elapsedTime = 0;
+        while (elapsedTime < jumpDuration)
+        {
+            transform.position = Vector3.Lerp(startPos, peakPos, elapsedTime / jumpDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = peakPos;
+
+        elapsedTime = 0;
+        while (elapsedTime < jumpDuration)
+        {
+            transform.position = Vector3.Lerp(peakPos, startPos, elapsedTime / jumpDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = startPos;
+    }
 }
+
