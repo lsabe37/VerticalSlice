@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: WolfWrong
+  m_Name: SakeIntro
   m_EditorClassIdentifier: 
   dialogue:
-  - Can't get a simple order correct can you? Perhaps I will turn you into stew for
-    tonight.
-  responses: []
+  - What are you waiting for? Get me that purple-green donut.
+  - Get moving, you little punk.
+  responses:
+  - responseText: You look unemployed.
+    dialogueObject: {fileID: 11400000, guid: 1f866902bf127cb42b2adebe7018bdb6, type: 2}
+  - responseText: I'm sorry you were born.
+    dialogueObject: {fileID: 11400000, guid: a48db86acdff7ae458e844031987bfcb, type: 2}

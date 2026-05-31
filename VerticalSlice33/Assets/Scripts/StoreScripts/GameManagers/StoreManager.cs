@@ -22,19 +22,19 @@ public class StoreManager : MonoBehaviour
 
     private void changeTime()
     {
-        if (Locator.Instance.customerManager.customerServed < 3)
+        if (Locator.Instance.customerManager.customerServed < 4)
         {
             storeTime = StoreStateTime.Morning;
             Time.sprite = Times[0];
         }
 
-        else if (Locator.Instance.customerManager.customerServed >= 3 && Locator.Instance.customerManager.customerServed < 6)
+        else if (Locator.Instance.customerManager.customerServed >= 4 && Locator.Instance.customerManager.customerServed < 9)
         {
             storeTime = StoreStateTime.Noon;
             Time.sprite = Times[1];
         }
 
-        else if (Locator.Instance.customerManager.customerServed >= 6)
+        else if (Locator.Instance.customerManager.customerServed >= 9)
         {
             storeTime = StoreStateTime.Evening;
             Time.sprite = Times[2];

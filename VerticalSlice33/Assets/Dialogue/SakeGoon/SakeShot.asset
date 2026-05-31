@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
-  m_Name: WolfWrong
+  m_Name: SakeShot
   m_EditorClassIdentifier: 
   dialogue:
-  - Can't get a simple order correct can you? Perhaps I will turn you into stew for
-    tonight.
+  - GWaGAHh!!
+  - DO you realize what you've done?! You just shot a KEY moderator of a myriad of
+    online servers.
+  - The ENTIRETY of my servers will be out to get you! You better watch your back,
+    you lobotomite.
   responses: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: SakeOptionB
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Just who do you think you are talking to?! I don't work day and night, overseeing
+    hundreds of thousands...
+  - of users on my dedicated servers, only to be so blatantly insulted by a low life
+    such as yourself!
+  - Why don't you take a look at yourself in the mirror and answer me this?
+  - '"Do I look nearly as good looking as the man in front of me?"'
+  - 'Nope. No need to answer it. '
+  - I already know what form of an answer a mindless troglodyte such as yourself
+    would utter.
+  responses: []

@@ -98,6 +98,10 @@ public class Customer : MonoBehaviour
     {
         spriteRenderer.sprite = Spicy;
     }
+    public void ShotSprite()
+    {
+        spriteRenderer.sprite = Shot;
+    }
 
     public void Hop()
     {
