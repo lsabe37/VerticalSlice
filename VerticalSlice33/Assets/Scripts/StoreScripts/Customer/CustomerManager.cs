@@ -13,14 +13,14 @@ public class CustomerManager : MonoBehaviour
 
     [Header("Customer Context")]
     public int totalNumberOfCustomers = 5;
-    public int customerServed = 0;
+    [HideInInspector] public int customerServed = 0;
     private int customerNumber = -1;
     private bool greetCustomer;
     public bool customerPresent;
     private int randomCustomer;
     public int requiredDonutID;
-    public bool donutServed;
-    public bool correctOrder;
+    [HideInInspector] public bool donutServed;
+    [HideInInspector] public bool correctOrder;
     private float timer;
     public Sprite currentCharID;
     public Transform spawnLocation;

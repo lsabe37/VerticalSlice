@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1427831642793569954}
   - component: {fileID: 9097480206467550237}
   - component: {fileID: 1119663841081133049}
+  - component: {fileID: 4101783029594769605}
   m_Layer: 0
   m_Name: BananaSplitVampire
   m_TagString: Untagged
@@ -176,3 +177,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &4101783029594769605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6667064117522687957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e82d14e8c1142b987e6b75bd3d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScale: 1
+  scaleRange: 0.01
+  speed: 1

@@ -19,10 +19,10 @@ public class GameManager : MonoBehaviour
     public CanvasGroup idUI;
     public CanvasGroup responseBox;
     private bool UiIsVisible = false;
-    public bool gunOut = false;
-    public bool idOut = false;
-    public bool wasShot = false;
-    public bool lookingAtCustomer = true;
+    [HideInInspector] public bool gunOut = false;
+    [HideInInspector] public bool idOut = false;
+    [HideInInspector] public bool wasShot = false;
+    [HideInInspector] public bool lookingAtCustomer = true;
     public GameObject gunExplosion;
 
     [Header("View Changer")]

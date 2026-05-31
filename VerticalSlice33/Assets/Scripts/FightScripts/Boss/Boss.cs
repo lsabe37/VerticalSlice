@@ -14,6 +14,8 @@ public class Boss : MonoBehaviour
     [SerializeField] private Player player;
 
     [Header("Status")]
+    public bool beginFight = false;
+
     [SerializeField] private float distanceFromPlayer;
     private Vector2 currentDirection = Vector2.right;
     private int activeAttack;
@@ -58,45 +60,63 @@ public class Boss : MonoBehaviour
     public delegate void endNightmareTime();
     public event endNightmareTime endNightmare;
 
+    public delegate void endTutorial();
+    public event endTutorial onEndTutorial;
+
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         originalMaterial = sr.material;
+
+        beginFight = false;
     }
 
     private void Update()
     {
-        // select state based on distance from player
-        if (Vector2.Distance(transform.position, player.transform.position) <= 10f)
+        // boss starts in passive state
+        if(beginFight == false && BossLocator.Instance.bossHealth.healthRatio < .9f && BossLocator.Instance.bossHealth.healthRatio != 0f)
         {
-            bossDistance = BossDistanceState.Close;
-        }
-        else if (Vector2.Distance(transform.position, player.transform.position) > 10f && Vector2.Distance(transform.position, player.transform.position) < 15f)
-        {
-            bossDistance = BossDistanceState.Mid;
-        }
-        else
-        {
-            bossDistance = BossDistanceState.Far;
-        }
+            onEndTutorial();
+            beginFight = true;
+            anim.SetTrigger("idle");
 
-        // return to idle state
-        if (currentlyInAction == false)
-        {
-            ResetToIdle();
-            currentlyInAction = true;
-        }
-
-        // turn off/on mini angel
-        if(activeSun == true)
-        {
-            miniAngel.SetActive(false);
-        }
-        else
-        {
             miniAngel.SetActive(true);
         }
 
+        // boss becomes aggressive
+        if (beginFight == true)
+        {
+            // select state based on distance from player
+            if (Vector2.Distance(transform.position, player.transform.position) <= 10f)
+            {
+                bossDistance = BossDistanceState.Close;
+            }
+            else if (Vector2.Distance(transform.position, player.transform.position) > 10f && Vector2.Distance(transform.position, player.transform.position) < 15f)
+            {
+                bossDistance = BossDistanceState.Mid;
+            }
+            else
+            {
+                bossDistance = BossDistanceState.Far;
+            }
+
+            // return to idle state
+            if (currentlyInAction == false)
+            {
+                ResetToIdle();
+                currentlyInAction = true;
+            }
+
+            // turn off/on mini angel
+            if (activeSun == true)
+            {
+                miniAngel.SetActive(false);
+            }
+            else
+            {
+                miniAngel.SetActive(true);
+            }
+        }
     }
 
     private void FixedUpdate()

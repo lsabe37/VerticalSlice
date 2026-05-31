@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7050120801121734170}
   - component: {fileID: 5294787919340648159}
   - component: {fileID: 2064481383332731825}
+  - component: {fileID: -7389164675924572071}
   m_Layer: 0
   m_Name: CupcakeMonke
   m_TagString: Untagged
@@ -112,6 +113,7 @@ MonoBehaviour:
   ID: {fileID: 255146641, guid: e333c4f0ba72c1b45a1823c60a570110, type: 3}
   servingCustomer: 0
   desiredDonut: 3
+  imposter: 0
 --- !u!114 &5294787919340648159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +177,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &-7389164675924572071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580827700703425582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e82d14e8c1142b987e6b75bd3d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScale: 1
+  scaleRange: 0.01
+  speed: 1

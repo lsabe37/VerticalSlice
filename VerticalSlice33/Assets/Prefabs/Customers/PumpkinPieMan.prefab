@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5882085051499040846}
   - component: {fileID: 4861585925709311622}
   - component: {fileID: 1829221442817834615}
+  - component: {fileID: -9205880176525144582}
   m_Layer: 0
   m_Name: PumpkinPieMan
   m_TagString: Untagged
@@ -176,3 +177,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &-9205880176525144582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4742318359496028217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e82d14e8c1142b987e6b75bd3d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScale: 1
+  scaleRange: 0.01
+  speed: 1

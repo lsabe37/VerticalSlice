@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0abe2bc63b4548846bb100704dbfe, type: 3}
+  m_Name: StrawberryIntro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The name is Agent Strawberry. We've received an anonymous tip that this business
+    has been distributing peculiar products.
+  - 'My my, what do we have here. Please, allow me to inspect that bizzare pink donut. '
+  - The one with a hole in the center. It needs to be inspected immediately.
+  responses:
+  - responseText: You just want to eat it right?
+    dialogueObject: {fileID: 11400000, guid: 98df185d0eea17a4b8bbb700bc4fb76f, type: 2}
+  - responseText: Is this proper business attire?
+    dialogueObject: {fileID: 11400000, guid: afb9e2c5bdefaaa4d9eccffd8bf000c5, type: 2}

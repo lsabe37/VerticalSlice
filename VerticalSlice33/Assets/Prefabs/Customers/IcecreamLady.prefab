@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3978246088759511957}
   - component: {fileID: 8444756136993767969}
   - component: {fileID: 8931658336035399335}
+  - component: {fileID: -1706330792963732068}
   m_Layer: 0
   m_Name: IcecreamLady
   m_TagString: Untagged
@@ -176,3 +177,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &-1706330792963732068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781356483918025105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e82d14e8c1142b987e6b75bd3d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScale: 1
+  scaleRange: 0.01
+  speed: 1

@@ -21,7 +21,7 @@ public class Customer : MonoBehaviour
     public Vector2 targetPosition;
     public float duration = .2f;
     public Sprite ID;
-    public bool servingCustomer;
+    [HideInInspector] public bool servingCustomer;
     public int desiredDonut;
     public bool imposter;
 

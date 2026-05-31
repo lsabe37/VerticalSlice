@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8815388925462600652}
   - component: {fileID: 211202883863285897}
   - component: {fileID: 3080747124178218880}
+  - component: {fileID: -7199059711509607068}
   m_Layer: 0
   m_Name: TempuraMermaid
   m_TagString: Untagged
@@ -112,6 +113,7 @@ MonoBehaviour:
   ID: {fileID: -1134615280, guid: 4ae38efa4088022459c2700a4a939961, type: 3}
   servingCustomer: 0
   desiredDonut: 2
+  imposter: 0
 --- !u!114 &211202883863285897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +177,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &-7199059711509607068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8642148001058388679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e82d14e8c1142b987e6b75bd3d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseScale: 1
+  scaleRange: 0.01
+  speed: 1
