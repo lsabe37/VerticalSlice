@@ -14,14 +14,14 @@ public class Player : MonoBehaviour
 
     public float dashSpeed = 30f;
 
-    
-    public bool isGrounded;
+
+    [HideInInspector] public bool isGrounded;
     private bool canDash = true;
     private bool isDashing;
 
-    public bool facingRight = true;
+    [HideInInspector] public bool facingRight = true;
 
-    public bool parrystance;
+    [HideInInspector] public bool parrystance;
 
     public Animator anim;
     private SpriteRenderer sr;
@@ -163,7 +163,7 @@ public class Player : MonoBehaviour
         Debug.Log("attempted parry");
 
         parrystance = true;
-        sr.color = Color.red;
+        sr.color = Color.yellow;
 
         yield return new WaitForSeconds(.3f);
 

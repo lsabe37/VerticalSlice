@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: IcecreamOptionB
   m_EditorClassIdentifier: 
   dialogue:
-  - If it gets too hot, I will melt and die. But being cold and rigid would make
-    me a headache, no?
-  - Which is why I choose to stay in this melting state.
+  - If I was too cold and rigid, I would be a major headache, no?
   responses: []
