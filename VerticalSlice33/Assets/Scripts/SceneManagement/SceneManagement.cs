@@ -3,6 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
+    public void LoadIntroScene()
+    {
+        SceneManager.LoadScene("Intro");
+    }
+
     public void LoadStoreScene()
     {
         SceneManager.LoadScene("Store");
