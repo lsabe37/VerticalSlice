@@ -38,6 +38,8 @@ public class projectileSpawner : MonoBehaviour
         startAngle = -spreadAngle / 2f + offset;
         GameObject playerTarget = GameObject.FindWithTag("Player");
         target = playerTarget.transform;
+
+        //BossHealth.OnBossDeath += DestroySun;
     }
 
     private void Update()
@@ -132,5 +134,10 @@ public class projectileSpawner : MonoBehaviour
 
         }
 
+    }
+
+    private void DestroySun()
+    {
+        Destroy(gameObject);
     }
 }

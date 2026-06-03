@@ -14,7 +14,7 @@ public class BossHealth : MonoBehaviour
 
     private void Start()
     {
-        health = 5f;
+        health = maxHealth;
         notDead = true;
     }
 

@@ -112,7 +112,7 @@ public class Boss : MonoBehaviour
             }
 
             // turn off/on mini angel
-            if (activeSun == true)
+            if (activeSun == true && miniAngel != null)
             {
                 miniAngel.SetActive(false);
             }
