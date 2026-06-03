@@ -109,7 +109,7 @@ MonoBehaviour:
   Shot: {fileID: 1161556090, guid: b28b1a472cc58aa4eb5aa1c51e1afa1e, type: 3}
   Spicy: {fileID: 1194266031, guid: 6dc09a9fd2200024bb23ed79e5752c97, type: 3}
   targetPosition: {x: 0.2, y: -0.2}
-  duration: 0.3
+  duration: 0.5
   ID: {fileID: -904863438, guid: 600d20d48d2d2524e87fc112092910ea, type: 3}
   servingCustomer: 0
   desiredDonut: 0

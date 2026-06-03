@@ -271,7 +271,7 @@ Transform:
   m_GameObject: {fileID: 71193846}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.71, y: 1.02, z: 0}
+  m_LocalPosition: {x: -1.4, y: 1.27, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -603,7 +603,7 @@ Transform:
   m_GameObject: {fileID: 173555879}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.69, y: -1.75, z: 0}
+  m_LocalPosition: {x: -1.48, y: -1.52, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1238,7 +1238,7 @@ Transform:
   m_GameObject: {fileID: 330613689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.86, y: -1.81, z: 0}
+  m_LocalPosition: {x: -4.53, y: -1.81, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2218,7 +2218,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -30.592949, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4050,13 +4050,13 @@ MonoBehaviour:
   - {fileID: 7580827700703425582, guid: db51fa1f7accc7d46b0a69fa5ae964f3, type: 3}
   - {fileID: 306585766364976988, guid: 6da995a1a5fa49546a4750d31c4f457f, type: 3}
   - {fileID: 6667064117522687957, guid: ab4da1afa821cbd47829dbefb855a8b5, type: 3}
-  - {fileID: 781356483918025105, guid: 05c60478b759d384688f6343e9698032, type: 3}
-  - {fileID: 4102261232202502079, guid: a0e942fa5cdf12b47984e42dc67db7ff, type: 3}
+  - {fileID: 5133801702628485850, guid: 11bdad2ec267c62478322f3ee2e2cc7a, type: 3}
   - {fileID: 7030170686139837328, guid: 5b4bc6de3e4f0574c99f837d9fa7edba, type: 3}
+  - {fileID: 781356483918025105, guid: 05c60478b759d384688f6343e9698032, type: 3}
   - {fileID: 4742318359496028217, guid: 8a44b25b5c448a5469e467215365977d, type: 3}
   - {fileID: 3574240883230750435, guid: 13311fab407774243a614d50bce1b67e, type: 3}
   - {fileID: 8642148001058388679, guid: 23c9f6a360271264b81fd9fca394c701, type: 3}
-  - {fileID: 5133801702628485850, guid: 11bdad2ec267c62478322f3ee2e2cc7a, type: 3}
+  - {fileID: 4102261232202502079, guid: a0e942fa5cdf12b47984e42dc67db7ff, type: 3}
   - {fileID: 5767230593842975067, guid: 48bb7aad252448b40a3abdba6d5b2285, type: 3}
   - {fileID: 8759836641641844309, guid: 85a94ef57a0bcba42b111488fd324990, type: 3}
   Day2Customers: []
@@ -4069,6 +4069,7 @@ MonoBehaviour:
   correctOrder: 0
   currentCharID: {fileID: 0}
   spawnLocation: {fileID: 1145085093}
+  exitLocation: {x: 13, y: 0}
   sceneManager: {fileID: 1229044614}
   correctText: {fileID: 562681891}
   wrongText: {fileID: 505106614}
@@ -4331,7 +4332,7 @@ Transform:
   m_GameObject: {fileID: 1361994925}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.83, y: 1.31, z: 0}
+  m_LocalPosition: {x: -4.38, y: 1.16, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

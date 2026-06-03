@@ -24,6 +24,8 @@ public class CustomerManager : MonoBehaviour
     private float timer;
     public Sprite currentCharID;
     public Transform spawnLocation;
+    [SerializeField] private Vector2 exitLocation;
+    private bool customerIsLeaving;
 
     private bool customerIsFake;
 
@@ -80,7 +82,10 @@ public class CustomerManager : MonoBehaviour
 
         if (Locator.Instance.dialogueUI.isTalking == false && customerPresent == true && (donutServed == true || Locator.Instance.gameManager.wasShot == true))
         {
-            customerLeave();
+            if(customerIsLeaving == true)
+            {
+                StartCoroutine(customerLeave());
+            }
             Locator.Instance.gameManager.resetBg();
             Debug.Log("customer has departed");
             Locator.Instance.gameManager.DisableActionUI();
@@ -115,12 +120,30 @@ public class CustomerManager : MonoBehaviour
         }
     }
 
-    public void customerLeave()
+    public IEnumerator customerLeave()
     {
+        customerIsLeaving = false;
+
         if(Locator.Instance.gameManager.wasShot == true && customerIsFake == true)
         {
             sceneManager.LoadBattleScene();
         }
+
+        Vector2 startPosition = transform.position;
+        float elapsedTime = 0;
+        float time = .3f;
+
+        while (elapsedTime < time)
+        {
+            float t = elapsedTime / time;
+
+            currentCustomer.gameObject.transform.position = Vector3.Lerp(startPosition, exitLocation, t);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        currentCustomer.gameObject.transform.position = exitLocation;
 
         Destroy(currentCustomer.gameObject);
         customerPresent = false;
@@ -151,6 +174,8 @@ public class CustomerManager : MonoBehaviour
 
         Locator.Instance.gameManager.DisableNavigationUI();
         served();
+
+        customerIsLeaving = true;
     }
 
     public void customerShotReact()
@@ -159,6 +184,19 @@ public class CustomerManager : MonoBehaviour
         Locator.Instance.gameManager.changeBg();
         Customer Customers = currentCustomer.GetComponent<Customer>();
         Customers.shotReaction();
+
+        if(Customers.imposter == true)
+        {
+            correctOrder = true;
+
+        }
+        else
+        {
+            correctOrder = false;
+        }
+        served();
+
+        customerIsLeaving = true;
     }
 
     public void customerSpiceReaction()
