@@ -18,4 +18,9 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("Battle");
     }
 
+    public void LoadMenuScene()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }

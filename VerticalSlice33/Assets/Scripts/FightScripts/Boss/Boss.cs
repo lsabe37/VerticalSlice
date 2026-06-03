@@ -15,6 +15,7 @@ public class Boss : MonoBehaviour
 
     [Header("Status")]
     public bool beginFight = false;
+    private bool alive = true;
 
     [SerializeField] private float distanceFromPlayer;
     private Vector2 currentDirection = Vector2.right;
@@ -38,6 +39,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private GameObject tentacleSign;
     [SerializeField] private GameObject tentacleSpear;
     [SerializeField] private GameObject miniAngel;
+    [SerializeField] private GameObject bossDeathExplosion;
 
     [Header("Effects")]
     [SerializeField] private GameObject ripples;
@@ -69,6 +71,8 @@ public class Boss : MonoBehaviour
         originalMaterial = sr.material;
 
         beginFight = false;
+
+        BossHealth.OnBossDeath += BossDeath;
     }
 
     private void Update()
@@ -112,7 +116,7 @@ public class Boss : MonoBehaviour
             {
                 miniAngel.SetActive(false);
             }
-            else
+            else if (activeSun == false && alive == true)
             {
                 miniAngel.SetActive(true);
             }
@@ -535,5 +539,14 @@ public class Boss : MonoBehaviour
     private void ResetMaterial()
     {
         sr.material = originalMaterial;
+    }
+
+    // boss death
+    private void BossDeath()
+    {
+        Instantiate(bossDeathExplosion, transform.position, Quaternion.identity);
+        anim.SetTrigger("death");
+        alive = false;
+        miniAngel.SetActive(false);
     }
 }

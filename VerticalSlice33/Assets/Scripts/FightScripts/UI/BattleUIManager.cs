@@ -6,6 +6,8 @@ public class BattleUIManager : MonoBehaviour
 {
     public GameObject bloodyBorder;
     public GameObject gameOverScreen;
+    public GameObject gameClearScreen;
+    [SerializeField] private GameObject bossUI;
 
     [SerializeField] private GameObject[] tutorial;
 
@@ -16,6 +18,8 @@ public class BattleUIManager : MonoBehaviour
 
         PlayerLocator.Instance.playerHealth.lose += gameOver;
         BossLocator.Instance.boss.onEndTutorial += EndTutorial;
+
+        BossHealth.OnBossDeath += GameClear;
 
         gameOverScreen.SetActive(false);
 
@@ -28,8 +32,11 @@ public class BattleUIManager : MonoBehaviour
 
         for(int i = 0; i < tutorial.Length; i++)
         {
-            tutorial[i].SetActive(true);
-            yield return new WaitForSeconds(1f);
+            if(BossLocator.Instance.boss.beginFight == false)
+            {
+                tutorial[i].SetActive(true);
+                yield return new WaitForSeconds(1f);
+            }
         }
     }
 
@@ -55,5 +62,11 @@ public class BattleUIManager : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    private void GameClear()
+    {
+        gameClearScreen.SetActive(true);
+        bossUI.SetActive(false);
     }
 }

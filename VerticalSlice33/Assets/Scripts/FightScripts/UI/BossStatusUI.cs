@@ -11,7 +11,6 @@ public class BossStatusUI : MonoBehaviour
     private void Start()
     {
         currentHP.fillAmount = 1f;
-
     }
 
     private void Update()

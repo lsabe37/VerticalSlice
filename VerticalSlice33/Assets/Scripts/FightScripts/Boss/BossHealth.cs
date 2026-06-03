@@ -9,14 +9,24 @@ public class BossHealth : MonoBehaviour
     public float maxHealth = 200f;
     [HideInInspector] public float healthRatio;
 
+    public static event Action OnBossDeath;
+    private bool notDead = true;
+
     private void Start()
     {
-        health = maxHealth;
+        health = 5f;
+        notDead = true;
     }
 
     private void Update()
     {
         healthRatio = health / maxHealth;
+
+        if(health <= 0 && notDead == true)
+        {
+            OnBossDeath?.Invoke();
+            notDead = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
