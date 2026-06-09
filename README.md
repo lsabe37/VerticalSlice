@@ -63,9 +63,13 @@ Based on the playtest feedback, I improved the behavior and movesets of the boss
 #### 3.
 This milestone has several new features. First, the hitboxes for all of the boss' attacks have now been implemented. This means that the boss' melee attacks will also do damage to the player. Second, the there is now a game over screen for when the player reaches 0HP in the boss fight. When the player reaches 0 HP, the game's timescale will be set to 0 and the game over UI will appear. The player can click on the retry button to reattempt the fight from the beginning. Third, the 2D platformer mode can now be accessed from the anomaly hunt mode by shooting the imposter NPC (which is the second manager that shows up at the end). When the player shoots this NPC, the game will move to the 2D platformer boss fight as soon as the NPC finishes their post-shot dialogue. Fourth, there are a few new customer NPC's for the anomaly hunt mode. This increases the overall playtime for the game and increases the core gameplay loop of this mode. And lastly, there are some additional minor features that have been added to enhance the play experience. For example, when the player gets an order correct or wrong, a big text which reads "You Suck" or "Amazing" appears behind the customer sprite to help emphasize the customer's reaction. Additionally, when the player hovers over a donut, there will be a bright green outline to help players see which donut they are about to select.
 
-## Milestone 4 Devlog
-Milestone 4 Devlog goes here.
 ## Final Devlog
 Final Devlog goes here.
+
 ## Open-source assets
-- Cite any external assets used here!
+SFX Assets
+- [Button Tap SFX](https://pixabay.com/sound-effects/film-special-effects-button-ui-sound-effect-395762/)
+- [Tap SFX](https://pixabay.com/sound-effects/film-special-effects-soft-app-button-tap-sound-5-547873/)
+- [Button SFX](https://pixabay.com/sound-effects/film-special-effects-button-pressed-38129/)
+- [Gun Reload SFX](https://pixabay.com/sound-effects/film-special-effects-1911-reload-6248/)
+-[Gun Shot SFX](https://pixabay.com/sound-effects/film-special-effects-9mm-pistol-shoot-short-reverb-7152/)
