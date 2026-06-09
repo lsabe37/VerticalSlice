@@ -47,6 +47,9 @@ public class CustomerManager : MonoBehaviour
     public delegate void spicyEvent();
     public event spicyEvent spiceTest;
 
+    public delegate void talkEvent();
+    public event talkEvent OnInteract;
+
     [Header("Other")]
     public GameObject correctText;
     public GameObject wrongText;
@@ -210,5 +213,6 @@ public class CustomerManager : MonoBehaviour
     {
         Customer Customers = currentCustomer.GetComponent<Customer>();
         Customers.Hop();
+        OnInteract();
     }
 }
