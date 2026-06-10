@@ -62,7 +62,7 @@ public class AudioManager : MonoBehaviour
 
     private void WrongSFX()
     {
-        audioSource.PlayOneShot(wrongSFX, 1.0f);
+        audioSource.PlayOneShot(wrongSFX, 0.5f);
     }
 
     private void SpiceSFX()

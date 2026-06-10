@@ -8,11 +8,20 @@ public class PanelMover : MonoBehaviour
 {
     [SerializeField] private GameObject[] panels;
     private int currentPanel;
+    [SerializeField] private Button nextButton;
 
     [Header("FadeToBlack")]
     public UnityEngine.UI.Image fadeImage;
     public float fadeDuration = 1.0f;
     private bool dimming;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            nextButton.onClick.Invoke();
+        }
+    }
 
     public void NextPanel()
     {

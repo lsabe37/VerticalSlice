@@ -157,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000061035, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53642380
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next
+  m_text: Z to Progress
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f682ce49b50e58f4bae519a5462f4be3, type: 2}
   m_sharedMaterial: {fileID: 2148617496011489583, guid: f682ce49b50e58f4bae519a5462f4be3, type: 2}
@@ -443,8 +443,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150, y: 50}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: -205, y: 50}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778312687
 MonoBehaviour:
@@ -897,6 +897,7 @@ MonoBehaviour:
   - {fileID: 1504705764}
   - {fileID: 1074160548}
   - {fileID: 1793451448}
+  nextButton: {fileID: 778312687}
   fadeImage: {fileID: 2018114702}
   fadeDuration: 1
 --- !u!4 &1397310069

@@ -271,7 +271,7 @@ Transform:
   m_GameObject: {fileID: 71193846}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 1.27, z: 0}
+  m_LocalPosition: {x: -0.56, y: 1.25, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -292,7 +292,7 @@ MonoBehaviour:
   donutID: 1
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &71193849
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -603,7 +603,7 @@ Transform:
   m_GameObject: {fileID: 173555879}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.48, y: -1.52, z: 0}
+  m_LocalPosition: {x: -0.71, y: -1.47, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -624,7 +624,7 @@ MonoBehaviour:
   donutID: 5
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &173555882
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1250,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 330613689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.53, y: -1.81, z: 0}
+  m_LocalPosition: {x: -3.05, y: -1.46, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1271,7 +1271,7 @@ MonoBehaviour:
   donutID: 4
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &330613692
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1453,7 +1453,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1229044615}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: ButtonSFX
         m_Mode: 1
@@ -2412,7 +2412,7 @@ Transform:
   m_GameObject: {fileID: 582230264}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7879566, y: 1.2778141, z: 0}
+  m_LocalPosition: {x: 2.01, y: 1.23, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2433,7 +2433,7 @@ MonoBehaviour:
   donutID: 2
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &582230267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2931,7 +2931,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1229044615}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: ButtonSFX
         m_Mode: 1
@@ -3009,7 +3009,7 @@ Transform:
   m_GameObject: {fileID: 739637679}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.55, y: -1.66, z: 0}
+  m_LocalPosition: {x: 1.92, y: -1.58, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   donutID: 6
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &739637682
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3435,7 +3435,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1229044615}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: ButtonSFX
         m_Mode: 1
@@ -3910,7 +3910,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1306f8819b547d14fbdb39a0300a64e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f0742531885a8346bb76ae2b88ed467, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4153,7 +4153,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1229044615}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: ButtonSFX
         m_Mode: 1
@@ -4258,8 +4258,8 @@ MonoBehaviour:
   customers:
   - {fileID: 0}
   Day1Customers:
-  - {fileID: 61115074272493864, guid: 30d044140c8ddd34a90f177a3b5296c7, type: 3}
   - {fileID: 8520803452641213825, guid: 39aabe75de1e62348a5c3e3313fab658, type: 3}
+  - {fileID: 61115074272493864, guid: 30d044140c8ddd34a90f177a3b5296c7, type: 3}
   - {fileID: 7580827700703425582, guid: db51fa1f7accc7d46b0a69fa5ae964f3, type: 3}
   - {fileID: 306585766364976988, guid: 6da995a1a5fa49546a4750d31c4f457f, type: 3}
   - {fileID: 6667064117522687957, guid: ab4da1afa821cbd47829dbefb855a8b5, type: 3}
@@ -4332,7 +4332,7 @@ MonoBehaviour:
   tvLocation: {fileID: 0}
   cam: {fileID: 1940841569}
   fadeImage: {fileID: 203450690}
-  fadeDuration: 1
+  fadeDuration: 0.5
   SelectedDonutID: 0
   bg: {fileID: 515072961}
   table: {fileID: 1567260927}
@@ -4396,12 +4396,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 358829532}
-  customerEnterSFX: {fileID: 8300000, guid: 70a165aeca6a906429b0f420d540683c, type: 3}
+  bgmSource: {fileID: 1598099693}
+  bgm: {fileID: 8300000, guid: cfaeeb349d0cdfa4e8299905ccfe9d47, type: 3}
+  customerEnterSFX: {fileID: 8300000, guid: 0cb57c9c3e459eb4ebaaffe0491f5973, type: 3}
   buttonSFX: {fileID: 8300000, guid: dd37c8adea142ae499c5fe40a993340c, type: 3}
   reloadSFX: {fileID: 8300000, guid: 975e46673947f2241b8bac893fa52a0b, type: 3}
   closeDialogueSFX: {fileID: 8300000, guid: aa087e3ad7edd924ba6c56d5a1f0bd35, type: 3}
   gunShotSFX: {fileID: 8300000, guid: d8ec3b3e762548d4bafd006cf7b205f1, type: 3}
   wrongSFX: {fileID: 8300000, guid: 64433808e8c7c8c44965bce95ebf7d1f, type: 3}
+  spiceSFX: {fileID: 8300000, guid: 689b92cd40123df46a478015a6dc00a9, type: 3}
   dialogueSFX:
   - {fileID: 8300000, guid: 7a9937c8dcf4d064983125b16236ca29, type: 3}
   pitchRange: 0.05
@@ -4568,7 +4571,7 @@ Transform:
   m_GameObject: {fileID: 1361994925}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.38, y: 1.16, z: 0}
+  m_LocalPosition: {x: -3.22, y: 1.18, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4589,7 +4592,7 @@ MonoBehaviour:
   donutID: 0
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &1361994928
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4705,7 +4708,7 @@ Transform:
   m_GameObject: {fileID: 1363011316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.76, y: -1.56, z: 0}
+  m_LocalPosition: {x: 4.34, y: -1.59, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4726,7 +4729,7 @@ MonoBehaviour:
   donutID: 7
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &1363011319
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4992,7 +4995,7 @@ Transform:
   m_GameObject: {fileID: 1487632039}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.0151267, y: 1.4578571, z: 0}
+  m_LocalPosition: {x: 4.36, y: 1.08, z: 0}
   m_LocalScale: {x: 0.7046223, y: 0.69247276, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5013,7 +5016,7 @@ MonoBehaviour:
   donutID: 3
   gameManager: {fileID: 1229044611}
   customerManager: {fileID: 1229044609}
-  newValue: 0.3
+  newValue: 0.8
 --- !u!58 &1487632042
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5229,6 +5232,134 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 910e0b0c2ff5c5d488a352d23f0e27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1598099692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598099694}
+  - component: {fileID: 1598099693}
+  m_Layer: 0
+  m_Name: BgmSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1598099693
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598099692}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1598099694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598099692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7790365, y: -1.20441, z: -0.090516105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826260637
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,7 +5614,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1915257937}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1229044615}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: CloseSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1915257937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6232,3 +6375,4 @@ SceneRoots:
   - {fileID: 562681894}
   - {fileID: 505106617}
   - {fileID: 358829533}
+  - {fileID: 1598099694}
