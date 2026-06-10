@@ -73,3 +73,9 @@ SFX Assets
 - [Button SFX](https://pixabay.com/sound-effects/film-special-effects-button-pressed-38129/)
 - [Gun Reload SFX](https://pixabay.com/sound-effects/film-special-effects-1911-reload-6248/)
 -[Gun Shot SFX](https://pixabay.com/sound-effects/film-special-effects-9mm-pistol-shoot-short-reverb-7152/)
+-[Wrong SFX](https://pixabay.com/sound-effects/film-special-effects-losing-horn-313723/)
+-[Bell SFX](https://pixabay.com/sound-effects/film-special-effects-servicereceptionist-bell-418758/)
+-[Clicking SFX](https://pixabay.com/sound-effects/film-special-effects-click-button-131479/)
+-[Explosion SFX](https://pixabay.com/sound-effects/film-special-effects-debris-break-2-457507/)
+-[BGM](https://pixabay.com/music/solo-piano-claire-de-lune-debussy-piano-411227/)
+

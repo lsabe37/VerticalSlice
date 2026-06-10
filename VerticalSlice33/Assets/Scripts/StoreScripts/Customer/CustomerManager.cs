@@ -47,8 +47,9 @@ public class CustomerManager : MonoBehaviour
     public delegate void spicyEvent();
     public event spicyEvent spiceTest;
 
-    public delegate void talkEvent();
-    public event talkEvent OnInteract;
+    public delegate void enterEvent();
+    public event enterEvent enter;
+
 
     [Header("Other")]
     public GameObject correctText;
@@ -113,6 +114,8 @@ public class CustomerManager : MonoBehaviour
         currentCustomer = Instantiate(customers[customerNumber], spawnLocation.position, spawnLocation.rotation);
         Customer Customers = customers[customerNumber].GetComponent<Customer>();
         currentCharID = Customers.ID;
+
+        enter();
 
         customerIsFake = Customers.imposter;
 
@@ -213,6 +216,5 @@ public class CustomerManager : MonoBehaviour
     {
         Customer Customers = currentCustomer.GetComponent<Customer>();
         Customers.Hop();
-        OnInteract();
     }
 }

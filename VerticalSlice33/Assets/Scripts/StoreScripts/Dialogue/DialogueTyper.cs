@@ -21,6 +21,11 @@ public class DialogueTyper : MonoBehaviour
 
         while (charIndex < textToType.Length)
         {
+            if (charIndex % Locator.Instance.audioManager.bleepInterval == 0)
+            {
+                Locator.Instance.audioManager.DialogueSFX();
+            }
+
             timer += Time.deltaTime * typingSpeed;
             charIndex = Mathf.FloorToInt(timer);
             charIndex = Mathf.Clamp(value: charIndex, 0, textToType.Length);
