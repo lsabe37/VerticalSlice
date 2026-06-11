@@ -13,6 +13,11 @@ public class StorePlayer : MonoBehaviour
         Locator.Instance.customerManager.served += updateSanity;
     }
 
+    private void OnDisable()
+    {
+        Locator.Instance.customerManager.served -= updateSanity;
+    }
+
     public void updateSanity()
     {
         if (Locator.Instance.customerManager.correctOrder == true)

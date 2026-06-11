@@ -23,4 +23,9 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void LoadOutroScene()
+    {
+        SceneManager.LoadScene("Outro");
+    }
+
 }

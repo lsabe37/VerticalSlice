@@ -9,6 +9,11 @@ public class Lights : MonoBehaviour
         Locator.Instance.gameManager.lightsTurnOff += turnOffLights;
     }
 
+    private void OnDisable()
+    {
+        Locator.Instance.gameManager.lightsTurnOff -= turnOffLights;
+    }
+
     private void turnOffLights()
     {
         if (Locator.Instance.gameManager.lightsOff == true)

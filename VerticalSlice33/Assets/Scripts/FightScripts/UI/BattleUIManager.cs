@@ -26,6 +26,15 @@ public class BattleUIManager : MonoBehaviour
         StartCoroutine(showTutorial());
     }
 
+    private void OnDisable()
+    {
+        BossLocator.Instance.boss.nightmareMode -= activateBorder;
+        BossLocator.Instance.boss.endNightmare -= hideBorder;
+        PlayerLocator.Instance.playerHealth.lose -= gameOver;
+        BossLocator.Instance.boss.onEndTutorial -= EndTutorial;
+        BossHealth.OnBossDeath -= GameClear;
+    }
+
     private IEnumerator showTutorial()
     {
         yield return new WaitForSeconds(3f);

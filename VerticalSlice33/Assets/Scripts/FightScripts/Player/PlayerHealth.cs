@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
 
     public delegate void playerDead();
     public event playerDead lose;
+
     private void Update()
     {
         if (hit == true)
@@ -36,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
         if (collider.gameObject.CompareTag("EnemyAtk") || collider.gameObject.CompareTag("EnemyProjectile"))
         {
 
-            if (PlayerLocator.Instance.player.parrystance == false)
+            if (PlayerLocator.Instance.player.parrystance == false && BossLocator.Instance.bossHealth.health > 0)
             {
                 hit = true;
                 Debug.Log("hit by enemy!");

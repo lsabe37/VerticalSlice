@@ -20,6 +20,11 @@ public class StoreManager : MonoBehaviour
         Locator.Instance.customerManager.left += changeTime;
     }
 
+    private void OnDisable()
+    {
+        Locator.Instance.customerManager.left -= changeTime;
+    }
+
     private void changeTime()
     {
         if (Locator.Instance.customerManager.customerServed < 4)

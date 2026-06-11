@@ -75,6 +75,11 @@ public class Boss : MonoBehaviour
         BossHealth.OnBossDeath += BossDeath;
     }
 
+    private void OnDisable()
+    {
+        BossHealth.OnBossDeath -= BossDeath;
+    }
+
     private void Update()
     {
         // boss starts in passive state

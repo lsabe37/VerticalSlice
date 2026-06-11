@@ -15,6 +15,8 @@ public class PanelMover : MonoBehaviour
     public float fadeDuration = 1.0f;
     private bool dimming;
 
+    [SerializeField] private bool outro;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z))
@@ -49,7 +51,15 @@ public class PanelMover : MonoBehaviour
     {
         StartCoroutine(FadeRoutine(0f, 1f));
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Store");
+
+        if(outro == false)
+        {
+            SceneManager.LoadScene("Store");
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     private void FadeToBlack()

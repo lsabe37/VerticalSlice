@@ -11,6 +11,13 @@ public class CameraShaker : MonoBehaviour
         Locator.Instance.customerManager.spiceTest += fire;
     }
 
+    private void OnDisable()
+    {
+        Locator.Instance.gameManager.shootGun -= fire;
+        Locator.Instance.customerManager.wrong -= fire;
+        Locator.Instance.customerManager.spiceTest -= fire;
+    }
+
     private void fire()
     {
         StartCoroutine(Shake(0.3f, 0.4f));

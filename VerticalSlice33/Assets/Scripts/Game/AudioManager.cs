@@ -35,6 +35,14 @@ public class AudioManager : MonoBehaviour
         bgmSource.PlayOneShot(bgm, 1.0f);
     }
 
+    private void OnDisable()
+    {
+        Locator.Instance.customerManager.enter -= EnterSFX;
+        Locator.Instance.customerManager.wrong -= WrongSFX;
+        Locator.Instance.customerManager.spiceTest -= SpiceSFX;
+        Locator.Instance.gameManager.shootGun -= GunShot;
+    }
+
     private void EnterSFX()
     {
         audioSource.PlayOneShot(customerEnterSFX, 1.0f);
