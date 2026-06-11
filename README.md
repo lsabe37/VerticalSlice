@@ -77,7 +77,7 @@ My process for breaking down large projects is by using task step breakdowns and
 
 2. The provess of breaking down a large project into smaller steps helps me get a better understanding of the project scope since it allows me to see how many different features are in the project. Breaking down the project into individual features gives me a good idea of how many scripts, graphs, and assets I will need to create to build the game. The individual features also act as separate work packages, which I can calculate activity durations for. This helps me estimate the full duration of the project as well as begin creating a schedule in the form of a Gantt chart.
 
-3. For this vertical slice, I did create a task breakdown and bubble diagrams to help me plan out the project. However, I did not put enough time and thought into the breakdowns. My breakdowns were not as detailed as I would have liked them to be and there weren't any activity duration estimates. As a result, my scope was not very well defined and the final build did not fully reflect the intial plan. While working on this project, I addded new content and features (like additional customer NPC's, extra movesets for the boss, and an intro cutscene) which caused me to run out of time and cut some content from the original plan (like additional 2D platformer bosses). The revised plan that I have explained above should prevent the issue of scope inflation and derailing fromn the original plan. Since the breakdowns and bubble diagrams will detail the content for each feature, I will know what should and should not be included. The time estimates will also help me stay on track as I will be able to quickly notice if I am falling behind while attempting to add extra features.
+3. For this vertical slice, I did create a task breakdown and bubble diagrams to help me plan out the project. However, I did not put enough time and thought into the breakdowns. My breakdowns were not as detailed as I would have liked them to be and there weren't any activity duration estimates. As a result, my scope was not very well defined and the final build did not fully reflect the intial plan. While working on this project, I addded new content and features (like additional customer NPC's, extra movesets for the boss, and intro/outro cutscenes) which caused me to run out of time and cut some content from the original plan (like additional 2D platformer bosses). The revised plan that I have explained above should prevent the issue of scope inflation and derailing fromn the original plan. Since the breakdowns and bubble diagrams will detail the content for each feature, I will know what should and should not be included. The time estimates will also help me stay on track as I will be able to quickly notice if I am falling behind while attempting to add extra features.
 
 ## Open-source assets
 SFX Assets
@@ -86,9 +86,17 @@ SFX Assets
 - [Button SFX](https://pixabay.com/sound-effects/film-special-effects-button-pressed-38129/)
 - [Gun Reload SFX](https://pixabay.com/sound-effects/film-special-effects-1911-reload-6248/)
 -[Gun Shot SFX](https://pixabay.com/sound-effects/film-special-effects-9mm-pistol-shoot-short-reverb-7152/)
--[Wrong SFX](https://pixabay.com/sound-effects/film-special-effects-losing-horn-313723/)
+-[Wrong SFX](https://pixabay.com/sound-effects/film-special-effects-error-mistake-sound-effect-incorrect-answer-437420/)
 -[Bell SFX](https://pixabay.com/sound-effects/film-special-effects-servicereceptionist-bell-418758/)
 -[Clicking SFX](https://pixabay.com/sound-effects/film-special-effects-click-button-131479/)
 -[Explosion SFX](https://pixabay.com/sound-effects/film-special-effects-debris-break-2-457507/)
 -[BGM](https://pixabay.com/music/solo-piano-claire-de-lune-debussy-piano-411227/)
+-[BGM](https://pixabay.com/music/modern-classical-moonlight-sonata-241649/)
+-[BGM](https://pixabay.com/music/modern-classical-adagio-sonate-n3-variation-116015/)
+-[Whirling SFX](https://pixabay.com/sound-effects/film-special-effects-035362-whirling-soundwav-68057/)
+-[Slash SFX](https://pixabay.com/sound-effects/film-special-effects-g-whiff-alt-2-81862/)
+-[Parry SFX](https://pixabay.com/sound-effects/film-special-effects-sword-clash-241729/)
+-[Heavy Slash SFX](https://pixabay.com/sound-effects/film-special-effects-sword-slash-with-metal-shield-impact-185433/)
+-[Quick Slash SFX](https://pixabay.com/sound-effects/film-special-effects-sword-slash-and-swing-185432/)
+-[Splatter SFX](https://pixabay.com/sound-effects/horror-horror-liquid-splash-352472/)
 

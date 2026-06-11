@@ -56,6 +56,15 @@ public class Boss : MonoBehaviour
     public Material whiteMaterial;
     private Material originalMaterial;
 
+    [Header("Audio Source")]
+    public AudioSource audioSource;
+
+    [Header("Audio Clips")]
+    [SerializeField] private AudioClip slashSFX;
+    [SerializeField] private AudioClip thrustSFX;
+    [SerializeField] private AudioClip splatterSFX;
+    [SerializeField] private AudioClip explosionSFX;
+
     public delegate void nightmareTime();
     public event nightmareTime nightmareMode;
 
@@ -263,6 +272,7 @@ public class Boss : MonoBehaviour
         else if (actionChoice == 1)
         {
             anim.SetTrigger("meleeC");
+            audioSource.PlayOneShot(thrustSFX, .7f);
         }
     }
 
@@ -362,6 +372,7 @@ public class Boss : MonoBehaviour
     private void scarecrowExplosion()
     {
         Instantiate(explosion, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+        audioSource.PlayOneShot(explosionSFX, .5f);
     }
 
     // dash behind player during melee combo
@@ -416,6 +427,7 @@ public class Boss : MonoBehaviour
         {
             Instantiate(tentacleSign, new Vector2(transform.position.x + i, transform.position.y), Quaternion.identity);
             Instantiate(tentacleSign, new Vector2(transform.position.x - i, transform.position.y), Quaternion.identity);
+            audioSource.PlayOneShot(splatterSFX, .5f);
         }
     }
 
@@ -433,6 +445,7 @@ public class Boss : MonoBehaviour
         {
             Instantiate(tentacleSpear, new Vector2(transform.position.x + i, transform.position.y), Quaternion.identity);
             Instantiate(tentacleSpear, new Vector2(transform.position.x - i, transform.position.y), Quaternion.identity);
+            audioSource.PlayOneShot(splatterSFX, .5f);
         }
     }
 
@@ -494,6 +507,7 @@ public class Boss : MonoBehaviour
     private void meleeAForwardBlast()
     {
         GameObject instance = Instantiate(meleeBlast, new Vector2(meleeAForward.position.x, meleeAForward.position.y), Quaternion.identity);
+        audioSource.PlayOneShot(slashSFX, .7f);
         if (flipped == false)
         {
             instance.transform.localScale = new Vector3(-1, 1, 1);
@@ -502,6 +516,7 @@ public class Boss : MonoBehaviour
     private void meleeAReverseBlast()
     {
         GameObject instance = Instantiate(meleeBlast, new Vector2(meleeAReverse.position.x, meleeAForward.position.y), Quaternion.identity);
+        audioSource.PlayOneShot(slashSFX, .7f);
         if (flipped == true)
         {
             instance.transform.localScale = new Vector3(-1, 1, 1);

@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public bool wasShot = false;
     [HideInInspector] public bool lookingAtCustomer = true;
     public GameObject gunExplosion;
+    [SerializeField] private GameObject gameOverScreen;
 
     [Header("View Changer")]
     public Transform donutLocation;
@@ -41,6 +42,9 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer table;
     public bool lightsOff;
 
+    [Header("Player")]
+    [SerializeField] private StorePlayer storePlayer;
+
     public delegate void lightsOffEvent();
     public event lightsOffEvent lightsTurnOff;
 
@@ -52,8 +56,16 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1f;
         DisableActionUI();
         DisableNavigationUI();
+
+        storePlayer.OnDeath += GameOver;
+    }
+
+    private void OnDisable()
+    {
+        storePlayer.OnDeath -= GameOver;
     }
 
     private void Update()
@@ -303,6 +315,14 @@ public class GameManager : MonoBehaviour
         {
             fadeImage.gameObject.SetActive(false);
         }
+    }
+
+    private void GameOver()
+    {
+        gameOverScreen.SetActive(true);
+        DisableActionUI();
+        DisableNavigationUI();
+        Time.timeScale = 0f;
     }
 
 }

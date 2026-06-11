@@ -6,10 +6,8 @@ public class AudioManager : MonoBehaviour
 {
     [Header("Audio Source")]
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioSource bgmSource;
 
     [Header("Audio Clips")]
-    [SerializeField] private AudioClip bgm;
     [SerializeField] private AudioClip customerEnterSFX;
     [SerializeField] private AudioClip buttonSFX;
     [SerializeField] private AudioClip reloadSFX;
@@ -32,7 +30,6 @@ public class AudioManager : MonoBehaviour
         Locator.Instance.customerManager.spiceTest += SpiceSFX;
         Locator.Instance.gameManager.shootGun += GunShot;
 
-        bgmSource.PlayOneShot(bgm, 1.0f);
     }
 
     private void OnDisable()
@@ -85,6 +82,6 @@ public class AudioManager : MonoBehaviour
 
         audioSource.pitch = basePitch + Random.Range(-pitchRange, pitchRange);
 
-        audioSource.PlayOneShot(clipToPlay, 0.5f);
+        audioSource.PlayOneShot(clipToPlay, 0.3f);
     }
 }

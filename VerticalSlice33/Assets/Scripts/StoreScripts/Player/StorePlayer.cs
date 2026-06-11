@@ -7,6 +7,9 @@ public class StorePlayer : MonoBehaviour
     public float PlayerHP;
     public float currentHP;
 
+    public delegate void deathEvent();
+    public event deathEvent OnDeath;
+
     private void Start()
     {
         currentHP = PlayerHP;
@@ -16,6 +19,14 @@ public class StorePlayer : MonoBehaviour
     private void OnDisable()
     {
         Locator.Instance.customerManager.served -= updateSanity;
+    }
+
+    private void Update()
+    {
+        if(currentHP <= 0 && Locator.Instance.customerManager.customerPresent == false)
+        {
+            OnDeath();
+        }
     }
 
     public void updateSanity()

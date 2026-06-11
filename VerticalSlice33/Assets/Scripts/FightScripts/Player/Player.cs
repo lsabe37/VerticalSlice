@@ -34,6 +34,13 @@ public class Player : MonoBehaviour
     public Material whiteMaterial;
     private Material originalMaterial;
 
+    [Header("Audio Source")]
+    public AudioSource audioSource;
+
+    [Header("Audio Clips")]
+    [SerializeField] private AudioClip slashSFX;
+    public AudioClip parrySFX;
+
     public delegate void parryAction();
     public event parryAction tryParry;
 
@@ -174,8 +181,9 @@ public class Player : MonoBehaviour
     private void SlashAtk()
     {
         GameObject slashEffect = Instantiate(slash, transform.position, Quaternion.identity);
+        audioSource.PlayOneShot(slashSFX, .7f);
 
-        if(facingRight == false)
+        if (facingRight == false)
         {
             Vector3 flippedScale = slashEffect.transform.localScale;
             flippedScale.x *= -1;

@@ -57,7 +57,7 @@ public class DialogueUI : MonoBehaviour
 
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses)
             {
-                closeBoxButton.gameObject.SetActive(true);
+                //closeBoxButton.gameObject.SetActive(true);
 
                 Locator.Instance.gameManager.EnableActionUI();
                 Locator.Instance.gameManager.EnableNavigationUI();

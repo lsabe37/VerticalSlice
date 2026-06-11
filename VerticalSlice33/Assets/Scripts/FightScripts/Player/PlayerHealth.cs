@@ -55,5 +55,6 @@ public class PlayerHealth : MonoBehaviour
     public void performParry()
     {
         Instantiate(parrySparks, transform.position, Quaternion.identity);
+        PlayerLocator.Instance.player.audioSource.PlayOneShot(PlayerLocator.Instance.player.parrySFX, .7f);
     }
 }
